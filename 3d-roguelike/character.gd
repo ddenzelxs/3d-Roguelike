@@ -6,11 +6,7 @@ extends CharacterBody3D
 @export var time_left: float = 20.0
 
 const JUMP_VELOCITY = 4.5
-var score = 0
 var rotation_x = 0.0
-
-@onready var score_label = $CanvasLayer/ScoreLabel
-@onready var timer_label = $CanvasLayer/TimerLabel
 
 func _ready():
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
@@ -27,11 +23,7 @@ func _input(event):
 			shoot()
 
 func _process(delta):
-	if time_left > 0:
-		time_left -= delta
-		timer_label.text = "Time: " + str(int(time_left))
-	else:
-		game_over()
+	return
 		
 func _physics_process(delta):
 	# Add the gravity.
@@ -64,18 +56,7 @@ func shoot():
 	var query = PhysicsRayQueryParameters3D.create(from, to)
 	var result = space.intersect_ray(query)
 
-	if result:
-		if result.collider.has_method("hit"):
-			result.collider.hit()
-			add_score()
-			
-func add_score():
-	score += 10
-	score_label.text = "Point: " + str(score)
-	
-func game_over():
-	time_left = 0
-	timer_label.text = "Time: 0"
-	print("GAME OVER")
-	
-	get_tree().reload_current_scene()
+	#if result:
+		#if result.collider.has_method("hit"):
+			#result.collider.hit()
+			#add_score()
