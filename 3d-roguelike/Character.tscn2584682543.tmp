@@ -1,0 +1,30 @@
+[gd_scene format=3 uid="uid://vh8fr81tbua7"]
+
+[ext_resource type="Script" uid="uid://nvju25bl1p4f" path="res://character.gd" id="1_oolk3"]
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_y7k42"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_oolk3"]
+
+[node name="Character" type="CharacterBody3D" unique_id=1136565552]
+script = ExtResource("1_oolk3")
+speed = null
+mouse_sensitivity = null
+
+[node name="Pivot" type="Node3D" parent="." unique_id=474544629]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.95731163, 0)
+
+[node name="Camera3D" type="Camera3D" parent="Pivot" unique_id=2080740831]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="Pivot/Camera3D" unique_id=171368589]
+
+[node name="Label" type="Label" parent="Pivot/Camera3D/CanvasLayer" unique_id=1939282964]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "+"
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1813157659]
+mesh = SubResource("CapsuleMesh_y7k42")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=797487027]
+shape = SubResource("CapsuleShape3D_oolk3")
