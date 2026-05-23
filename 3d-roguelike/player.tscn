@@ -25,10 +25,11 @@ shape = SubResource("CapsuleShape3D_4flbx")
 [node name="AimTarget" type="Marker3D" parent="." unique_id=1534624705]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
 
-[node name="CameraSystem" type="Node3D" parent="." unique_id=418234313 node_paths=PackedStringArray("character")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.50266504, 0)
+[node name="CameraSystem" type="Node3D" parent="." unique_id=418234313 node_paths=PackedStringArray("character", "edge_spring_arm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
 script = ExtResource("3_i3pqv")
 character = NodePath("..")
+edge_spring_arm = NodePath("EdgeSpringArm")
 
 [node name="EdgeSpringArm" type="SpringArm3D" parent="CameraSystem" unique_id=2077861879]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 0, 0, 0)
@@ -39,6 +40,6 @@ shape = SubResource("SphereShape3D_onrkg")
 transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 0, 0, 0)
 collision_mask = 3
 shape = SubResource("SphereShape3D_i3pqv")
-spring_length = 2.0
+spring_length = 1.75
 
 [node name="Camera3D" type="Camera3D" parent="CameraSystem/EdgeSpringArm/RearSpringArm" unique_id=741193380]
