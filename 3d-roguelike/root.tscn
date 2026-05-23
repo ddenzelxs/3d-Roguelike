@@ -37,11 +37,11 @@ use_collision = true
 
 [node name="CSGBox3D" type="CSGBox3D" parent="CSGCombiner3D" unique_id=407931049]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5.636621, 0)
-size = Vector3(50, 11.373242, 50)
+size = Vector3(30, 11.373, 30)
 material = SubResource("StandardMaterial3D_28aoi")
 
 [node name="CSGBox3D2" type="CSGBox3D" parent="CSGCombiner3D" unique_id=1837149465]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5.870154, 0)
 operation = 2
-size = Vector3(49, 11.640307, 49)
+size = Vector3(28, 11.64, 28)
 material = SubResource("StandardMaterial3D_28aoi")

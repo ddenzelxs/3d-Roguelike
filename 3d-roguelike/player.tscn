@@ -31,14 +31,14 @@ script = ExtResource("3_i3pqv")
 character = NodePath("..")
 
 [node name="EdgeSpringArm" type="SpringArm3D" parent="CameraSystem" unique_id=2077861879]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.9043375, 0, 0)
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 0, 0, 0)
 collision_mask = 3
 shape = SubResource("SphereShape3D_onrkg")
 
 [node name="RearSpringArm" type="SpringArm3D" parent="CameraSystem/EdgeSpringArm" unique_id=954165865]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 0, 0, 0)
 collision_mask = 3
 shape = SubResource("SphereShape3D_i3pqv")
-spring_length = 1.5
+spring_length = 2.0
 
 [node name="Camera3D" type="Camera3D" parent="CameraSystem/EdgeSpringArm/RearSpringArm" unique_id=741193380]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5, 0.034, 1.5)
