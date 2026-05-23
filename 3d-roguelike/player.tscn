@@ -34,6 +34,7 @@ rear_spring_arm = NodePath("EdgeSpringArm/RearSpringArm")
 camera = NodePath("EdgeSpringArm/RearSpringArm/Camera3D")
 camera_alignment_speed = 0.25
 aim_edge_spring_length = 0.8
+aim_speed = 0.3
 
 [node name="EdgeSpringArm" type="SpringArm3D" parent="CameraSystem" unique_id=2077861879]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 0, 0, 0)
