@@ -2,13 +2,15 @@ extends Node3D
 
 @export var character: CharacterBody3D
 @export var edge_spring_arm = SpringArm3D
-@export var camera_alignment_speed: float = 0.2222
+@export var camera_alignment_speed: float
 
 var camera_rotation: Vector2 = Vector2.ZERO
 var mouse_sensitivity: float = 0.005
 var max_y_rotation: float = 1.5
 
 var camera_tween: Tween
+
+@onready var default_edge_spring_arm_length: float = edge_spring_arm.spring_length
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
@@ -41,13 +43,12 @@ func camera_look(mouse_movement: Vector2) -> void:
 	pass
 		
 func swap_camera_aligment() -> void:
-	var new_pos: float = -edge_spring_arm.spring_length
-	set_rear_spring_arm_position(new_pos, camera_alignment_speed)
+	default_edge_spring_arm_length = -default_edge_spring_arm_length
+	set_rear_spring_arm_position(default_edge_spring_arm_length, camera_alignment_speed)
 	
 func set_rear_spring_arm_position(pos: float, speed: float) -> void:
 	if camera_tween:
 		camera_tween.kill()
 		
-	print("switch")
 	camera_tween = get_tree().create_tween()
 	camera_tween.tween_property(edge_spring_arm, "spring_length", pos, speed)
