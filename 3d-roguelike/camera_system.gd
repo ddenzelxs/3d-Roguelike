@@ -1,8 +1,15 @@
 extends Node3D
 
 @export var character: CharacterBody3D
-@export var edge_spring_arm = SpringArm3D
-@export var camera_alignment_speed: float
+@export var edge_spring_arm: SpringArm3D
+@export var rear_spring_arm: SpringArm3D 
+@export var camera: Camera3D
+
+@export var camera_alignment_speed: float = 0.2
+@export var aim_edge_spring_length: float = 0.5
+@export var aim_rear_spring_length: float = 0.5
+@export var aim_speed: float = 0.2
+@export var aim_fov: float = 55
 
 var camera_rotation: Vector2 = Vector2.ZERO
 var mouse_sensitivity: float = 0.005
@@ -11,6 +18,8 @@ var max_y_rotation: float = 1.5
 var camera_tween: Tween
 
 @onready var default_edge_spring_arm_length: float = edge_spring_arm.spring_length
+@onready var default_rear_spring_arm_length: float = rear_spring_arm.spring_length
+@onready var default_fov: float = camera.fov
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
@@ -29,7 +38,14 @@ func _input(event: InputEvent):
 		
 	if event.is_action_pressed("swap_camera_alignment"):
 		swap_camera_aligment()
+	
+	if event.is_action_pressed("aim"):
+		enter_aim()
 		
+	if event.is_action_released("aim"):
+		exit_aim()
+		
+	
 func camera_look(mouse_movement: Vector2) -> void:
 	camera_rotation += mouse_movement
 	
@@ -43,8 +59,8 @@ func camera_look(mouse_movement: Vector2) -> void:
 	pass
 		
 func swap_camera_aligment() -> void:
-	default_edge_spring_arm_length = -default_edge_spring_arm_length
-	set_rear_spring_arm_position(default_edge_spring_arm_length, camera_alignment_speed)
+	var new_pos: float = -default_edge_spring_arm_length *sign(edge_spring_arm.spring_length)
+	set_rear_spring_arm_position(new_pos, camera_alignment_speed)
 	
 func set_rear_spring_arm_position(pos: float, speed: float) -> void:
 	if camera_tween:
@@ -52,3 +68,26 @@ func set_rear_spring_arm_position(pos: float, speed: float) -> void:
 		
 	camera_tween = get_tree().create_tween()
 	camera_tween.tween_property(edge_spring_arm, "spring_length", pos, speed)
+
+func enter_aim() -> void:
+	if camera_tween:
+		camera_tween.kill()
+		
+	camera_tween = get_tree().create_tween()
+	camera_tween.set_parallel()
+	
+	camera_tween.tween_property(camera, "fov", aim_fov, aim_speed)
+	camera_tween.tween_property(edge_spring_arm, "spring_length", aim_edge_spring_length*sign(edge_spring_arm.spring_length), aim_speed)
+	camera_tween.tween_property(rear_spring_arm, "spring_length", aim_rear_spring_length, aim_speed)
+	
+func exit_aim() -> void:
+	if camera_tween:
+		camera_tween.kill()
+		
+	camera_tween = get_tree().create_tween()
+	camera_tween.set_parallel()
+	
+	camera_tween.tween_property(camera, "fov", default_fov, aim_speed)
+	camera_tween.tween_property(edge_spring_arm, "spring_length", default_edge_spring_arm_length*sign(edge_spring_arm.spring_length), aim_speed)
+	camera_tween.tween_property(rear_spring_arm, "spring_length", default_rear_spring_arm_length, aim_speed)
+	
