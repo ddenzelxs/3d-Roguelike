@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://cithgtaebo7la"]
+
+[ext_resource type="Texture2D" uid="uid://dh4030a1fejys" path="res://icon.svg" id="1_rtxwy"]
+
+[node name="Crosshair" type="Node3D" unique_id=1635011157]
+
+[node name="Sprite3D" type="Sprite3D" parent="." unique_id=1973535768]
+texture = ExtResource("1_rtxwy")

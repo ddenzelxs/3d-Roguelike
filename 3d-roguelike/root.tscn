@@ -1,7 +1,47 @@
 [gd_scene format=3 uid="uid://dxv4nf0c3dyqn"]
 
-[ext_resource type="PackedScene" path="res://character.tscn" id="1_pq8q7"]
+[ext_resource type="PackedScene" uid="uid://d113ks78yv0mr" path="res://player.tscn" id="2_vvh5c"]
+[ext_resource type="Texture2D" uid="uid://bv5iikmah17hh" path="res://assets/kenney_prototype-textures/PNG/Dark/texture_01.png" id="3_vvh5c"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_pyidc"]
+sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
+ground_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
+
+[sub_resource type="Sky" id="Sky_vvh5c"]
+sky_material = SubResource("ProceduralSkyMaterial_pyidc")
+
+[sub_resource type="Environment" id="Environment_28aoi"]
+background_mode = 2
+sky = SubResource("Sky_vvh5c")
+tonemap_mode = 2
+glow_enabled = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_28aoi"]
+albedo_texture = ExtResource("3_vvh5c")
+uv1_triplanar = true
 
 [node name="root" type="Node3D" unique_id=1205778946]
 
-[node name="Character" parent="." unique_id=1136565552 instance=ExtResource("1_pq8q7")]
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1703029159]
+environment = SubResource("Environment_28aoi")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=1464763246]
+transform = Transform3D(-0.8660254, -0.43301278, 0.25, 0, 0.49999997, 0.86602545, -0.50000006, 0.75, -0.43301266, 0, 0, 0)
+shadow_enabled = true
+
+[node name="Player" parent="." unique_id=422190102 instance=ExtResource("2_vvh5c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4.282234, 0)
+
+[node name="CSGCombiner3D" type="CSGCombiner3D" parent="." unique_id=2062983720]
+use_collision = true
+
+[node name="CSGBox3D" type="CSGBox3D" parent="CSGCombiner3D" unique_id=407931049]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5.636621, 0)
+size = Vector3(50, 11.373242, 50)
+material = SubResource("StandardMaterial3D_28aoi")
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="CSGCombiner3D" unique_id=1837149465]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5.870154, 0)
+operation = 2
+size = Vector3(49, 11.640307, 49)
+material = SubResource("StandardMaterial3D_28aoi")
