@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://df8b2hf8efad0"
-path="res://.godot/imported/shield_square.fbx-a48ac75f674e0d95ef52e9744b20ac31.scn"
+path="res://.godot/imported/shield_square.fbx-77b05e55339b2862baef65916408cbf8.scn"
 
 [deps]
 
-source_file="res://assets/KayKit_Adventurers_2.0_FREE/KayKit_Adventurers_2.0_FREE/Assets/fbx(unity)/shield_square.fbx"
-dest_files=["res://.godot/imported/shield_square.fbx-a48ac75f674e0d95ef52e9744b20ac31.scn"]
+source_file="res://assets/Character/Player/Assets/fbx(unity)/shield_square.fbx"
+dest_files=["res://.godot/imported/shield_square.fbx-77b05e55339b2862baef65916408cbf8.scn"]
 
 [params]
 

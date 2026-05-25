@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dxbhvau283cpv"
-path="res://.godot/imported/arrow_crossbow.gltf-42695aeb01b3b5cb25864e91952941be.scn"
+path="res://.godot/imported/arrow_crossbow.gltf-693af1973ef0fff25ff85cf85dfbfecc.scn"
 
 [deps]
 
-source_file="res://assets/KayKit_Adventurers_2.0_FREE/KayKit_Adventurers_2.0_FREE/Assets/gltf/arrow_crossbow.gltf"
-dest_files=["res://.godot/imported/arrow_crossbow.gltf-42695aeb01b3b5cb25864e91952941be.scn"]
+source_file="res://assets/Character/Player/Assets/gltf/arrow_crossbow.gltf"
+dest_files=["res://.godot/imported/arrow_crossbow.gltf-693af1973ef0fff25ff85cf85dfbfecc.scn"]
 
 [params]
 

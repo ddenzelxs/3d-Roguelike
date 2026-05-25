@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://btlflg18my8yw"
-path="res://.godot/imported/staff.fbx-430c9baacbc7db9e03ea1d9a363585ac.scn"
+path="res://.godot/imported/staff.fbx-32916f5490bb70ecdfcf510fc4fdd0ea.scn"
 
 [deps]
 
-source_file="res://assets/KayKit_Adventurers_2.0_FREE/KayKit_Adventurers_2.0_FREE/Assets/fbx(unity)/staff.fbx"
-dest_files=["res://.godot/imported/staff.fbx-430c9baacbc7db9e03ea1d9a363585ac.scn"]
+source_file="res://assets/Character/Player/Assets/fbx(unity)/staff.fbx"
+dest_files=["res://.godot/imported/staff.fbx-32916f5490bb70ecdfcf510fc4fdd0ea.scn"]
 
 [params]
 

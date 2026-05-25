@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bm3ixmiu5gebx"
+path="res://.godot/imported/Cliff_1.obj-e75b91cb25626e77c4cfe7d34c8713ee.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Cliff_1.obj-e75b91cb25626e77c4cfe7d34c8713ee.mesh"]
+
+source_file="res://assets/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Terrain/Cliff_1.obj"
+dest_files=["res://.godot/imported/Cliff_1.obj-e75b91cb25626e77c4cfe7d34c8713ee.mesh", "res://.godot/imported/Cliff_1.obj-e75b91cb25626e77c4cfe7d34c8713ee.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

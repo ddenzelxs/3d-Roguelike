@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://d0m6bgeyld36y"
+path="res://.godot/imported/Mountain_1_LOD_Low.obj-67b9e9e9b290acc535e40a40fe13bf57.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Mountain_1_LOD_Low.obj-67b9e9e9b290acc535e40a40fe13bf57.mesh"]
+
+source_file="res://assets/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Terrain/Mountain_1_LOD_Low.obj"
+dest_files=["res://.godot/imported/Mountain_1_LOD_Low.obj-67b9e9e9b290acc535e40a40fe13bf57.mesh", "res://.godot/imported/Mountain_1_LOD_Low.obj-67b9e9e9b290acc535e40a40fe13bf57.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

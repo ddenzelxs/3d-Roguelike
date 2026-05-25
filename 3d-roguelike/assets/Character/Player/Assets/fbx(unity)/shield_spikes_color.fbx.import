@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://esb08eo03ejt"
-path="res://.godot/imported/shield_spikes_color.fbx-e781a7439913b8fb578d05a88ebf9578.scn"
+path="res://.godot/imported/shield_spikes_color.fbx-8597849f8214addbb6d0ae122a2b416c.scn"
 
 [deps]
 
-source_file="res://assets/KayKit_Adventurers_2.0_FREE/KayKit_Adventurers_2.0_FREE/Assets/fbx(unity)/shield_spikes_color.fbx"
-dest_files=["res://.godot/imported/shield_spikes_color.fbx-e781a7439913b8fb578d05a88ebf9578.scn"]
+source_file="res://assets/Character/Player/Assets/fbx(unity)/shield_spikes_color.fbx"
+dest_files=["res://.godot/imported/shield_spikes_color.fbx-8597849f8214addbb6d0ae122a2b416c.scn"]
 
 [params]
 

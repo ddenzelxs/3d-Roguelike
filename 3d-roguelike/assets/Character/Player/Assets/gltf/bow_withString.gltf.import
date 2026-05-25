@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dme018uk4qcqj"
-path="res://.godot/imported/bow_withString.gltf-57768e237e48d5b91ae1595c4eb50d88.scn"
+path="res://.godot/imported/bow_withString.gltf-51677ca3c32ee2f189c85188b7acec9d.scn"
 
 [deps]
 
-source_file="res://assets/KayKit_Adventurers_2.0_FREE/KayKit_Adventurers_2.0_FREE/Assets/gltf/bow_withString.gltf"
-dest_files=["res://.godot/imported/bow_withString.gltf-57768e237e48d5b91ae1595c4eb50d88.scn"]
+source_file="res://assets/Character/Player/Assets/gltf/bow_withString.gltf"
+dest_files=["res://.godot/imported/bow_withString.gltf-51677ca3c32ee2f189c85188b7acec9d.scn"]
 
 [params]
 

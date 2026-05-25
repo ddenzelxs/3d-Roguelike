@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dcs6oa0ooa6r3"
-path="res://.godot/imported/Skeleton_Mage.glb-1a8163cee427506fe039402305013309.scn"
+path="res://.godot/imported/Skeleton_Mage.glb-391ee9204814bfefcaaa234c8ba0246d.scn"
 
 [deps]
 
-source_file="res://assets/KayKit_Skeletons_1.1_FREE/characters/gltf/Skeleton_Mage.glb"
-dest_files=["res://.godot/imported/Skeleton_Mage.glb-1a8163cee427506fe039402305013309.scn"]
+source_file="res://assets/Character/Enemies/characters/gltf/Skeleton_Mage.glb"
+dest_files=["res://.godot/imported/Skeleton_Mage.glb-391ee9204814bfefcaaa234c8ba0246d.scn"]
 
 [params]
 
