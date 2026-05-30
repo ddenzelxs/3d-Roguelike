@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://blip28ilr6eyb"
-path="res://.godot/imported/Broken_Tree_Summer.fbx-c79a8a07dd73af61733adf34322c8819.scn"
+path="res://.godot/imported/Broken_Tree_Summer.fbx-34710c2c2e0a9a4acfe77176c23ac441.scn"
 
 [deps]
 
-source_file="res://assets/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/FBX/Trees/Broken_Tree_Summer.fbx"
-dest_files=["res://.godot/imported/Broken_Tree_Summer.fbx-c79a8a07dd73af61733adf34322c8819.scn"]
+source_file="res://assets/Terrain/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/FBX/Trees/Broken_Tree_Summer.fbx"
+dest_files=["res://.godot/imported/Broken_Tree_Summer.fbx-34710c2c2e0a9a4acfe77176c23ac441.scn"]
 
 [params]
 

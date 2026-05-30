@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://bb4k0biy2nfii"
-path="res://.godot/imported/Palm_Tree_Spring.obj-21a5b3ac1b5b0696c3d1365dfac3eee1.mesh"
+path="res://.godot/imported/Palm_Tree_Spring.obj-6aa179bb764ad06151ff6525e9104184.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Palm_Tree_Spring.obj-21a5b3ac1b5b0696c3d1365dfac3eee1.mesh"]
+files=["res://.godot/imported/Palm_Tree_Spring.obj-6aa179bb764ad06151ff6525e9104184.mesh"]
 
-source_file="res://assets/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Trees/Palm_Tree_Spring.obj"
-dest_files=["res://.godot/imported/Palm_Tree_Spring.obj-21a5b3ac1b5b0696c3d1365dfac3eee1.mesh", "res://.godot/imported/Palm_Tree_Spring.obj-21a5b3ac1b5b0696c3d1365dfac3eee1.mesh"]
+source_file="res://assets/Terrain/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Trees/Palm_Tree_Spring.obj"
+dest_files=["res://.godot/imported/Palm_Tree_Spring.obj-6aa179bb764ad06151ff6525e9104184.mesh", "res://.godot/imported/Palm_Tree_Spring.obj-6aa179bb764ad06151ff6525e9104184.mesh"]
 
 [params]
 

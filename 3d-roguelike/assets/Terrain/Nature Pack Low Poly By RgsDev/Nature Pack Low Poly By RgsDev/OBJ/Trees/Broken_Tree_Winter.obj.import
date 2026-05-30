@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://ct8h0nrc3u2vb"
-path="res://.godot/imported/Broken_Tree_Winter.obj-072357565f6198c08d86c2e15731e2f2.mesh"
+path="res://.godot/imported/Broken_Tree_Winter.obj-59bc54ae3ae9a0964cffdab74864994e.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Broken_Tree_Winter.obj-072357565f6198c08d86c2e15731e2f2.mesh"]
+files=["res://.godot/imported/Broken_Tree_Winter.obj-59bc54ae3ae9a0964cffdab74864994e.mesh"]
 
-source_file="res://assets/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Trees/Broken_Tree_Winter.obj"
-dest_files=["res://.godot/imported/Broken_Tree_Winter.obj-072357565f6198c08d86c2e15731e2f2.mesh", "res://.godot/imported/Broken_Tree_Winter.obj-072357565f6198c08d86c2e15731e2f2.mesh"]
+source_file="res://assets/Terrain/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Trees/Broken_Tree_Winter.obj"
+dest_files=["res://.godot/imported/Broken_Tree_Winter.obj-59bc54ae3ae9a0964cffdab74864994e.mesh", "res://.godot/imported/Broken_Tree_Winter.obj-59bc54ae3ae9a0964cffdab74864994e.mesh"]
 
 [params]
 

@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://bkg1w4imlapen"
-path="res://.godot/imported/Broken_Tree_Spring.obj-93f820775559893ed57129706e5e6c52.mesh"
+path="res://.godot/imported/Broken_Tree_Spring.obj-ce0b677708da95611932286bead75add.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Broken_Tree_Spring.obj-93f820775559893ed57129706e5e6c52.mesh"]
+files=["res://.godot/imported/Broken_Tree_Spring.obj-ce0b677708da95611932286bead75add.mesh"]
 
-source_file="res://assets/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Trees/Broken_Tree_Spring.obj"
-dest_files=["res://.godot/imported/Broken_Tree_Spring.obj-93f820775559893ed57129706e5e6c52.mesh", "res://.godot/imported/Broken_Tree_Spring.obj-93f820775559893ed57129706e5e6c52.mesh"]
+source_file="res://assets/Terrain/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Trees/Broken_Tree_Spring.obj"
+dest_files=["res://.godot/imported/Broken_Tree_Spring.obj-ce0b677708da95611932286bead75add.mesh", "res://.godot/imported/Broken_Tree_Spring.obj-ce0b677708da95611932286bead75add.mesh"]
 
 [params]
 

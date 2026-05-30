@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://d1g0iu0hd8sjs"
-path="res://.godot/imported/tree.sequoia.stump.glb-2ec0052d63461aa4e7e1c0e3ae9edbe0.scn"
+path="res://.godot/imported/tree.sequoia.stump.glb-a53817677e382fc1f29e46a14a9d15c1.scn"
 
 [deps]
 
-source_file="res://assets/lowpolychill/lowpolychill/models/tree.sequoia.stump.glb"
-dest_files=["res://.godot/imported/tree.sequoia.stump.glb-2ec0052d63461aa4e7e1c0e3ae9edbe0.scn"]
+source_file="res://assets/Terrain/lowpolychill/lowpolychill/models/tree.sequoia.stump.glb"
+dest_files=["res://.godot/imported/tree.sequoia.stump.glb-a53817677e382fc1f29e46a14a9d15c1.scn"]
 
 [params]
 

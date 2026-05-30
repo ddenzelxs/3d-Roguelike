@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://dvrp7chcf6a53"
-path="res://.godot/imported/Willow_Tree_Winter.obj-ad675aa5c2a4127b8f600c98e5f12eee.mesh"
+path="res://.godot/imported/Willow_Tree_Winter.obj-5f81d091e4b3b591bb610d15cc2cbd75.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Willow_Tree_Winter.obj-ad675aa5c2a4127b8f600c98e5f12eee.mesh"]
+files=["res://.godot/imported/Willow_Tree_Winter.obj-5f81d091e4b3b591bb610d15cc2cbd75.mesh"]
 
-source_file="res://assets/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Trees/Willow_Tree_Winter.obj"
-dest_files=["res://.godot/imported/Willow_Tree_Winter.obj-ad675aa5c2a4127b8f600c98e5f12eee.mesh", "res://.godot/imported/Willow_Tree_Winter.obj-ad675aa5c2a4127b8f600c98e5f12eee.mesh"]
+source_file="res://assets/Terrain/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Trees/Willow_Tree_Winter.obj"
+dest_files=["res://.godot/imported/Willow_Tree_Winter.obj-5f81d091e4b3b591bb610d15cc2cbd75.mesh", "res://.godot/imported/Willow_Tree_Winter.obj-5f81d091e4b3b591bb610d15cc2cbd75.mesh"]
 
 [params]
 

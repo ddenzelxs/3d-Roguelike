@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://0ch8qy831p0m"
-path="res://.godot/imported/Simple_Tree_3_Winter.fbx-593ff7b107078e38f62b3a72f34d2a45.scn"
+path="res://.godot/imported/Simple_Tree_3_Winter.fbx-e8af3f498fe982d38b276be5b3b1a3b5.scn"
 
 [deps]
 
-source_file="res://assets/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/FBX/Trees/Simple_Tree_3_Winter.fbx"
-dest_files=["res://.godot/imported/Simple_Tree_3_Winter.fbx-593ff7b107078e38f62b3a72f34d2a45.scn"]
+source_file="res://assets/Terrain/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/FBX/Trees/Simple_Tree_3_Winter.fbx"
+dest_files=["res://.godot/imported/Simple_Tree_3_Winter.fbx-e8af3f498fe982d38b276be5b3b1a3b5.scn"]
 
 [params]
 

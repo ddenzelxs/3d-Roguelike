@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://6s7ljhdmus2x"
-path="res://.godot/imported/ruins.column.broken.glb-c41faa8863ee3c479bc2eda2190a0650.scn"
+path="res://.godot/imported/ruins.column.broken.glb-61ed32637a3eba96c025bbe422656d3c.scn"
 
 [deps]
 
-source_file="res://assets/lowpolychill/lowpolychill/models/ruins.column.broken.glb"
-dest_files=["res://.godot/imported/ruins.column.broken.glb-c41faa8863ee3c479bc2eda2190a0650.scn"]
+source_file="res://assets/Terrain/lowpolychill/lowpolychill/models/ruins.column.broken.glb"
+dest_files=["res://.godot/imported/ruins.column.broken.glb-61ed32637a3eba96c025bbe422656d3c.scn"]
 
 [params]
 

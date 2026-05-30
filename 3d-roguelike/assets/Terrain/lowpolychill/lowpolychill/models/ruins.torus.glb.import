@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://ftv1gpuxqmhv"
-path="res://.godot/imported/ruins.torus.glb-3b5c65fe71318bca4d5720bcfd207234.scn"
+path="res://.godot/imported/ruins.torus.glb-2e86327f43b3cd4833e24800f237c7a7.scn"
 
 [deps]
 
-source_file="res://assets/lowpolychill/lowpolychill/models/ruins.torus.glb"
-dest_files=["res://.godot/imported/ruins.torus.glb-3b5c65fe71318bca4d5720bcfd207234.scn"]
+source_file="res://assets/Terrain/lowpolychill/lowpolychill/models/ruins.torus.glb"
+dest_files=["res://.godot/imported/ruins.torus.glb-2e86327f43b3cd4833e24800f237c7a7.scn"]
 
 [params]
 

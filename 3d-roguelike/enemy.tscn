@@ -1,0 +1,46 @@
+[gd_scene format=3 uid="uid://b1gttpr3qp61y"]
+
+[ext_resource type="Script" uid="uid://g6fw38ieqkt0" path="res://enemy.gd" id="1_7k104"]
+[ext_resource type="Script" uid="uid://cu5xmkolsxwst" path="res://health_component.gd" id="2_4gyqm"]
+[ext_resource type="Script" uid="uid://b1bs8kr5i865f" path="res://enemy_health_label.gd" id="3_qi2p4"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_4gyqm"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_4gyqm"]
+emission_enabled = true
+emission = Color(0.8980392, 0, 0.14901961, 1)
+stencil_flags = 2
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_4gyqm"]
+material = SubResource("StandardMaterial3D_4gyqm")
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_qi2p4"]
+radius = 20.0
+
+[node name="Enemy" type="CharacterBody3D" unique_id=1691554510 groups=["enemy"]]
+script = ExtResource("1_7k104")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1177620901]
+shape = SubResource("CapsuleShape3D_4gyqm")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1058452637]
+mesh = SubResource("CapsuleMesh_4gyqm")
+
+[node name="DetectionArea" type="Area3D" parent="." unique_id=830870741]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="DetectionArea" unique_id=1978024862]
+shape = SubResource("SphereShape3D_qi2p4")
+
+[node name="HealthComponent" type="Node" parent="." unique_id=1701918667]
+script = ExtResource("2_4gyqm")
+
+[node name="HealthBarAnchor" type="Node3D" parent="." unique_id=1573194378]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+
+[node name="EnemyHealthLabel" type="Label3D" parent="HealthBarAnchor" unique_id=839041152]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.1380148, 0)
+offset = Vector2(0, 1)
+text = "Health : 100"
+script = ExtResource("3_qi2p4")
+
+[connection signal="body_entered" from="DetectionArea" to="." method="_on_detection_area_body_entered"]

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://nrgpuvf3xbq1"
-path="res://.godot/imported/Rock_2.fbx-d48b49fe0d021bef5d22f96c5846f5fe.scn"
+path="res://.godot/imported/Rock_2.fbx-969223763c3c42a2322e92d029587420.scn"
 
 [deps]
 
-source_file="res://assets/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/FBX/Rocks/Rock_2.fbx"
-dest_files=["res://.godot/imported/Rock_2.fbx-d48b49fe0d021bef5d22f96c5846f5fe.scn"]
+source_file="res://assets/Terrain/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/FBX/Rocks/Rock_2.fbx"
+dest_files=["res://.godot/imported/Rock_2.fbx-969223763c3c42a2322e92d029587420.scn"]
 
 [params]
 

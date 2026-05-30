@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://d0jno7ftfc7tb"
-path="res://.godot/imported/Mushroom_4_Snow.obj-47a3655693a8cb83ec6c9416481432d4.mesh"
+path="res://.godot/imported/Mushroom_4_Snow.obj-a8599d868e3d8d3eae0afc9c38b9e81b.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Mushroom_4_Snow.obj-47a3655693a8cb83ec6c9416481432d4.mesh"]
+files=["res://.godot/imported/Mushroom_4_Snow.obj-a8599d868e3d8d3eae0afc9c38b9e81b.mesh"]
 
-source_file="res://assets/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Plants and flowers/Mushroom_4_Snow.obj"
-dest_files=["res://.godot/imported/Mushroom_4_Snow.obj-47a3655693a8cb83ec6c9416481432d4.mesh", "res://.godot/imported/Mushroom_4_Snow.obj-47a3655693a8cb83ec6c9416481432d4.mesh"]
+source_file="res://assets/Terrain/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Plants and flowers/Mushroom_4_Snow.obj"
+dest_files=["res://.godot/imported/Mushroom_4_Snow.obj-a8599d868e3d8d3eae0afc9c38b9e81b.mesh", "res://.godot/imported/Mushroom_4_Snow.obj-a8599d868e3d8d3eae0afc9c38b9e81b.mesh"]
 
 [params]
 

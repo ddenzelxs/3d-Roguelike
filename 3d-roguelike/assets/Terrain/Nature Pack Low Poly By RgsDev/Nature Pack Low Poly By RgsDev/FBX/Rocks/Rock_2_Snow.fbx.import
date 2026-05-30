@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cmdg2r0hbtpu6"
-path="res://.godot/imported/Rock_2_Snow.fbx-d537b8decde4836b791906ca7abde52c.scn"
+path="res://.godot/imported/Rock_2_Snow.fbx-ac2169d4dae14d8b3d133f9a608f2e3c.scn"
 
 [deps]
 
-source_file="res://assets/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/FBX/Rocks/Rock_2_Snow.fbx"
-dest_files=["res://.godot/imported/Rock_2_Snow.fbx-d537b8decde4836b791906ca7abde52c.scn"]
+source_file="res://assets/Terrain/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/FBX/Rocks/Rock_2_Snow.fbx"
+dest_files=["res://.godot/imported/Rock_2_Snow.fbx-ac2169d4dae14d8b3d133f9a608f2e3c.scn"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b6b8sfkm2es57"
-path="res://.godot/imported/table.glb-9e03172561cfaa53f001535a7a2a64f5.scn"
+path="res://.godot/imported/table.glb-a0c4a63ac0986bed4775f1fef3fab3f7.scn"
 
 [deps]
 
-source_file="res://assets/lowpolychill/lowpolychill/models/table.glb"
-dest_files=["res://.godot/imported/table.glb-9e03172561cfaa53f001535a7a2a64f5.scn"]
+source_file="res://assets/Terrain/lowpolychill/lowpolychill/models/table.glb"
+dest_files=["res://.godot/imported/table.glb-a0c4a63ac0986bed4775f1fef3fab3f7.scn"]
 
 [params]
 

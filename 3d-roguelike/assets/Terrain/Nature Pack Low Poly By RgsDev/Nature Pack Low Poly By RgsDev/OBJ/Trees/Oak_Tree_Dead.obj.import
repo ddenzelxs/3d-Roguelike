@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://bli2u0va45syb"
-path="res://.godot/imported/Oak_Tree_Dead.obj-83e02c23f4b1813c8451161e901e5f3c.mesh"
+path="res://.godot/imported/Oak_Tree_Dead.obj-190a06b8ba8913f0bf5d32f91be25dc8.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Oak_Tree_Dead.obj-83e02c23f4b1813c8451161e901e5f3c.mesh"]
+files=["res://.godot/imported/Oak_Tree_Dead.obj-190a06b8ba8913f0bf5d32f91be25dc8.mesh"]
 
-source_file="res://assets/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Trees/Oak_Tree_Dead.obj"
-dest_files=["res://.godot/imported/Oak_Tree_Dead.obj-83e02c23f4b1813c8451161e901e5f3c.mesh", "res://.godot/imported/Oak_Tree_Dead.obj-83e02c23f4b1813c8451161e901e5f3c.mesh"]
+source_file="res://assets/Terrain/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Trees/Oak_Tree_Dead.obj"
+dest_files=["res://.godot/imported/Oak_Tree_Dead.obj-190a06b8ba8913f0bf5d32f91be25dc8.mesh", "res://.godot/imported/Oak_Tree_Dead.obj-190a06b8ba8913f0bf5d32f91be25dc8.mesh"]
 
 [params]
 

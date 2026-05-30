@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://bm3ixmiu5gebx"
-path="res://.godot/imported/Cliff_1.obj-e75b91cb25626e77c4cfe7d34c8713ee.mesh"
+path="res://.godot/imported/Cliff_1.obj-aeac21a4544a6d375b0cad1dc5092586.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Cliff_1.obj-e75b91cb25626e77c4cfe7d34c8713ee.mesh"]
+files=["res://.godot/imported/Cliff_1.obj-aeac21a4544a6d375b0cad1dc5092586.mesh"]
 
-source_file="res://assets/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Terrain/Cliff_1.obj"
-dest_files=["res://.godot/imported/Cliff_1.obj-e75b91cb25626e77c4cfe7d34c8713ee.mesh", "res://.godot/imported/Cliff_1.obj-e75b91cb25626e77c4cfe7d34c8713ee.mesh"]
+source_file="res://assets/Terrain/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Terrain/Cliff_1.obj"
+dest_files=["res://.godot/imported/Cliff_1.obj-aeac21a4544a6d375b0cad1dc5092586.mesh", "res://.godot/imported/Cliff_1.obj-aeac21a4544a6d375b0cad1dc5092586.mesh"]
 
 [params]
 

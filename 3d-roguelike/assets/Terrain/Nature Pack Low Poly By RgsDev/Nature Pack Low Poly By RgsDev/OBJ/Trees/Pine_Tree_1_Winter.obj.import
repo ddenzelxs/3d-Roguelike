@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://v55u2tsrpeta"
-path="res://.godot/imported/Pine_Tree_1_Winter.obj-e16ec5d7e16b92ad6d3c5fe34a253ab8.mesh"
+path="res://.godot/imported/Pine_Tree_1_Winter.obj-063d6fc88700694c489b49ee583f0db1.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Pine_Tree_1_Winter.obj-e16ec5d7e16b92ad6d3c5fe34a253ab8.mesh"]
+files=["res://.godot/imported/Pine_Tree_1_Winter.obj-063d6fc88700694c489b49ee583f0db1.mesh"]
 
-source_file="res://assets/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Trees/Pine_Tree_1_Winter.obj"
-dest_files=["res://.godot/imported/Pine_Tree_1_Winter.obj-e16ec5d7e16b92ad6d3c5fe34a253ab8.mesh", "res://.godot/imported/Pine_Tree_1_Winter.obj-e16ec5d7e16b92ad6d3c5fe34a253ab8.mesh"]
+source_file="res://assets/Terrain/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Trees/Pine_Tree_1_Winter.obj"
+dest_files=["res://.godot/imported/Pine_Tree_1_Winter.obj-063d6fc88700694c489b49ee583f0db1.mesh", "res://.godot/imported/Pine_Tree_1_Winter.obj-063d6fc88700694c489b49ee583f0db1.mesh"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://c8x7h2itdjlxu"
-path="res://.godot/imported/merlindevice.glb-ba00fe695d71aa066a943f2f3fe6d804.scn"
+path="res://.godot/imported/merlindevice.glb-b30636d4cc388ff28d0f5b7799838d63.scn"
 
 [deps]
 
-source_file="res://assets/lowpolychill/lowpolychill/models/merlindevice.glb"
-dest_files=["res://.godot/imported/merlindevice.glb-ba00fe695d71aa066a943f2f3fe6d804.scn"]
+source_file="res://assets/Terrain/lowpolychill/lowpolychill/models/merlindevice.glb"
+dest_files=["res://.godot/imported/merlindevice.glb-b30636d4cc388ff28d0f5b7799838d63.scn"]
 
 [params]
 

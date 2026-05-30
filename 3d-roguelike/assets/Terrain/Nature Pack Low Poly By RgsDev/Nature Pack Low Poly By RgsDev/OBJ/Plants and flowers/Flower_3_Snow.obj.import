@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://doc7hqyw4umnr"
-path="res://.godot/imported/Flower_3_Snow.obj-8b37114e692c5a252133d31362db8735.mesh"
+path="res://.godot/imported/Flower_3_Snow.obj-9686598513bf79bdd69a6610a2b2f2fe.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Flower_3_Snow.obj-8b37114e692c5a252133d31362db8735.mesh"]
+files=["res://.godot/imported/Flower_3_Snow.obj-9686598513bf79bdd69a6610a2b2f2fe.mesh"]
 
-source_file="res://assets/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Plants and flowers/Flower_3_Snow.obj"
-dest_files=["res://.godot/imported/Flower_3_Snow.obj-8b37114e692c5a252133d31362db8735.mesh", "res://.godot/imported/Flower_3_Snow.obj-8b37114e692c5a252133d31362db8735.mesh"]
+source_file="res://assets/Terrain/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Plants and flowers/Flower_3_Snow.obj"
+dest_files=["res://.godot/imported/Flower_3_Snow.obj-9686598513bf79bdd69a6610a2b2f2fe.mesh", "res://.godot/imported/Flower_3_Snow.obj-9686598513bf79bdd69a6610a2b2f2fe.mesh"]
 
 [params]
 

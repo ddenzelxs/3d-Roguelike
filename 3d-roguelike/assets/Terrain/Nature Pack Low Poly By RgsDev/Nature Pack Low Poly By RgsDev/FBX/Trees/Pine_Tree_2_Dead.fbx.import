@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://rtyyym0o8xjl"
-path="res://.godot/imported/Pine_Tree_2_Dead.fbx-da23855af318bb4af262401a08887e88.scn"
+path="res://.godot/imported/Pine_Tree_2_Dead.fbx-707311285eb7c99cc3bce4d0220c1979.scn"
 
 [deps]
 
-source_file="res://assets/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/FBX/Trees/Pine_Tree_2_Dead.fbx"
-dest_files=["res://.godot/imported/Pine_Tree_2_Dead.fbx-da23855af318bb4af262401a08887e88.scn"]
+source_file="res://assets/Terrain/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/FBX/Trees/Pine_Tree_2_Dead.fbx"
+dest_files=["res://.godot/imported/Pine_Tree_2_Dead.fbx-707311285eb7c99cc3bce4d0220c1979.scn"]
 
 [params]
 

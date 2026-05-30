@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dyl3h8tc00246"
-path="res://.godot/imported/ground.river.straight.glb-dad114bf8a5d66412e0a198177f221bb.scn"
+path="res://.godot/imported/ground.river.straight.glb-de7aca135b0bc310f666697293a99f03.scn"
 
 [deps]
 
-source_file="res://assets/lowpolychill/lowpolychill/models/ground.river.straight.glb"
-dest_files=["res://.godot/imported/ground.river.straight.glb-dad114bf8a5d66412e0a198177f221bb.scn"]
+source_file="res://assets/Terrain/lowpolychill/lowpolychill/models/ground.river.straight.glb"
+dest_files=["res://.godot/imported/ground.river.straight.glb-de7aca135b0bc310f666697293a99f03.scn"]
 
 [params]
 

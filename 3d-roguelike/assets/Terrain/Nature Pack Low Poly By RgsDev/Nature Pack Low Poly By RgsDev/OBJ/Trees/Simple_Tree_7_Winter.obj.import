@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://du62kdicovt0p"
-path="res://.godot/imported/Simple_Tree_7_Winter.obj-4b72a20defd670cffdcae996cf47f62f.mesh"
+path="res://.godot/imported/Simple_Tree_7_Winter.obj-ab77d76d8861002c2562f3a4be3bb60d.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Simple_Tree_7_Winter.obj-4b72a20defd670cffdcae996cf47f62f.mesh"]
+files=["res://.godot/imported/Simple_Tree_7_Winter.obj-ab77d76d8861002c2562f3a4be3bb60d.mesh"]
 
-source_file="res://assets/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Trees/Simple_Tree_7_Winter.obj"
-dest_files=["res://.godot/imported/Simple_Tree_7_Winter.obj-4b72a20defd670cffdcae996cf47f62f.mesh", "res://.godot/imported/Simple_Tree_7_Winter.obj-4b72a20defd670cffdcae996cf47f62f.mesh"]
+source_file="res://assets/Terrain/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Trees/Simple_Tree_7_Winter.obj"
+dest_files=["res://.godot/imported/Simple_Tree_7_Winter.obj-ab77d76d8861002c2562f3a4be3bb60d.mesh", "res://.godot/imported/Simple_Tree_7_Winter.obj-ab77d76d8861002c2562f3a4be3bb60d.mesh"]
 
 [params]
 

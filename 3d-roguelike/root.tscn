@@ -1,7 +1,11 @@
 [gd_scene format=3 uid="uid://dxv4nf0c3dyqn"]
 
 [ext_resource type="PackedScene" uid="uid://d113ks78yv0mr" path="res://player.tscn" id="2_vvh5c"]
+[ext_resource type="Script" uid="uid://mmmm4dqjxgkv" path="res://wave_manager.gd" id="3_28aoi"]
 [ext_resource type="Texture2D" uid="uid://bv5iikmah17hh" path="res://assets/kenney_prototype-textures/PNG/Dark/texture_01.png" id="3_vvh5c"]
+[ext_resource type="PackedScene" uid="uid://b1gttpr3qp61y" path="res://enemy.tscn" id="4_28aoi"]
+[ext_resource type="Script" uid="uid://d4rclygpvhx" path="res://game_manager.gd" id="5_jnlp7"]
+[ext_resource type="Script" uid="uid://bmbaar4v6eyr7" path="res://ui.gd" id="5_l8v81"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_pyidc"]
 sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
@@ -22,6 +26,9 @@ uv1_triplanar = true
 
 [node name="root" type="Node3D" unique_id=1205778946]
 
+[node name="Player" parent="." unique_id=422190102 groups=["player"] instance=ExtResource("2_vvh5c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4.282234, 0)
+
 [node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1703029159]
 environment = SubResource("Environment_28aoi")
 
@@ -29,10 +36,8 @@ environment = SubResource("Environment_28aoi")
 transform = Transform3D(-0.8660254, -0.43301278, 0.25, 0, 0.49999997, 0.86602545, -0.50000006, 0.75, -0.43301266, 0, 0, 0)
 shadow_enabled = true
 
-[node name="Player" parent="." unique_id=422190102 instance=ExtResource("2_vvh5c")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4.282234, 0)
-
 [node name="CSGCombiner3D" type="CSGCombiner3D" parent="." unique_id=2062983720]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
 use_collision = true
 
 [node name="CSGBox3D" type="CSGBox3D" parent="CSGCombiner3D" unique_id=407931049]
@@ -45,3 +50,47 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5.870154, 0)
 operation = 2
 size = Vector3(28, 11.64, 28)
 material = SubResource("StandardMaterial3D_28aoi")
+
+[node name="WaveManager" type="Node" parent="." unique_id=181262002]
+script = ExtResource("3_28aoi")
+enemy_scene = ExtResource("4_28aoi")
+
+[node name="EnemyContainer" type="Node3D" parent="." unique_id=799000902]
+
+[node name="SpawnPoints" type="Node3D" parent="." unique_id=2128651816]
+
+[node name="Spawn1" type="Marker3D" parent="SpawnPoints" unique_id=293594031]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.3329146, 10.4032135)
+
+[node name="Spawn2" type="Marker3D" parent="SpawnPoints" unique_id=635825051]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.91655, 3.2914495, 0)
+
+[node name="Spawn3" type="Marker3D" parent="SpawnPoints" unique_id=1345188323]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.7611294, -9.270401)
+
+[node name="Spawn4" type="Marker3D" parent="SpawnPoints" unique_id=1510646744]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.635729, 3.1492114, 0)
+
+[node name="UI" type="CanvasLayer" parent="." unique_id=1521612861]
+script = ExtResource("5_l8v81")
+
+[node name="HealthLabel" type="Label" parent="UI" unique_id=1235381663]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "Health : 100"
+
+[node name="WaveLabel" type="Label" parent="UI" unique_id=767854724]
+offset_top = 20.0
+offset_right = 65.0
+offset_bottom = 43.0
+text = "Wave : 1"
+
+[node name="GoldLabel" type="Label" parent="UI" unique_id=792876284]
+offset_top = 39.0
+offset_right = 58.0
+offset_bottom = 88.0
+text = "Gold : 0
+"
+
+[node name="GameManager" type="Node" parent="." unique_id=1581073523]
+script = ExtResource("5_jnlp7")

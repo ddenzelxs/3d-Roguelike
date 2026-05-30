@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://dwhjcmhplfr4s"
-path="res://.godot/imported/Pine_Tree_2_Spring.obj-3b8aacdc278f3d0de3238580351fdfda.mesh"
+path="res://.godot/imported/Pine_Tree_2_Spring.obj-784c33f2a9912c9643f04b9bc2ecb311.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Pine_Tree_2_Spring.obj-3b8aacdc278f3d0de3238580351fdfda.mesh"]
+files=["res://.godot/imported/Pine_Tree_2_Spring.obj-784c33f2a9912c9643f04b9bc2ecb311.mesh"]
 
-source_file="res://assets/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Trees/Pine_Tree_2_Spring.obj"
-dest_files=["res://.godot/imported/Pine_Tree_2_Spring.obj-3b8aacdc278f3d0de3238580351fdfda.mesh", "res://.godot/imported/Pine_Tree_2_Spring.obj-3b8aacdc278f3d0de3238580351fdfda.mesh"]
+source_file="res://assets/Terrain/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Trees/Pine_Tree_2_Spring.obj"
+dest_files=["res://.godot/imported/Pine_Tree_2_Spring.obj-784c33f2a9912c9643f04b9bc2ecb311.mesh", "res://.godot/imported/Pine_Tree_2_Spring.obj-784c33f2a9912c9643f04b9bc2ecb311.mesh"]
 
 [params]
 

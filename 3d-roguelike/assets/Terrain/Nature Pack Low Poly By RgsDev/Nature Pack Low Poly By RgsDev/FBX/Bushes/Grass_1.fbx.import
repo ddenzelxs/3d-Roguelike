@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://psm0j36p2hfe"
-path="res://.godot/imported/Grass_1.fbx-48f6e303bd601383090a9816133207b1.scn"
+path="res://.godot/imported/Grass_1.fbx-3f2503e4d164765931bcf97e909cb9b8.scn"
 
 [deps]
 
-source_file="res://assets/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/FBX/Bushes/Grass_1.fbx"
-dest_files=["res://.godot/imported/Grass_1.fbx-48f6e303bd601383090a9816133207b1.scn"]
+source_file="res://assets/Terrain/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/FBX/Bushes/Grass_1.fbx"
+dest_files=["res://.godot/imported/Grass_1.fbx-3f2503e4d164765931bcf97e909cb9b8.scn"]
 
 [params]
 

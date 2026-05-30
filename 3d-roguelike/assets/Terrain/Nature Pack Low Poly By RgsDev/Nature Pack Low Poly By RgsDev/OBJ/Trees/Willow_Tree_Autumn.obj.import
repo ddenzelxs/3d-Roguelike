@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://db2fo25lui1yu"
-path="res://.godot/imported/Willow_Tree_Autumn.obj-b5c418630e1fcd2890bcf01c0d554926.mesh"
+path="res://.godot/imported/Willow_Tree_Autumn.obj-6412a1ef679746ef37f7d1876f5330c7.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Willow_Tree_Autumn.obj-b5c418630e1fcd2890bcf01c0d554926.mesh"]
+files=["res://.godot/imported/Willow_Tree_Autumn.obj-6412a1ef679746ef37f7d1876f5330c7.mesh"]
 
-source_file="res://assets/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Trees/Willow_Tree_Autumn.obj"
-dest_files=["res://.godot/imported/Willow_Tree_Autumn.obj-b5c418630e1fcd2890bcf01c0d554926.mesh", "res://.godot/imported/Willow_Tree_Autumn.obj-b5c418630e1fcd2890bcf01c0d554926.mesh"]
+source_file="res://assets/Terrain/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Trees/Willow_Tree_Autumn.obj"
+dest_files=["res://.godot/imported/Willow_Tree_Autumn.obj-6412a1ef679746ef37f7d1876f5330c7.mesh", "res://.godot/imported/Willow_Tree_Autumn.obj-6412a1ef679746ef37f7d1876f5330c7.mesh"]
 
 [params]
 

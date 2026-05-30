@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://bi1wxgtkekde4"
-path="res://.godot/imported/Simple_Tree_4.obj-ea7b0aa8e2aaf77fe335a9f5945c24a0.mesh"
+path="res://.godot/imported/Simple_Tree_4.obj-0428c5af0dbf1e61b945c9fb0a4f3a4f.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Simple_Tree_4.obj-ea7b0aa8e2aaf77fe335a9f5945c24a0.mesh"]
+files=["res://.godot/imported/Simple_Tree_4.obj-0428c5af0dbf1e61b945c9fb0a4f3a4f.mesh"]
 
-source_file="res://assets/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Trees/Simple_Tree_4.obj"
-dest_files=["res://.godot/imported/Simple_Tree_4.obj-ea7b0aa8e2aaf77fe335a9f5945c24a0.mesh", "res://.godot/imported/Simple_Tree_4.obj-ea7b0aa8e2aaf77fe335a9f5945c24a0.mesh"]
+source_file="res://assets/Terrain/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Trees/Simple_Tree_4.obj"
+dest_files=["res://.godot/imported/Simple_Tree_4.obj-0428c5af0dbf1e61b945c9fb0a4f3a4f.mesh", "res://.godot/imported/Simple_Tree_4.obj-0428c5af0dbf1e61b945c9fb0a4f3a4f.mesh"]
 
 [params]
 

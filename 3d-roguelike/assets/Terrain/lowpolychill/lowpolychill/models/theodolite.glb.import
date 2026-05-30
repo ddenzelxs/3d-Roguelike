@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bkcbbhgg7hdkx"
-path="res://.godot/imported/theodolite.glb-3197744feb7d2da7c43d453aa3b7ec58.scn"
+path="res://.godot/imported/theodolite.glb-bda9ccaf9929004c158ff5d51688c16c.scn"
 
 [deps]
 
-source_file="res://assets/lowpolychill/lowpolychill/models/theodolite.glb"
-dest_files=["res://.godot/imported/theodolite.glb-3197744feb7d2da7c43d453aa3b7ec58.scn"]
+source_file="res://assets/Terrain/lowpolychill/lowpolychill/models/theodolite.glb"
+dest_files=["res://.godot/imported/theodolite.glb-bda9ccaf9929004c158ff5d51688c16c.scn"]
 
 [params]
 

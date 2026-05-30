@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://ch1m6ud30m41c"
-path="res://.godot/imported/Willow_Tree_Dead.obj-060237e1a2e1cda03386dae47fcce11b.mesh"
+path="res://.godot/imported/Willow_Tree_Dead.obj-aef1ce42d5a64f79d09f21d6f0741e54.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Willow_Tree_Dead.obj-060237e1a2e1cda03386dae47fcce11b.mesh"]
+files=["res://.godot/imported/Willow_Tree_Dead.obj-aef1ce42d5a64f79d09f21d6f0741e54.mesh"]
 
-source_file="res://assets/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Trees/Willow_Tree_Dead.obj"
-dest_files=["res://.godot/imported/Willow_Tree_Dead.obj-060237e1a2e1cda03386dae47fcce11b.mesh", "res://.godot/imported/Willow_Tree_Dead.obj-060237e1a2e1cda03386dae47fcce11b.mesh"]
+source_file="res://assets/Terrain/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Trees/Willow_Tree_Dead.obj"
+dest_files=["res://.godot/imported/Willow_Tree_Dead.obj-aef1ce42d5a64f79d09f21d6f0741e54.mesh", "res://.godot/imported/Willow_Tree_Dead.obj-aef1ce42d5a64f79d09f21d6f0741e54.mesh"]
 
 [params]
 

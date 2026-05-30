@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://i0t0ro5ytuje"
-path="res://.godot/imported/Tree_2_Autumn.obj-3f187b9c1a034ff0532621777f6bdc31.mesh"
+path="res://.godot/imported/Tree_2_Autumn.obj-610a4987fe384a1282b156b0568eecc7.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Tree_2_Autumn.obj-3f187b9c1a034ff0532621777f6bdc31.mesh"]
+files=["res://.godot/imported/Tree_2_Autumn.obj-610a4987fe384a1282b156b0568eecc7.mesh"]
 
-source_file="res://assets/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Trees/Tree_2_Autumn.obj"
-dest_files=["res://.godot/imported/Tree_2_Autumn.obj-3f187b9c1a034ff0532621777f6bdc31.mesh", "res://.godot/imported/Tree_2_Autumn.obj-3f187b9c1a034ff0532621777f6bdc31.mesh"]
+source_file="res://assets/Terrain/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Trees/Tree_2_Autumn.obj"
+dest_files=["res://.godot/imported/Tree_2_Autumn.obj-610a4987fe384a1282b156b0568eecc7.mesh", "res://.godot/imported/Tree_2_Autumn.obj-610a4987fe384a1282b156b0568eecc7.mesh"]
 
 [params]
 

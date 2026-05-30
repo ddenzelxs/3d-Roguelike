@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b01oova2b0xcu"
-path="res://.godot/imported/ground.lake.shore.river.entrance.glb-ff89b0ec96eaa9beacdf3fb5c9ac8e29.scn"
+path="res://.godot/imported/ground.lake.shore.river.entrance.glb-5ec2fa99e5e38122ba052f70c2c7fb23.scn"
 
 [deps]
 
-source_file="res://assets/lowpolychill/lowpolychill/models/ground.lake.shore.river.entrance.glb"
-dest_files=["res://.godot/imported/ground.lake.shore.river.entrance.glb-ff89b0ec96eaa9beacdf3fb5c9ac8e29.scn"]
+source_file="res://assets/Terrain/lowpolychill/lowpolychill/models/ground.lake.shore.river.entrance.glb"
+dest_files=["res://.godot/imported/ground.lake.shore.river.entrance.glb-5ec2fa99e5e38122ba052f70c2c7fb23.scn"]
 
 [params]
 

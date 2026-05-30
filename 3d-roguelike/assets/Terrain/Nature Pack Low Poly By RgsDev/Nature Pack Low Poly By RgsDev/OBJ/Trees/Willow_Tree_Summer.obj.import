@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://c01gvsu0cjoud"
-path="res://.godot/imported/Willow_Tree_Summer.obj-c9331758d00a21314e568b292c499641.mesh"
+path="res://.godot/imported/Willow_Tree_Summer.obj-9c0151853c7a5a90d277b82d855d6a36.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Willow_Tree_Summer.obj-c9331758d00a21314e568b292c499641.mesh"]
+files=["res://.godot/imported/Willow_Tree_Summer.obj-9c0151853c7a5a90d277b82d855d6a36.mesh"]
 
-source_file="res://assets/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Trees/Willow_Tree_Summer.obj"
-dest_files=["res://.godot/imported/Willow_Tree_Summer.obj-c9331758d00a21314e568b292c499641.mesh", "res://.godot/imported/Willow_Tree_Summer.obj-c9331758d00a21314e568b292c499641.mesh"]
+source_file="res://assets/Terrain/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Trees/Willow_Tree_Summer.obj"
+dest_files=["res://.godot/imported/Willow_Tree_Summer.obj-9c0151853c7a5a90d277b82d855d6a36.mesh", "res://.godot/imported/Willow_Tree_Summer.obj-9c0151853c7a5a90d277b82d855d6a36.mesh"]
 
 [params]
 

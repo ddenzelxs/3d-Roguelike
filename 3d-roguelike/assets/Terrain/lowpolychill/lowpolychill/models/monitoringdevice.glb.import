@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://1lh6t4kvjysf"
-path="res://.godot/imported/monitoringdevice.glb-1564b340ecdd6fd52653dcc86080679a.scn"
+path="res://.godot/imported/monitoringdevice.glb-af055c05b754dddc10771c804124cf18.scn"
 
 [deps]
 
-source_file="res://assets/lowpolychill/lowpolychill/models/monitoringdevice.glb"
-dest_files=["res://.godot/imported/monitoringdevice.glb-1564b340ecdd6fd52653dcc86080679a.scn"]
+source_file="res://assets/Terrain/lowpolychill/lowpolychill/models/monitoringdevice.glb"
+dest_files=["res://.godot/imported/monitoringdevice.glb-af055c05b754dddc10771c804124cf18.scn"]
 
 [params]
 

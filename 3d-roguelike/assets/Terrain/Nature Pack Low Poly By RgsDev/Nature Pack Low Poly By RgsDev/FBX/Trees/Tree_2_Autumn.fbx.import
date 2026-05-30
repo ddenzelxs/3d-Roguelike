@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dogtew12krjqp"
-path="res://.godot/imported/Tree_2_Autumn.fbx-67c2d0b4ca4128be08bff91df1e7927e.scn"
+path="res://.godot/imported/Tree_2_Autumn.fbx-e9596a608872222639b79c10fa0b9483.scn"
 
 [deps]
 
-source_file="res://assets/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/FBX/Trees/Tree_2_Autumn.fbx"
-dest_files=["res://.godot/imported/Tree_2_Autumn.fbx-67c2d0b4ca4128be08bff91df1e7927e.scn"]
+source_file="res://assets/Terrain/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/FBX/Trees/Tree_2_Autumn.fbx"
+dest_files=["res://.godot/imported/Tree_2_Autumn.fbx-e9596a608872222639b79c10fa0b9483.scn"]
 
 [params]
 

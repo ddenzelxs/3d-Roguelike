@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bltaqp5pvere8"
-path="res://.godot/imported/Cactus_Winter.fbx-32c9ac221c069458229b854039ad105c.scn"
+path="res://.godot/imported/Cactus_Winter.fbx-27e1c2edc8b69e380f31809cb5cfe626.scn"
 
 [deps]
 
-source_file="res://assets/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/FBX/Plants and flowers/Cactus_Winter.fbx"
-dest_files=["res://.godot/imported/Cactus_Winter.fbx-32c9ac221c069458229b854039ad105c.scn"]
+source_file="res://assets/Terrain/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/FBX/Plants and flowers/Cactus_Winter.fbx"
+dest_files=["res://.godot/imported/Cactus_Winter.fbx-27e1c2edc8b69e380f31809cb5cfe626.scn"]
 
 [params]
 

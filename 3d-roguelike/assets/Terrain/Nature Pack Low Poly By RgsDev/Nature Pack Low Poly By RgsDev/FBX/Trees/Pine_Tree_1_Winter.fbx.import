@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://ucgyckq7h42c"
-path="res://.godot/imported/Pine_Tree_1_Winter.fbx-8b6a960935c7f8cd1a0eff980a1cf684.scn"
+path="res://.godot/imported/Pine_Tree_1_Winter.fbx-e82faf866df9d4f8849f017e0c632d10.scn"
 
 [deps]
 
-source_file="res://assets/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/FBX/Trees/Pine_Tree_1_Winter.fbx"
-dest_files=["res://.godot/imported/Pine_Tree_1_Winter.fbx-8b6a960935c7f8cd1a0eff980a1cf684.scn"]
+source_file="res://assets/Terrain/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/FBX/Trees/Pine_Tree_1_Winter.fbx"
+dest_files=["res://.godot/imported/Pine_Tree_1_Winter.fbx-e82faf866df9d4f8849f017e0c632d10.scn"]
 
 [params]
 

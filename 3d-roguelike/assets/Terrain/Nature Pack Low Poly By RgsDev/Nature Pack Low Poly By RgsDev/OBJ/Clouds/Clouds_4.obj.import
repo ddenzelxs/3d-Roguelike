@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://by0ljxldiywad"
-path="res://.godot/imported/Clouds_4.obj-b4a18b80bb6b5c29f7a7b207323bc6e2.mesh"
+path="res://.godot/imported/Clouds_4.obj-0b8a366d339f54169c3598e7c0bf444c.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Clouds_4.obj-b4a18b80bb6b5c29f7a7b207323bc6e2.mesh"]
+files=["res://.godot/imported/Clouds_4.obj-0b8a366d339f54169c3598e7c0bf444c.mesh"]
 
-source_file="res://assets/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Clouds/Clouds_4.obj"
-dest_files=["res://.godot/imported/Clouds_4.obj-b4a18b80bb6b5c29f7a7b207323bc6e2.mesh", "res://.godot/imported/Clouds_4.obj-b4a18b80bb6b5c29f7a7b207323bc6e2.mesh"]
+source_file="res://assets/Terrain/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Clouds/Clouds_4.obj"
+dest_files=["res://.godot/imported/Clouds_4.obj-0b8a366d339f54169c3598e7c0bf444c.mesh", "res://.godot/imported/Clouds_4.obj-0b8a366d339f54169c3598e7c0bf444c.mesh"]
 
 [params]
 

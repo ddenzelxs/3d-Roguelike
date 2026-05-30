@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b82ufatwmh7j4"
-path="res://.godot/imported/Mushroom_2.fbx-7ab39be9fd878515855960e6028c89b3.scn"
+path="res://.godot/imported/Mushroom_2.fbx-a5519042c0e9c91ecb386c2a9afc5a80.scn"
 
 [deps]
 
-source_file="res://assets/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/FBX/Plants and flowers/Mushroom_2.fbx"
-dest_files=["res://.godot/imported/Mushroom_2.fbx-7ab39be9fd878515855960e6028c89b3.scn"]
+source_file="res://assets/Terrain/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/FBX/Plants and flowers/Mushroom_2.fbx"
+dest_files=["res://.godot/imported/Mushroom_2.fbx-a5519042c0e9c91ecb386c2a9afc5a80.scn"]
 
 [params]
 

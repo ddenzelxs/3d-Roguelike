@@ -1,11 +1,14 @@
 [gd_scene format=3 uid="uid://d113ks78yv0mr"]
 
 [ext_resource type="Script" uid="uid://btdnqwcchp04l" path="res://player.gd" id="1_4flbx"]
+[ext_resource type="PackedScene" uid="uid://dtsw5w0as5jr6" path="res://bullet.tscn" id="2_sweqy"]
+[ext_resource type="Script" uid="uid://cu5xmkolsxwst" path="res://health_component.gd" id="3_hqtel"]
 [ext_resource type="Script" uid="uid://bp5eg2yrig6sn" path="res://camera_system.gd" id="3_i3pqv"]
-
-[sub_resource type="CapsuleMesh" id="CapsuleMesh_sh265"]
+[ext_resource type="Script" uid="uid://dg8pls22m4ihb" path="res://sword_hitbox.gd" id="3_sweqy"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_4flbx"]
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_sh265"]
 
 [sub_resource type="SphereShape3D" id="SphereShape3D_onrkg"]
 margin = 0.01
@@ -13,14 +16,17 @@ margin = 0.01
 [sub_resource type="SphereShape3D" id="SphereShape3D_i3pqv"]
 margin = 0.001
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_2hs0m"]
+
 [node name="Player" type="CharacterBody3D" unique_id=422190102]
 script = ExtResource("1_4flbx")
-
-[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=273153650]
-mesh = SubResource("CapsuleMesh_sh265")
+bullet_scene = ExtResource("2_sweqy")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=455750859]
 shape = SubResource("CapsuleShape3D_4flbx")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=273153650]
+mesh = SubResource("CapsuleMesh_sh265")
 
 [node name="AimTarget" type="Marker3D" parent="." unique_id=1534624705]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
@@ -48,3 +54,17 @@ shape = SubResource("SphereShape3D_i3pqv")
 spring_length = 1.75
 
 [node name="Camera3D" type="Camera3D" parent="CameraSystem/EdgeSpringArm/RearSpringArm" unique_id=741193380]
+
+[node name="SwordHitbox" type="Area3D" parent="." unique_id=1281435588]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, -1)
+monitoring = false
+script = ExtResource("3_sweqy")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="SwordHitbox" unique_id=727109764]
+shape = SubResource("BoxShape3D_2hs0m")
+
+[node name="HealthComponent" type="Node" parent="." unique_id=1208903636]
+script = ExtResource("3_hqtel")
+
+[node name="WeaponPivot" type="Marker3D" parent="." unique_id=1094587119]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, -1.5)

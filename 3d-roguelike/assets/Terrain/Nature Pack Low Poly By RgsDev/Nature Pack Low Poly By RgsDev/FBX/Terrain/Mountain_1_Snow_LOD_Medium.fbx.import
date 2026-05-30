@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://7y2k064w5e78"
-path="res://.godot/imported/Mountain_1_Snow_LOD_Medium.fbx-77998444a723fa50cea5cd00c3b3b346.scn"
+path="res://.godot/imported/Mountain_1_Snow_LOD_Medium.fbx-474c94735f6c67789c10485776612c5b.scn"
 
 [deps]
 
-source_file="res://assets/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/FBX/Terrain/Mountain_1_Snow_LOD_Medium.fbx"
-dest_files=["res://.godot/imported/Mountain_1_Snow_LOD_Medium.fbx-77998444a723fa50cea5cd00c3b3b346.scn"]
+source_file="res://assets/Terrain/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/FBX/Terrain/Mountain_1_Snow_LOD_Medium.fbx"
+dest_files=["res://.godot/imported/Mountain_1_Snow_LOD_Medium.fbx-474c94735f6c67789c10485776612c5b.scn"]
 
 [params]
 

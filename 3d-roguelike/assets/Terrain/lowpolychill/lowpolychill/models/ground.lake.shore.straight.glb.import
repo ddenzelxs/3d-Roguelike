@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cd2my58gonvdx"
-path="res://.godot/imported/ground.lake.shore.straight.glb-b11da1a2d45ebd698e6f551058c8229e.scn"
+path="res://.godot/imported/ground.lake.shore.straight.glb-cae21bde74aa0e7af2905e956a0552b5.scn"
 
 [deps]
 
-source_file="res://assets/lowpolychill/lowpolychill/models/ground.lake.shore.straight.glb"
-dest_files=["res://.godot/imported/ground.lake.shore.straight.glb-b11da1a2d45ebd698e6f551058c8229e.scn"]
+source_file="res://assets/Terrain/lowpolychill/lowpolychill/models/ground.lake.shore.straight.glb"
+dest_files=["res://.godot/imported/ground.lake.shore.straight.glb-cae21bde74aa0e7af2905e956a0552b5.scn"]
 
 [params]
 

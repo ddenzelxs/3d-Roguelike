@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://dv3d7ewe7suak"
-path="res://.godot/imported/Mushroom_3.obj-83e01d76a04f98257bdfc946d5017dac.mesh"
+path="res://.godot/imported/Mushroom_3.obj-cd743ea067f2b849f5e55b2804926154.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Mushroom_3.obj-83e01d76a04f98257bdfc946d5017dac.mesh"]
+files=["res://.godot/imported/Mushroom_3.obj-cd743ea067f2b849f5e55b2804926154.mesh"]
 
-source_file="res://assets/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Plants and flowers/Mushroom_3.obj"
-dest_files=["res://.godot/imported/Mushroom_3.obj-83e01d76a04f98257bdfc946d5017dac.mesh", "res://.godot/imported/Mushroom_3.obj-83e01d76a04f98257bdfc946d5017dac.mesh"]
+source_file="res://assets/Terrain/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Plants and flowers/Mushroom_3.obj"
+dest_files=["res://.godot/imported/Mushroom_3.obj-cd743ea067f2b849f5e55b2804926154.mesh", "res://.godot/imported/Mushroom_3.obj-cd743ea067f2b849f5e55b2804926154.mesh"]
 
 [params]
 

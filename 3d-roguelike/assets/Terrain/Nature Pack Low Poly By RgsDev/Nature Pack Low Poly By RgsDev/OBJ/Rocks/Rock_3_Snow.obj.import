@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://ctbiqsa8p67cc"
-path="res://.godot/imported/Rock_3_Snow.obj-a1f8143403af869d7e1509cef1ff83cd.mesh"
+path="res://.godot/imported/Rock_3_Snow.obj-908cad1995ba1b057011e80374957507.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Rock_3_Snow.obj-a1f8143403af869d7e1509cef1ff83cd.mesh"]
+files=["res://.godot/imported/Rock_3_Snow.obj-908cad1995ba1b057011e80374957507.mesh"]
 
-source_file="res://assets/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Rocks/Rock_3_Snow.obj"
-dest_files=["res://.godot/imported/Rock_3_Snow.obj-a1f8143403af869d7e1509cef1ff83cd.mesh", "res://.godot/imported/Rock_3_Snow.obj-a1f8143403af869d7e1509cef1ff83cd.mesh"]
+source_file="res://assets/Terrain/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Rocks/Rock_3_Snow.obj"
+dest_files=["res://.godot/imported/Rock_3_Snow.obj-908cad1995ba1b057011e80374957507.mesh", "res://.godot/imported/Rock_3_Snow.obj-908cad1995ba1b057011e80374957507.mesh"]
 
 [params]
 

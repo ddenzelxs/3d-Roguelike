@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://cmh6o5p78bfmb"
-path="res://.godot/imported/Bush_4.obj-12ab814f0b2cd45f59bf4a31a0fd22d9.mesh"
+path="res://.godot/imported/Bush_4.obj-675d13f671f52328db9de122fb92eec4.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Bush_4.obj-12ab814f0b2cd45f59bf4a31a0fd22d9.mesh"]
+files=["res://.godot/imported/Bush_4.obj-675d13f671f52328db9de122fb92eec4.mesh"]
 
-source_file="res://assets/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Bushes/Bush_4.obj"
-dest_files=["res://.godot/imported/Bush_4.obj-12ab814f0b2cd45f59bf4a31a0fd22d9.mesh", "res://.godot/imported/Bush_4.obj-12ab814f0b2cd45f59bf4a31a0fd22d9.mesh"]
+source_file="res://assets/Terrain/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Bushes/Bush_4.obj"
+dest_files=["res://.godot/imported/Bush_4.obj-675d13f671f52328db9de122fb92eec4.mesh", "res://.godot/imported/Bush_4.obj-675d13f671f52328db9de122fb92eec4.mesh"]
 
 [params]
 

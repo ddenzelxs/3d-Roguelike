@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cenq1ph5y8l1l"
-path="res://.godot/imported/ground.river.fourway.glb-d4e255ffdb0443d37b83d389dc9934c8.scn"
+path="res://.godot/imported/ground.river.fourway.glb-df7698b74a9e367e08042b5f4639a5e6.scn"
 
 [deps]
 
-source_file="res://assets/lowpolychill/lowpolychill/models/ground.river.fourway.glb"
-dest_files=["res://.godot/imported/ground.river.fourway.glb-d4e255ffdb0443d37b83d389dc9934c8.scn"]
+source_file="res://assets/Terrain/lowpolychill/lowpolychill/models/ground.river.fourway.glb"
+dest_files=["res://.godot/imported/ground.river.fourway.glb-df7698b74a9e367e08042b5f4639a5e6.scn"]
 
 [params]
 

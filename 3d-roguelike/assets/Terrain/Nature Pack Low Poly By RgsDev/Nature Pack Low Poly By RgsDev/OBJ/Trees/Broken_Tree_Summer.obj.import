@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://c8sdg3giamqri"
-path="res://.godot/imported/Broken_Tree_Summer.obj-aa928784f1558a6f09c873f2b7e72c21.mesh"
+path="res://.godot/imported/Broken_Tree_Summer.obj-448c174666560f37b459b195da141668.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Broken_Tree_Summer.obj-aa928784f1558a6f09c873f2b7e72c21.mesh"]
+files=["res://.godot/imported/Broken_Tree_Summer.obj-448c174666560f37b459b195da141668.mesh"]
 
-source_file="res://assets/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Trees/Broken_Tree_Summer.obj"
-dest_files=["res://.godot/imported/Broken_Tree_Summer.obj-aa928784f1558a6f09c873f2b7e72c21.mesh", "res://.godot/imported/Broken_Tree_Summer.obj-aa928784f1558a6f09c873f2b7e72c21.mesh"]
+source_file="res://assets/Terrain/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Trees/Broken_Tree_Summer.obj"
+dest_files=["res://.godot/imported/Broken_Tree_Summer.obj-448c174666560f37b459b195da141668.mesh", "res://.godot/imported/Broken_Tree_Summer.obj-448c174666560f37b459b195da141668.mesh"]
 
 [params]
 

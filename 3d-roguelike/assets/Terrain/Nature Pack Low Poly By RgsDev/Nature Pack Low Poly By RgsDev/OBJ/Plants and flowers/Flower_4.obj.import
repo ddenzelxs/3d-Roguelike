@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://b7tvlkgqhlwam"
-path="res://.godot/imported/Flower_4.obj-d031f24d15e623bad17c288e6df3cd68.mesh"
+path="res://.godot/imported/Flower_4.obj-c5b45c18cdeae443e1c56dcfd66e02c2.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Flower_4.obj-d031f24d15e623bad17c288e6df3cd68.mesh"]
+files=["res://.godot/imported/Flower_4.obj-c5b45c18cdeae443e1c56dcfd66e02c2.mesh"]
 
-source_file="res://assets/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Plants and flowers/Flower_4.obj"
-dest_files=["res://.godot/imported/Flower_4.obj-d031f24d15e623bad17c288e6df3cd68.mesh", "res://.godot/imported/Flower_4.obj-d031f24d15e623bad17c288e6df3cd68.mesh"]
+source_file="res://assets/Terrain/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Plants and flowers/Flower_4.obj"
+dest_files=["res://.godot/imported/Flower_4.obj-c5b45c18cdeae443e1c56dcfd66e02c2.mesh", "res://.godot/imported/Flower_4.obj-c5b45c18cdeae443e1c56dcfd66e02c2.mesh"]
 
 [params]
 

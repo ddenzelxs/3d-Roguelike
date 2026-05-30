@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cisaqreavl786"
-path="res://.godot/imported/Oak_Tree_Spring.fbx-76bb380017b7782a5e2ea4a272740f09.scn"
+path="res://.godot/imported/Oak_Tree_Spring.fbx-bcd391095b392ce69ad6edae4fad0ba9.scn"
 
 [deps]
 
-source_file="res://assets/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/FBX/Trees/Oak_Tree_Spring.fbx"
-dest_files=["res://.godot/imported/Oak_Tree_Spring.fbx-76bb380017b7782a5e2ea4a272740f09.scn"]
+source_file="res://assets/Terrain/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/FBX/Trees/Oak_Tree_Spring.fbx"
+dest_files=["res://.godot/imported/Oak_Tree_Spring.fbx-bcd391095b392ce69ad6edae4fad0ba9.scn"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bowybfj1nafg5"
-path="res://.godot/imported/Mushroom_2_Snow.fbx-06af5b87cd8677c6f33a58baa626f313.scn"
+path="res://.godot/imported/Mushroom_2_Snow.fbx-656f084d1aae668e36dbff75d6194ae2.scn"
 
 [deps]
 
-source_file="res://assets/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/FBX/Plants and flowers/Mushroom_2_Snow.fbx"
-dest_files=["res://.godot/imported/Mushroom_2_Snow.fbx-06af5b87cd8677c6f33a58baa626f313.scn"]
+source_file="res://assets/Terrain/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/FBX/Plants and flowers/Mushroom_2_Snow.fbx"
+dest_files=["res://.godot/imported/Mushroom_2_Snow.fbx-656f084d1aae668e36dbff75d6194ae2.scn"]
 
 [params]
 

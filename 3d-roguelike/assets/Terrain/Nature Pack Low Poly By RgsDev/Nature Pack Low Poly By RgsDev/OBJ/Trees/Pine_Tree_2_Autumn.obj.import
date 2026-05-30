@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://cl3band3iw4xe"
-path="res://.godot/imported/Pine_Tree_2_Autumn.obj-c019372870342b433c4010ee9a995373.mesh"
+path="res://.godot/imported/Pine_Tree_2_Autumn.obj-500cee88598cbe5ca227bb3addb20130.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Pine_Tree_2_Autumn.obj-c019372870342b433c4010ee9a995373.mesh"]
+files=["res://.godot/imported/Pine_Tree_2_Autumn.obj-500cee88598cbe5ca227bb3addb20130.mesh"]
 
-source_file="res://assets/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Trees/Pine_Tree_2_Autumn.obj"
-dest_files=["res://.godot/imported/Pine_Tree_2_Autumn.obj-c019372870342b433c4010ee9a995373.mesh", "res://.godot/imported/Pine_Tree_2_Autumn.obj-c019372870342b433c4010ee9a995373.mesh"]
+source_file="res://assets/Terrain/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Trees/Pine_Tree_2_Autumn.obj"
+dest_files=["res://.godot/imported/Pine_Tree_2_Autumn.obj-500cee88598cbe5ca227bb3addb20130.mesh", "res://.godot/imported/Pine_Tree_2_Autumn.obj-500cee88598cbe5ca227bb3addb20130.mesh"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://demo31vynhae0"
-path="res://.godot/imported/Terrain_Part_Plane_1.fbx-9973b638fdaee4dc0d1edc4cf5e44328.scn"
+path="res://.godot/imported/Terrain_Part_Plane_1.fbx-ace269617d02140bf20c0281ac041463.scn"
 
 [deps]
 
-source_file="res://assets/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/FBX/Terrain/Terrain_Part_Plane_1.fbx"
-dest_files=["res://.godot/imported/Terrain_Part_Plane_1.fbx-9973b638fdaee4dc0d1edc4cf5e44328.scn"]
+source_file="res://assets/Terrain/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/FBX/Terrain/Terrain_Part_Plane_1.fbx"
+dest_files=["res://.godot/imported/Terrain_Part_Plane_1.fbx-ace269617d02140bf20c0281ac041463.scn"]
 
 [params]
 

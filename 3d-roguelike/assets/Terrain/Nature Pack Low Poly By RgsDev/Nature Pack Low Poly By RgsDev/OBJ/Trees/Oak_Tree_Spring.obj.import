@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://cfyq0a0xmaomr"
-path="res://.godot/imported/Oak_Tree_Spring.obj-7ed14345d98f095e8919806e8b4f8677.mesh"
+path="res://.godot/imported/Oak_Tree_Spring.obj-346daae4366f8bdd84ef4f2e4581e6d7.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Oak_Tree_Spring.obj-7ed14345d98f095e8919806e8b4f8677.mesh"]
+files=["res://.godot/imported/Oak_Tree_Spring.obj-346daae4366f8bdd84ef4f2e4581e6d7.mesh"]
 
-source_file="res://assets/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Trees/Oak_Tree_Spring.obj"
-dest_files=["res://.godot/imported/Oak_Tree_Spring.obj-7ed14345d98f095e8919806e8b4f8677.mesh", "res://.godot/imported/Oak_Tree_Spring.obj-7ed14345d98f095e8919806e8b4f8677.mesh"]
+source_file="res://assets/Terrain/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Trees/Oak_Tree_Spring.obj"
+dest_files=["res://.godot/imported/Oak_Tree_Spring.obj-346daae4366f8bdd84ef4f2e4581e6d7.mesh", "res://.godot/imported/Oak_Tree_Spring.obj-346daae4366f8bdd84ef4f2e4581e6d7.mesh"]
 
 [params]
 

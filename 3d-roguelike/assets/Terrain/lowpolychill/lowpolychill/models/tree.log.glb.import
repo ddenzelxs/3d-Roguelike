@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dyywimuiigpsx"
-path="res://.godot/imported/tree.log.glb-d58d15e313df955210e6273183b1b5bc.scn"
+path="res://.godot/imported/tree.log.glb-1e5faa432cd46f34ccda611c1f1c318b.scn"
 
 [deps]
 
-source_file="res://assets/lowpolychill/lowpolychill/models/tree.log.glb"
-dest_files=["res://.godot/imported/tree.log.glb-d58d15e313df955210e6273183b1b5bc.scn"]
+source_file="res://assets/Terrain/lowpolychill/lowpolychill/models/tree.log.glb"
+dest_files=["res://.godot/imported/tree.log.glb-1e5faa432cd46f34ccda611c1f1c318b.scn"]
 
 [params]
 

@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://1cc1nmbljn2c"
-path="res://.godot/imported/Mountain_1_LOD_Medium.obj-cd6f8f2fdc3f4fe3de03cdbccea225d9.mesh"
+path="res://.godot/imported/Mountain_1_LOD_Medium.obj-07d0fe799fed19fe520e1d316976d097.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Mountain_1_LOD_Medium.obj-cd6f8f2fdc3f4fe3de03cdbccea225d9.mesh"]
+files=["res://.godot/imported/Mountain_1_LOD_Medium.obj-07d0fe799fed19fe520e1d316976d097.mesh"]
 
-source_file="res://assets/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Terrain/Mountain_1_LOD_Medium.obj"
-dest_files=["res://.godot/imported/Mountain_1_LOD_Medium.obj-cd6f8f2fdc3f4fe3de03cdbccea225d9.mesh", "res://.godot/imported/Mountain_1_LOD_Medium.obj-cd6f8f2fdc3f4fe3de03cdbccea225d9.mesh"]
+source_file="res://assets/Terrain/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Terrain/Mountain_1_LOD_Medium.obj"
+dest_files=["res://.godot/imported/Mountain_1_LOD_Medium.obj-07d0fe799fed19fe520e1d316976d097.mesh", "res://.godot/imported/Mountain_1_LOD_Medium.obj-07d0fe799fed19fe520e1d316976d097.mesh"]
 
 [params]
 

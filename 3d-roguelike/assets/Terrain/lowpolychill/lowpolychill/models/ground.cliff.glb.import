@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://y81xifdrlxq1"
-path="res://.godot/imported/ground.cliff.glb-d61f7897b5652ec1d7307fd6d3c56720.scn"
+path="res://.godot/imported/ground.cliff.glb-0fd409c8f07a9160020dbb781c67f7c9.scn"
 
 [deps]
 
-source_file="res://assets/lowpolychill/lowpolychill/models/ground.cliff.glb"
-dest_files=["res://.godot/imported/ground.cliff.glb-d61f7897b5652ec1d7307fd6d3c56720.scn"]
+source_file="res://assets/Terrain/lowpolychill/lowpolychill/models/ground.cliff.glb"
+dest_files=["res://.godot/imported/ground.cliff.glb-0fd409c8f07a9160020dbb781c67f7c9.scn"]
 
 [params]
 

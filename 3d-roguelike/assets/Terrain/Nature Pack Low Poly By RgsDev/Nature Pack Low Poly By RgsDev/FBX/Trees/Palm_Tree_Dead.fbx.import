@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://k108jb1072a6"
-path="res://.godot/imported/Palm_Tree_Dead.fbx-0826441560c3ac50a4791f9f370a8124.scn"
+path="res://.godot/imported/Palm_Tree_Dead.fbx-1e1d855544a5bfc0f23264c5c8531674.scn"
 
 [deps]
 
-source_file="res://assets/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/FBX/Trees/Palm_Tree_Dead.fbx"
-dest_files=["res://.godot/imported/Palm_Tree_Dead.fbx-0826441560c3ac50a4791f9f370a8124.scn"]
+source_file="res://assets/Terrain/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/FBX/Trees/Palm_Tree_Dead.fbx"
+dest_files=["res://.godot/imported/Palm_Tree_Dead.fbx-1e1d855544a5bfc0f23264c5c8531674.scn"]
 
 [params]
 

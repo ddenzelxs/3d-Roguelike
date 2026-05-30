@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://82iqw6gfis73"
-path="res://.godot/imported/Pine_Tree_2_Summer.obj-1a9826cd0d552d6201a57e9feba4581d.mesh"
+path="res://.godot/imported/Pine_Tree_2_Summer.obj-9b5ed8ee0afc96a22fd45051065d7852.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Pine_Tree_2_Summer.obj-1a9826cd0d552d6201a57e9feba4581d.mesh"]
+files=["res://.godot/imported/Pine_Tree_2_Summer.obj-9b5ed8ee0afc96a22fd45051065d7852.mesh"]
 
-source_file="res://assets/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Trees/Pine_Tree_2_Summer.obj"
-dest_files=["res://.godot/imported/Pine_Tree_2_Summer.obj-1a9826cd0d552d6201a57e9feba4581d.mesh", "res://.godot/imported/Pine_Tree_2_Summer.obj-1a9826cd0d552d6201a57e9feba4581d.mesh"]
+source_file="res://assets/Terrain/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Trees/Pine_Tree_2_Summer.obj"
+dest_files=["res://.godot/imported/Pine_Tree_2_Summer.obj-9b5ed8ee0afc96a22fd45051065d7852.mesh", "res://.godot/imported/Pine_Tree_2_Summer.obj-9b5ed8ee0afc96a22fd45051065d7852.mesh"]
 
 [params]
 

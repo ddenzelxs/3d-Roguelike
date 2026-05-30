@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://dnq3asivvbmc5"
-path="res://.godot/imported/Palm_Tree_Dead.obj-7324abd44238b54afda55466c86f870a.mesh"
+path="res://.godot/imported/Palm_Tree_Dead.obj-adaccc92df577941e6364a71c9dbd6d4.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Palm_Tree_Dead.obj-7324abd44238b54afda55466c86f870a.mesh"]
+files=["res://.godot/imported/Palm_Tree_Dead.obj-adaccc92df577941e6364a71c9dbd6d4.mesh"]
 
-source_file="res://assets/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Trees/Palm_Tree_Dead.obj"
-dest_files=["res://.godot/imported/Palm_Tree_Dead.obj-7324abd44238b54afda55466c86f870a.mesh", "res://.godot/imported/Palm_Tree_Dead.obj-7324abd44238b54afda55466c86f870a.mesh"]
+source_file="res://assets/Terrain/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Trees/Palm_Tree_Dead.obj"
+dest_files=["res://.godot/imported/Palm_Tree_Dead.obj-adaccc92df577941e6364a71c9dbd6d4.mesh", "res://.godot/imported/Palm_Tree_Dead.obj-adaccc92df577941e6364a71c9dbd6d4.mesh"]
 
 [params]
 

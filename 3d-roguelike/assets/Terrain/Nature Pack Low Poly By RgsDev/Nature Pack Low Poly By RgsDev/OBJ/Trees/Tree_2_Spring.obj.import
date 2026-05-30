@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://3ckcldh4vwdy"
-path="res://.godot/imported/Tree_2_Spring.obj-063ec94dbf1179dde5ee6a95a016acea.mesh"
+path="res://.godot/imported/Tree_2_Spring.obj-845c9231220ab0963456b48854034821.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Tree_2_Spring.obj-063ec94dbf1179dde5ee6a95a016acea.mesh"]
+files=["res://.godot/imported/Tree_2_Spring.obj-845c9231220ab0963456b48854034821.mesh"]
 
-source_file="res://assets/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Trees/Tree_2_Spring.obj"
-dest_files=["res://.godot/imported/Tree_2_Spring.obj-063ec94dbf1179dde5ee6a95a016acea.mesh", "res://.godot/imported/Tree_2_Spring.obj-063ec94dbf1179dde5ee6a95a016acea.mesh"]
+source_file="res://assets/Terrain/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Trees/Tree_2_Spring.obj"
+dest_files=["res://.godot/imported/Tree_2_Spring.obj-845c9231220ab0963456b48854034821.mesh", "res://.godot/imported/Tree_2_Spring.obj-845c9231220ab0963456b48854034821.mesh"]
 
 [params]
 

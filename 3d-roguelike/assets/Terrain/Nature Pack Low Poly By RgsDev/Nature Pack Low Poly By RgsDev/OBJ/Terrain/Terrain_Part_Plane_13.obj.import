@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://dyjx3ssk2albh"
-path="res://.godot/imported/Terrain_Part_Plane_13.obj-6d0a0f6141c3735d809dd94fff76ef8f.mesh"
+path="res://.godot/imported/Terrain_Part_Plane_13.obj-e083cc2c54704a652173b683a8a0b16c.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Terrain_Part_Plane_13.obj-6d0a0f6141c3735d809dd94fff76ef8f.mesh"]
+files=["res://.godot/imported/Terrain_Part_Plane_13.obj-e083cc2c54704a652173b683a8a0b16c.mesh"]
 
-source_file="res://assets/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Terrain/Terrain_Part_Plane_13.obj"
-dest_files=["res://.godot/imported/Terrain_Part_Plane_13.obj-6d0a0f6141c3735d809dd94fff76ef8f.mesh", "res://.godot/imported/Terrain_Part_Plane_13.obj-6d0a0f6141c3735d809dd94fff76ef8f.mesh"]
+source_file="res://assets/Terrain/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Terrain/Terrain_Part_Plane_13.obj"
+dest_files=["res://.godot/imported/Terrain_Part_Plane_13.obj-e083cc2c54704a652173b683a8a0b16c.mesh", "res://.godot/imported/Terrain_Part_Plane_13.obj-e083cc2c54704a652173b683a8a0b16c.mesh"]
 
 [params]
 

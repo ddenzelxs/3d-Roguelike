@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://dkphxhkmh7jc4"
-path="res://.godot/imported/Rock_1.obj-cac1ae0bafb16ea4392bc4b81b9e8175.mesh"
+path="res://.godot/imported/Rock_1.obj-c64d6682e68c82df159877b73803e198.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Rock_1.obj-cac1ae0bafb16ea4392bc4b81b9e8175.mesh"]
+files=["res://.godot/imported/Rock_1.obj-c64d6682e68c82df159877b73803e198.mesh"]
 
-source_file="res://assets/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Rocks/Rock_1.obj"
-dest_files=["res://.godot/imported/Rock_1.obj-cac1ae0bafb16ea4392bc4b81b9e8175.mesh", "res://.godot/imported/Rock_1.obj-cac1ae0bafb16ea4392bc4b81b9e8175.mesh"]
+source_file="res://assets/Terrain/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Rocks/Rock_1.obj"
+dest_files=["res://.godot/imported/Rock_1.obj-c64d6682e68c82df159877b73803e198.mesh", "res://.godot/imported/Rock_1.obj-c64d6682e68c82df159877b73803e198.mesh"]
 
 [params]
 

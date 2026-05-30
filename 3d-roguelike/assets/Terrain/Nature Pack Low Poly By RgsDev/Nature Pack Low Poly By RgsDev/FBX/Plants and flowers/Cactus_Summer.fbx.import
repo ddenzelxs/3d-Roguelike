@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://7iea2uhjkvqa"
-path="res://.godot/imported/Cactus_Summer.fbx-f48567ea09069a7301764d01b5a39e0f.scn"
+path="res://.godot/imported/Cactus_Summer.fbx-1910267d091cd31cdf0f3410ffa8087a.scn"
 
 [deps]
 
-source_file="res://assets/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/FBX/Plants and flowers/Cactus_Summer.fbx"
-dest_files=["res://.godot/imported/Cactus_Summer.fbx-f48567ea09069a7301764d01b5a39e0f.scn"]
+source_file="res://assets/Terrain/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/FBX/Plants and flowers/Cactus_Summer.fbx"
+dest_files=["res://.godot/imported/Cactus_Summer.fbx-1910267d091cd31cdf0f3410ffa8087a.scn"]
 
 [params]
 

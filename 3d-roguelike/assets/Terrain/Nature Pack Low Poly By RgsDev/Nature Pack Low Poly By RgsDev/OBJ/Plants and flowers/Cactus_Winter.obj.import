@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://di8p13dafim16"
-path="res://.godot/imported/Cactus_Winter.obj-ce1fa3d76838fc45a7b957eb236660b5.mesh"
+path="res://.godot/imported/Cactus_Winter.obj-d77586bf8a432b25dac49600152c2e49.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Cactus_Winter.obj-ce1fa3d76838fc45a7b957eb236660b5.mesh"]
+files=["res://.godot/imported/Cactus_Winter.obj-d77586bf8a432b25dac49600152c2e49.mesh"]
 
-source_file="res://assets/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Plants and flowers/Cactus_Winter.obj"
-dest_files=["res://.godot/imported/Cactus_Winter.obj-ce1fa3d76838fc45a7b957eb236660b5.mesh", "res://.godot/imported/Cactus_Winter.obj-ce1fa3d76838fc45a7b957eb236660b5.mesh"]
+source_file="res://assets/Terrain/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Plants and flowers/Cactus_Winter.obj"
+dest_files=["res://.godot/imported/Cactus_Winter.obj-d77586bf8a432b25dac49600152c2e49.mesh", "res://.godot/imported/Cactus_Winter.obj-d77586bf8a432b25dac49600152c2e49.mesh"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://doa5s33nhrwpl"
-path="res://.godot/imported/ground.cliff.ramp.glb-2cb89f79206bb0e8d1d12174cd367673.scn"
+path="res://.godot/imported/ground.cliff.ramp.glb-3f9c690716aae739272229cf3dba85b7.scn"
 
 [deps]
 
-source_file="res://assets/lowpolychill/lowpolychill/models/ground.cliff.ramp.glb"
-dest_files=["res://.godot/imported/ground.cliff.ramp.glb-2cb89f79206bb0e8d1d12174cd367673.scn"]
+source_file="res://assets/Terrain/lowpolychill/lowpolychill/models/ground.cliff.ramp.glb"
+dest_files=["res://.godot/imported/ground.cliff.ramp.glb-3f9c690716aae739272229cf3dba85b7.scn"]
 
 [params]
 

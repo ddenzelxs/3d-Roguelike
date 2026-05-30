@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://cth2irwf0d7cp"
-path="res://.godot/imported/Broken_Tree_Autumn.obj-4f0943a0b1c86141b94776f5521e9b89.mesh"
+path="res://.godot/imported/Broken_Tree_Autumn.obj-625d4c410adc69f9ab17d54c4fc523ed.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Broken_Tree_Autumn.obj-4f0943a0b1c86141b94776f5521e9b89.mesh"]
+files=["res://.godot/imported/Broken_Tree_Autumn.obj-625d4c410adc69f9ab17d54c4fc523ed.mesh"]
 
-source_file="res://assets/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Trees/Broken_Tree_Autumn.obj"
-dest_files=["res://.godot/imported/Broken_Tree_Autumn.obj-4f0943a0b1c86141b94776f5521e9b89.mesh", "res://.godot/imported/Broken_Tree_Autumn.obj-4f0943a0b1c86141b94776f5521e9b89.mesh"]
+source_file="res://assets/Terrain/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Trees/Broken_Tree_Autumn.obj"
+dest_files=["res://.godot/imported/Broken_Tree_Autumn.obj-625d4c410adc69f9ab17d54c4fc523ed.mesh", "res://.godot/imported/Broken_Tree_Autumn.obj-625d4c410adc69f9ab17d54c4fc523ed.mesh"]
 
 [params]
 

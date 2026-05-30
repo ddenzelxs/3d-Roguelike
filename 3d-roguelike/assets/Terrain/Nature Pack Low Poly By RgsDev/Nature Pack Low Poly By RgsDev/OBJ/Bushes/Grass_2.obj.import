@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://bi5nnp0aams02"
-path="res://.godot/imported/Grass_2.obj-5341c5bdd203d6c1b90cacd34b02c29e.mesh"
+path="res://.godot/imported/Grass_2.obj-f169b0a12667dcd0f7c77564528a431a.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Grass_2.obj-5341c5bdd203d6c1b90cacd34b02c29e.mesh"]
+files=["res://.godot/imported/Grass_2.obj-f169b0a12667dcd0f7c77564528a431a.mesh"]
 
-source_file="res://assets/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Bushes/Grass_2.obj"
-dest_files=["res://.godot/imported/Grass_2.obj-5341c5bdd203d6c1b90cacd34b02c29e.mesh", "res://.godot/imported/Grass_2.obj-5341c5bdd203d6c1b90cacd34b02c29e.mesh"]
+source_file="res://assets/Terrain/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Bushes/Grass_2.obj"
+dest_files=["res://.godot/imported/Grass_2.obj-f169b0a12667dcd0f7c77564528a431a.mesh", "res://.godot/imported/Grass_2.obj-f169b0a12667dcd0f7c77564528a431a.mesh"]
 
 [params]
 

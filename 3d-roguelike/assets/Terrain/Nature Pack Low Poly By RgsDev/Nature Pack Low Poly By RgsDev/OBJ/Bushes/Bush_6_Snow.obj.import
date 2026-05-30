@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://cd0qfhk8texj0"
-path="res://.godot/imported/Bush_6_Snow.obj-2f9f2ea5232a30e936e920b037deb408.mesh"
+path="res://.godot/imported/Bush_6_Snow.obj-9fda2c857b8263426b5ccaa4987cbbba.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Bush_6_Snow.obj-2f9f2ea5232a30e936e920b037deb408.mesh"]
+files=["res://.godot/imported/Bush_6_Snow.obj-9fda2c857b8263426b5ccaa4987cbbba.mesh"]
 
-source_file="res://assets/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Bushes/Bush_6_Snow.obj"
-dest_files=["res://.godot/imported/Bush_6_Snow.obj-2f9f2ea5232a30e936e920b037deb408.mesh", "res://.godot/imported/Bush_6_Snow.obj-2f9f2ea5232a30e936e920b037deb408.mesh"]
+source_file="res://assets/Terrain/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Bushes/Bush_6_Snow.obj"
+dest_files=["res://.godot/imported/Bush_6_Snow.obj-9fda2c857b8263426b5ccaa4987cbbba.mesh", "res://.godot/imported/Bush_6_Snow.obj-9fda2c857b8263426b5ccaa4987cbbba.mesh"]
 
 [params]
 

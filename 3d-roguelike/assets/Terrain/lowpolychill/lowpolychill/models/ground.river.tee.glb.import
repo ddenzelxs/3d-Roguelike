@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://hompyg3b8r4n"
-path="res://.godot/imported/ground.river.tee.glb-b022c5e4ea230ece22d1e2d6537d618e.scn"
+path="res://.godot/imported/ground.river.tee.glb-edfa7e12d833e721cb51b535790b739a.scn"
 
 [deps]
 
-source_file="res://assets/lowpolychill/lowpolychill/models/ground.river.tee.glb"
-dest_files=["res://.godot/imported/ground.river.tee.glb-b022c5e4ea230ece22d1e2d6537d618e.scn"]
+source_file="res://assets/Terrain/lowpolychill/lowpolychill/models/ground.river.tee.glb"
+dest_files=["res://.godot/imported/ground.river.tee.glb-edfa7e12d833e721cb51b535790b739a.scn"]
 
 [params]
 

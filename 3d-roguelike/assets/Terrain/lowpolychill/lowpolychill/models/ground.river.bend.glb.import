@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://d06qge0kt7t8t"
-path="res://.godot/imported/ground.river.bend.glb-ae324195e2a5990948ad18a6fb4e8f47.scn"
+path="res://.godot/imported/ground.river.bend.glb-a8eec11bd32e7247b8e4fc6c3e9ef381.scn"
 
 [deps]
 
-source_file="res://assets/lowpolychill/lowpolychill/models/ground.river.bend.glb"
-dest_files=["res://.godot/imported/ground.river.bend.glb-ae324195e2a5990948ad18a6fb4e8f47.scn"]
+source_file="res://assets/Terrain/lowpolychill/lowpolychill/models/ground.river.bend.glb"
+dest_files=["res://.godot/imported/ground.river.bend.glb-a8eec11bd32e7247b8e4fc6c3e9ef381.scn"]
 
 [params]
 

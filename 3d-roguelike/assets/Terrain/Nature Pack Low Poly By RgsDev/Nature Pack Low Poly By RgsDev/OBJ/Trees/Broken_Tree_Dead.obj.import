@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://bo2fbstcdjxcc"
-path="res://.godot/imported/Broken_Tree_Dead.obj-5bee3d621c5f0c2738f90a978dbb0255.mesh"
+path="res://.godot/imported/Broken_Tree_Dead.obj-00101a7501adbfbdf96c84e097831f73.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Broken_Tree_Dead.obj-5bee3d621c5f0c2738f90a978dbb0255.mesh"]
+files=["res://.godot/imported/Broken_Tree_Dead.obj-00101a7501adbfbdf96c84e097831f73.mesh"]
 
-source_file="res://assets/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Trees/Broken_Tree_Dead.obj"
-dest_files=["res://.godot/imported/Broken_Tree_Dead.obj-5bee3d621c5f0c2738f90a978dbb0255.mesh", "res://.godot/imported/Broken_Tree_Dead.obj-5bee3d621c5f0c2738f90a978dbb0255.mesh"]
+source_file="res://assets/Terrain/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Trees/Broken_Tree_Dead.obj"
+dest_files=["res://.godot/imported/Broken_Tree_Dead.obj-00101a7501adbfbdf96c84e097831f73.mesh", "res://.godot/imported/Broken_Tree_Dead.obj-00101a7501adbfbdf96c84e097831f73.mesh"]
 
 [params]
 

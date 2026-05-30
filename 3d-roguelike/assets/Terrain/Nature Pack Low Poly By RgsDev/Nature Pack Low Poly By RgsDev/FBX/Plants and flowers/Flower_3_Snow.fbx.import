@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://8wiiocy2gyr5"
-path="res://.godot/imported/Flower_3_Snow.fbx-de5729a53fb112981af4597c995a0fea.scn"
+path="res://.godot/imported/Flower_3_Snow.fbx-76a53c767f67c418e912a15741a0b48d.scn"
 
 [deps]
 
-source_file="res://assets/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/FBX/Plants and flowers/Flower_3_Snow.fbx"
-dest_files=["res://.godot/imported/Flower_3_Snow.fbx-de5729a53fb112981af4597c995a0fea.scn"]
+source_file="res://assets/Terrain/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/FBX/Plants and flowers/Flower_3_Snow.fbx"
+dest_files=["res://.godot/imported/Flower_3_Snow.fbx-76a53c767f67c418e912a15741a0b48d.scn"]
 
 [params]
 

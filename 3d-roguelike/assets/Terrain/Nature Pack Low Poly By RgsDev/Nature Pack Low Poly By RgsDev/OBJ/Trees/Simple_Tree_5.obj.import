@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://ccagw0tthihvx"
-path="res://.godot/imported/Simple_Tree_5.obj-d96f07bf2a12f36dff0a142a1ac2dc46.mesh"
+path="res://.godot/imported/Simple_Tree_5.obj-c3f0636a02afe35ca9e782573ba66db9.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Simple_Tree_5.obj-d96f07bf2a12f36dff0a142a1ac2dc46.mesh"]
+files=["res://.godot/imported/Simple_Tree_5.obj-c3f0636a02afe35ca9e782573ba66db9.mesh"]
 
-source_file="res://assets/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Trees/Simple_Tree_5.obj"
-dest_files=["res://.godot/imported/Simple_Tree_5.obj-d96f07bf2a12f36dff0a142a1ac2dc46.mesh", "res://.godot/imported/Simple_Tree_5.obj-d96f07bf2a12f36dff0a142a1ac2dc46.mesh"]
+source_file="res://assets/Terrain/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Trees/Simple_Tree_5.obj"
+dest_files=["res://.godot/imported/Simple_Tree_5.obj-c3f0636a02afe35ca9e782573ba66db9.mesh", "res://.godot/imported/Simple_Tree_5.obj-c3f0636a02afe35ca9e782573ba66db9.mesh"]
 
 [params]
 

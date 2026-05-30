@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://4cwltgscn0ok"
-path="res://.godot/imported/Willow_Tree_Spring.fbx-f0682d836afca2c5a6942097bb845ad5.scn"
+path="res://.godot/imported/Willow_Tree_Spring.fbx-07312b362c7863ffdd93b727466395db.scn"
 
 [deps]
 
-source_file="res://assets/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/FBX/Trees/Willow_Tree_Spring.fbx"
-dest_files=["res://.godot/imported/Willow_Tree_Spring.fbx-f0682d836afca2c5a6942097bb845ad5.scn"]
+source_file="res://assets/Terrain/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/FBX/Trees/Willow_Tree_Spring.fbx"
+dest_files=["res://.godot/imported/Willow_Tree_Spring.fbx-07312b362c7863ffdd93b727466395db.scn"]
 
 [params]
 

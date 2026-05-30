@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cad0m5esf8huc"
-path="res://.godot/imported/Broken_Tree_Dead.fbx-799f73a2664667a781e12d991a77df43.scn"
+path="res://.godot/imported/Broken_Tree_Dead.fbx-b0a58d034c0c12d9b452f95280161417.scn"
 
 [deps]
 
-source_file="res://assets/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/FBX/Trees/Broken_Tree_Dead.fbx"
-dest_files=["res://.godot/imported/Broken_Tree_Dead.fbx-799f73a2664667a781e12d991a77df43.scn"]
+source_file="res://assets/Terrain/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/FBX/Trees/Broken_Tree_Dead.fbx"
+dest_files=["res://.godot/imported/Broken_Tree_Dead.fbx-b0a58d034c0c12d9b452f95280161417.scn"]
 
 [params]
 

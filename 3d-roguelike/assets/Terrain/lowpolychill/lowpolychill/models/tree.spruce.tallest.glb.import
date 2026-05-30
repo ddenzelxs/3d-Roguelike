@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bypm34ro7mmid"
-path="res://.godot/imported/tree.spruce.tallest.glb-f947b874f4f632cca625e2323327ab76.scn"
+path="res://.godot/imported/tree.spruce.tallest.glb-5ea9512dc353dacdf49eb00c8950ffc4.scn"
 
 [deps]
 
-source_file="res://assets/lowpolychill/lowpolychill/models/tree.spruce.tallest.glb"
-dest_files=["res://.godot/imported/tree.spruce.tallest.glb-f947b874f4f632cca625e2323327ab76.scn"]
+source_file="res://assets/Terrain/lowpolychill/lowpolychill/models/tree.spruce.tallest.glb"
+dest_files=["res://.godot/imported/tree.spruce.tallest.glb-5ea9512dc353dacdf49eb00c8950ffc4.scn"]
 
 [params]
 

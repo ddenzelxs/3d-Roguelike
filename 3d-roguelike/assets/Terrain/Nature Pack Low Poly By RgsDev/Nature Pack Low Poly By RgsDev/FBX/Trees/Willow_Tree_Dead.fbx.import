@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dmxbvgbd63tlr"
-path="res://.godot/imported/Willow_Tree_Dead.fbx-5c182a6a6d309a68327428628e991602.scn"
+path="res://.godot/imported/Willow_Tree_Dead.fbx-105957626751b7174706f39f8459a3d4.scn"
 
 [deps]
 
-source_file="res://assets/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/FBX/Trees/Willow_Tree_Dead.fbx"
-dest_files=["res://.godot/imported/Willow_Tree_Dead.fbx-5c182a6a6d309a68327428628e991602.scn"]
+source_file="res://assets/Terrain/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/FBX/Trees/Willow_Tree_Dead.fbx"
+dest_files=["res://.godot/imported/Willow_Tree_Dead.fbx-105957626751b7174706f39f8459a3d4.scn"]
 
 [params]
 

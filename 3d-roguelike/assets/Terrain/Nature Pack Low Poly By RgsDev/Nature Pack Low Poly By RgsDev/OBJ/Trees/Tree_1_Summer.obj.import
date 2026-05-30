@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://cjoqilndad2u4"
-path="res://.godot/imported/Tree_1_Summer.obj-482782ccbc631efafbd9d65b2324e827.mesh"
+path="res://.godot/imported/Tree_1_Summer.obj-a54ae5e63b667e7ef8a03765c8571dc5.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Tree_1_Summer.obj-482782ccbc631efafbd9d65b2324e827.mesh"]
+files=["res://.godot/imported/Tree_1_Summer.obj-a54ae5e63b667e7ef8a03765c8571dc5.mesh"]
 
-source_file="res://assets/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Trees/Tree_1_Summer.obj"
-dest_files=["res://.godot/imported/Tree_1_Summer.obj-482782ccbc631efafbd9d65b2324e827.mesh", "res://.godot/imported/Tree_1_Summer.obj-482782ccbc631efafbd9d65b2324e827.mesh"]
+source_file="res://assets/Terrain/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Trees/Tree_1_Summer.obj"
+dest_files=["res://.godot/imported/Tree_1_Summer.obj-a54ae5e63b667e7ef8a03765c8571dc5.mesh", "res://.godot/imported/Tree_1_Summer.obj-a54ae5e63b667e7ef8a03765c8571dc5.mesh"]
 
 [params]
 

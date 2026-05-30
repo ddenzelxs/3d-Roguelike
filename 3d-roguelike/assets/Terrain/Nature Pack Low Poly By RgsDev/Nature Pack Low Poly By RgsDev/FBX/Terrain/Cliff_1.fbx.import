@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bixf8xnrqxqvs"
-path="res://.godot/imported/Cliff_1.fbx-b438d9417fd6341f7c3f43d15566f5de.scn"
+path="res://.godot/imported/Cliff_1.fbx-3ea741d57a5f78898193f93fa05356e3.scn"
 
 [deps]
 
-source_file="res://assets/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/FBX/Terrain/Cliff_1.fbx"
-dest_files=["res://.godot/imported/Cliff_1.fbx-b438d9417fd6341f7c3f43d15566f5de.scn"]
+source_file="res://assets/Terrain/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/FBX/Terrain/Cliff_1.fbx"
+dest_files=["res://.godot/imported/Cliff_1.fbx-3ea741d57a5f78898193f93fa05356e3.scn"]
 
 [params]
 

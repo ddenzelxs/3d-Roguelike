@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://c5o1t0qhs1a48"
-path="res://.godot/imported/Oak_Tree_Winter.obj-c790fa0f4e4e2578f699fbd458aae9a7.mesh"
+path="res://.godot/imported/Oak_Tree_Winter.obj-f363a291ed068c7b347414c464ac633e.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Oak_Tree_Winter.obj-c790fa0f4e4e2578f699fbd458aae9a7.mesh"]
+files=["res://.godot/imported/Oak_Tree_Winter.obj-f363a291ed068c7b347414c464ac633e.mesh"]
 
-source_file="res://assets/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Trees/Oak_Tree_Winter.obj"
-dest_files=["res://.godot/imported/Oak_Tree_Winter.obj-c790fa0f4e4e2578f699fbd458aae9a7.mesh", "res://.godot/imported/Oak_Tree_Winter.obj-c790fa0f4e4e2578f699fbd458aae9a7.mesh"]
+source_file="res://assets/Terrain/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Trees/Oak_Tree_Winter.obj"
+dest_files=["res://.godot/imported/Oak_Tree_Winter.obj-f363a291ed068c7b347414c464ac633e.mesh", "res://.godot/imported/Oak_Tree_Winter.obj-f363a291ed068c7b347414c464ac633e.mesh"]
 
 [params]
 

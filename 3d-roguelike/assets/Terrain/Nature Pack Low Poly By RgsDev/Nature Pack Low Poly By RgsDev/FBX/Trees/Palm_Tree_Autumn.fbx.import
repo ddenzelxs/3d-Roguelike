@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://xocfuqkjnx86"
-path="res://.godot/imported/Palm_Tree_Autumn.fbx-fed7de2ee6c075950e34a1939ab6e83d.scn"
+path="res://.godot/imported/Palm_Tree_Autumn.fbx-aa5141a01df3a70cbfaeb33fe83cdb0a.scn"
 
 [deps]
 
-source_file="res://assets/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/FBX/Trees/Palm_Tree_Autumn.fbx"
-dest_files=["res://.godot/imported/Palm_Tree_Autumn.fbx-fed7de2ee6c075950e34a1939ab6e83d.scn"]
+source_file="res://assets/Terrain/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/FBX/Trees/Palm_Tree_Autumn.fbx"
+dest_files=["res://.godot/imported/Palm_Tree_Autumn.fbx-aa5141a01df3a70cbfaeb33fe83cdb0a.scn"]
 
 [params]
 

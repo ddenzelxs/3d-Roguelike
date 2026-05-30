@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://sssefha3xccu"
-path="res://.godot/imported/Clouds_2.fbx-9040fc2467b9e6157a8a31326a171106.scn"
+path="res://.godot/imported/Clouds_2.fbx-78323cd362c09602b6b9694cac1295fe.scn"
 
 [deps]
 
-source_file="res://assets/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/FBX/Clouds/Clouds_2.fbx"
-dest_files=["res://.godot/imported/Clouds_2.fbx-9040fc2467b9e6157a8a31326a171106.scn"]
+source_file="res://assets/Terrain/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/FBX/Clouds/Clouds_2.fbx"
+dest_files=["res://.godot/imported/Clouds_2.fbx-78323cd362c09602b6b9694cac1295fe.scn"]
 
 [params]
 

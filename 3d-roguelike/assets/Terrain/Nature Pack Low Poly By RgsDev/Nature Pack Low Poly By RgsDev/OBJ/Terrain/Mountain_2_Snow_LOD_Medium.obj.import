@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://cq11k6ljoe0gd"
-path="res://.godot/imported/Mountain_2_Snow_LOD_Medium.obj-0da30a0eced7e882d386a1de642219a0.mesh"
+path="res://.godot/imported/Mountain_2_Snow_LOD_Medium.obj-402ba187b3d5e852dd404b132a389948.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Mountain_2_Snow_LOD_Medium.obj-0da30a0eced7e882d386a1de642219a0.mesh"]
+files=["res://.godot/imported/Mountain_2_Snow_LOD_Medium.obj-402ba187b3d5e852dd404b132a389948.mesh"]
 
-source_file="res://assets/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Terrain/Mountain_2_Snow_LOD_Medium.obj"
-dest_files=["res://.godot/imported/Mountain_2_Snow_LOD_Medium.obj-0da30a0eced7e882d386a1de642219a0.mesh", "res://.godot/imported/Mountain_2_Snow_LOD_Medium.obj-0da30a0eced7e882d386a1de642219a0.mesh"]
+source_file="res://assets/Terrain/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Terrain/Mountain_2_Snow_LOD_Medium.obj"
+dest_files=["res://.godot/imported/Mountain_2_Snow_LOD_Medium.obj-402ba187b3d5e852dd404b132a389948.mesh", "res://.godot/imported/Mountain_2_Snow_LOD_Medium.obj-402ba187b3d5e852dd404b132a389948.mesh"]
 
 [params]
 

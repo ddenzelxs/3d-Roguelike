@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://da6m0iewoiuv7"
-path="res://.godot/imported/Willow_Tree_Autumn.fbx-67146126a6504ff7f999f1d93f89c3ce.scn"
+path="res://.godot/imported/Willow_Tree_Autumn.fbx-289576cb863a632bd81f57569d53d76a.scn"
 
 [deps]
 
-source_file="res://assets/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/FBX/Trees/Willow_Tree_Autumn.fbx"
-dest_files=["res://.godot/imported/Willow_Tree_Autumn.fbx-67146126a6504ff7f999f1d93f89c3ce.scn"]
+source_file="res://assets/Terrain/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/FBX/Trees/Willow_Tree_Autumn.fbx"
+dest_files=["res://.godot/imported/Willow_Tree_Autumn.fbx-289576cb863a632bd81f57569d53d76a.scn"]
 
 [params]
 

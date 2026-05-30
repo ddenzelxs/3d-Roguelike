@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://crxlbc0cdwky1"
-path="res://.godot/imported/Pine_Tree_2_Dead.obj-82ee61d6bd4ced6bac4db9e0b206fae0.mesh"
+path="res://.godot/imported/Pine_Tree_2_Dead.obj-12fe0a7428b38d999bce9064e380f36e.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Pine_Tree_2_Dead.obj-82ee61d6bd4ced6bac4db9e0b206fae0.mesh"]
+files=["res://.godot/imported/Pine_Tree_2_Dead.obj-12fe0a7428b38d999bce9064e380f36e.mesh"]
 
-source_file="res://assets/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Trees/Pine_Tree_2_Dead.obj"
-dest_files=["res://.godot/imported/Pine_Tree_2_Dead.obj-82ee61d6bd4ced6bac4db9e0b206fae0.mesh", "res://.godot/imported/Pine_Tree_2_Dead.obj-82ee61d6bd4ced6bac4db9e0b206fae0.mesh"]
+source_file="res://assets/Terrain/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/OBJ/Trees/Pine_Tree_2_Dead.obj"
+dest_files=["res://.godot/imported/Pine_Tree_2_Dead.obj-12fe0a7428b38d999bce9064e380f36e.mesh", "res://.godot/imported/Pine_Tree_2_Dead.obj-12fe0a7428b38d999bce9064e380f36e.mesh"]
 
 [params]
 

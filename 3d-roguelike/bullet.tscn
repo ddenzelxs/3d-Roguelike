@@ -2,15 +2,17 @@
 
 [ext_resource type="Script" uid="uid://cp2pbeirk36uw" path="res://bullet.gd" id="1_v7oki"]
 
-[sub_resource type="SphereMesh" id="SphereMesh_rtl8c"]
-
 [sub_resource type="SphereShape3D" id="SphereShape3D_v7oki"]
+
+[sub_resource type="SphereMesh" id="SphereMesh_rtl8c"]
 
 [node name="Bullet" type="Area3D" unique_id=1475219544]
 script = ExtResource("1_v7oki")
 
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=185968699]
+shape = SubResource("SphereShape3D_v7oki")
+
 [node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1913030931]
 mesh = SubResource("SphereMesh_rtl8c")
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=185968699]
-shape = SubResource("SphereShape3D_v7oki")
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

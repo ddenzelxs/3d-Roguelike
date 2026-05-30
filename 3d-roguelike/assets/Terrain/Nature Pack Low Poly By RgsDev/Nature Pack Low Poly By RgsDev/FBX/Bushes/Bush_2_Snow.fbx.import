@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://da6vd6vsxtf5i"
-path="res://.godot/imported/Bush_2_Snow.fbx-b766d47afa673c1dae24969a3e2a2231.scn"
+path="res://.godot/imported/Bush_2_Snow.fbx-bfb363fe1b42f29d114f93617b9a08d5.scn"
 
 [deps]
 
-source_file="res://assets/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/FBX/Bushes/Bush_2_Snow.fbx"
-dest_files=["res://.godot/imported/Bush_2_Snow.fbx-b766d47afa673c1dae24969a3e2a2231.scn"]
+source_file="res://assets/Terrain/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/FBX/Bushes/Bush_2_Snow.fbx"
+dest_files=["res://.godot/imported/Bush_2_Snow.fbx-bfb363fe1b42f29d114f93617b9a08d5.scn"]
 
 [params]
 

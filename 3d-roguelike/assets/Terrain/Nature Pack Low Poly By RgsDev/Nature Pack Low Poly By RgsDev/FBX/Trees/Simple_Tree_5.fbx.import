@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dh4so4tu3vqyg"
-path="res://.godot/imported/Simple_Tree_5.fbx-f227ed9bba11ee1a644d77717638acf8.scn"
+path="res://.godot/imported/Simple_Tree_5.fbx-42415f59ee7850dd14f27f0a1fcba4d3.scn"
 
 [deps]
 
-source_file="res://assets/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/FBX/Trees/Simple_Tree_5.fbx"
-dest_files=["res://.godot/imported/Simple_Tree_5.fbx-f227ed9bba11ee1a644d77717638acf8.scn"]
+source_file="res://assets/Terrain/Nature Pack Low Poly By RgsDev/Nature Pack Low Poly By RgsDev/FBX/Trees/Simple_Tree_5.fbx"
+dest_files=["res://.godot/imported/Simple_Tree_5.fbx-42415f59ee7850dd14f27f0a1fcba4d3.scn"]
 
 [params]
 
