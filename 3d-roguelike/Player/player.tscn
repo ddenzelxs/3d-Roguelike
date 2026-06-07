@@ -13,8 +13,13 @@
 [ext_resource type="Script" uid="uid://iq3uko2v8hlx" path="res://Player/StateMachine/PlayerStateMachine/States/fall.gd" id="10_p5o4e"]
 [ext_resource type="Script" uid="uid://bgadg81bmds7k" path="res://Player/StateMachine/PlayerStateMachine/States/sprint_jump.gd" id="12_5htga"]
 [ext_resource type="Script" uid="uid://c4183hyff7guw" path="res://Player/StateMachine/PlayerStateMachine/States/sprint_fall.gd" id="13_p5o4e"]
+[ext_resource type="PackedScene" uid="uid://b7x5cs3hihs8g" path="res://assets/Character/Player/Characters/gltf/Rogue.glb" id="14_gu6f8"]
+[ext_resource type="AnimationLibrary" uid="uid://dto2r6kyipo03" path="res://assets/Character/Player/Animations/gltf/Rig_Medium/Rig_Medium_General.glb" id="15_lfmf2"]
+[ext_resource type="AnimationLibrary" uid="uid://b26fttva1plm8" path="res://assets/Character/Player/Animations/gltf/Rig_Medium/Rig_Medium_MovementBasic.glb" id="16_pisgm"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_4flbx"]
+radius = 0.9511719
+height = 2.3769531
 
 [sub_resource type="CapsuleMesh" id="CapsuleMesh_sh265"]
 
@@ -31,16 +36,18 @@ script = ExtResource("1_4flbx")
 bullet_scene = ExtResource("2_sweqy")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=455750859]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.0817142, 0)
 shape = SubResource("CapsuleShape3D_4flbx")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=273153650]
+visible = false
 mesh = SubResource("CapsuleMesh_sh265")
 
 [node name="AimTarget" type="Marker3D" parent="." unique_id=1534624705]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
 
 [node name="CameraSystem" type="Node3D" parent="." unique_id=418234313 node_paths=PackedStringArray("character", "edge_spring_arm", "rear_spring_arm", "camera")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+transform = Transform3D(2.3099113, 0, 0, 0, 0.9596582, 0.53204364, 0, -0.28116924, 1.815917, 0, 2.1260319, 2.0219393)
 script = ExtResource("3_i3pqv")
 character = NodePath("..")
 edge_spring_arm = NodePath("EdgeSpringArm")
@@ -75,7 +82,7 @@ shape = SubResource("BoxShape3D_2hs0m")
 script = ExtResource("3_hqtel")
 
 [node name="WeaponPivot" type="Marker3D" parent="." unique_id=1094587119]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, -1.5)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.34764785, 1.0793123, -1.5)
 
 [node name="StateMachine" type="Node" parent="." unique_id=1368384633 node_paths=PackedStringArray("start_state")]
 script = ExtResource("6_fhl08")
@@ -101,3 +108,11 @@ script = ExtResource("12_5htga")
 
 [node name="SprintFall" type="Node" parent="StateMachine" unique_id=2060906766]
 script = ExtResource("13_p5o4e")
+
+[node name="Rogue" parent="." unique_id=1364746951 instance=ExtResource("14_gu6f8")]
+transform = Transform3D(-0.9994827, 0, -0.03216085, 0, 1, 0, 0.03216085, 0, -0.9994827, 0, 0, 0)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1731973680]
+root_node = NodePath("../Rogue")
+libraries/Rig_Medium_General = ExtResource("15_lfmf2")
+libraries/Rig_Medium_MovementBasic = ExtResource("16_pisgm")

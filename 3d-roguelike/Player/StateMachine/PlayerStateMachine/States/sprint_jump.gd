@@ -2,6 +2,7 @@ extends Motion
 
 func _enter() -> void:
 	print(name)
+	$"../../AnimationPlayer".play("Rig_Medium_MovementBasic/Jump_Full_Long")
 	jump()
 	
 func _update(delta: float) -> void:

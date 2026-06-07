@@ -3,6 +3,7 @@ extends Motion
 func _enter() -> void:
 	print(name)
 	jump()
+	$"../../AnimationPlayer".play("Rig_Medium_MovementBasic/Jump_Full_Long")
 	
 func _update(delta: float) -> void:
 	# Player cant change direction midair

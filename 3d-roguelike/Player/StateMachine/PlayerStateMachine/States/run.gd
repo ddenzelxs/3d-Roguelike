@@ -2,6 +2,7 @@ extends Motion
 
 func _enter() -> void:
 	print(name)
+	$"../../AnimationPlayer".play("Rig_Medium_MovementBasic/Walking_A")
 
 func _state_input(event: InputEvent) -> void:
 	if event.is_action_pressed("jump"):
