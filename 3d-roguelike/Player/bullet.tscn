@@ -1,8 +1,11 @@
 [gd_scene format=3 uid="uid://dtsw5w0as5jr6"]
 
 [ext_resource type="Script" uid="uid://cp2pbeirk36uw" path="res://Player/bullet.gd" id="1_v7oki"]
+[ext_resource type="PackedScene" uid="uid://bninflv72erhq" path="res://assets/LowPolyRPGWeapons_Lite_FBX/Arrow_01.fbx" id="2_tqmay"]
 
-[sub_resource type="SphereShape3D" id="SphereShape3D_v7oki"]
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_d7yj7"]
+radius = 0.024902344
+height = 0.638031
 
 [sub_resource type="SphereMesh" id="SphereMesh_rtl8c"]
 
@@ -10,9 +13,14 @@
 script = ExtResource("1_v7oki")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=185968699]
-shape = SubResource("SphereShape3D_v7oki")
+transform = Transform3D(1, 0, 0, 0, 0.018150378, 0.99983525, 0, -0.99983525, 0.018150378, 0, 0.0048074354, -0.016725417)
+shape = SubResource("CapsuleShape3D_d7yj7")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1913030931]
+visible = false
 mesh = SubResource("SphereMesh_rtl8c")
+
+[node name="Arrow_01" parent="." unique_id=446899986 instance=ExtResource("2_tqmay")]
+transform = Transform3D(2.757934, 0, 0, 0, 0.0042326823, 2.9417362, 0, -1.0062687, 0.0123738665, 0, 0, 0.2737325)
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]
