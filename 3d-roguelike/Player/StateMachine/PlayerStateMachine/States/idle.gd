@@ -7,6 +7,9 @@ func _enter() -> void:
 func _state_input(event: InputEvent) -> void:
 	if event.is_action_pressed("jump"):
 		finished.emit("Jump")
+		
+	if event.is_action_pressed("aim"):
+		finished.emit("AimIdle")
 
 func _update(delta: float) -> void:
 	set_direction()
