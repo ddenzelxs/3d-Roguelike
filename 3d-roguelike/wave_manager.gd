@@ -5,7 +5,7 @@ extends Node
 signal wave_changed(wave)
 signal gold_changed(amount)
 
-var current_wave := 1
+var current_wave := 0
 var gold := 0
 
 @onready var enemy_container = $"../EnemyContainer"

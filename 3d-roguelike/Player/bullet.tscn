@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://dtsw5w0as5jr6"]
 
-[ext_resource type="Script" uid="uid://cp2pbeirk36uw" path="res://bullet.gd" id="1_v7oki"]
+[ext_resource type="Script" uid="uid://cp2pbeirk36uw" path="res://Player/bullet.gd" id="1_v7oki"]
 
 [sub_resource type="SphereShape3D" id="SphereShape3D_v7oki"]
 

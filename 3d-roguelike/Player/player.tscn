@@ -1,10 +1,15 @@
 [gd_scene format=3 uid="uid://d113ks78yv0mr"]
 
-[ext_resource type="Script" uid="uid://btdnqwcchp04l" path="res://player.gd" id="1_4flbx"]
-[ext_resource type="PackedScene" uid="uid://dtsw5w0as5jr6" path="res://bullet.tscn" id="2_sweqy"]
+[ext_resource type="Script" uid="uid://btdnqwcchp04l" path="res://Player/player.gd" id="1_4flbx"]
+[ext_resource type="PackedScene" uid="uid://dtsw5w0as5jr6" path="res://Player/bullet.tscn" id="2_sweqy"]
 [ext_resource type="Script" uid="uid://cu5xmkolsxwst" path="res://health_component.gd" id="3_hqtel"]
-[ext_resource type="Script" uid="uid://bp5eg2yrig6sn" path="res://camera_system.gd" id="3_i3pqv"]
-[ext_resource type="Script" uid="uid://dg8pls22m4ihb" path="res://sword_hitbox.gd" id="3_sweqy"]
+[ext_resource type="Script" uid="uid://bp5eg2yrig6sn" path="res://Player/camera_system.gd" id="3_i3pqv"]
+[ext_resource type="Script" uid="uid://dg8pls22m4ihb" path="res://Player/sword_hitbox.gd" id="3_sweqy"]
+[ext_resource type="Script" uid="uid://xb2d5mjufaxc" path="res://Player/StateMachine/PlayerStateMachine/player_state_machine.gd" id="6_fhl08"]
+[ext_resource type="Script" uid="uid://dg7bxms2u70wa" path="res://Player/StateMachine/PlayerStateMachine/States/idle.gd" id="7_x3vf3"]
+[ext_resource type="Script" uid="uid://dw1qnxc5ecs1u" path="res://Player/StateMachine/PlayerStateMachine/States/run.gd" id="8_apopc"]
+[ext_resource type="Script" uid="uid://dxqe25orpoy63" path="res://Player/StateMachine/PlayerStateMachine/States/jump.gd" id="9_5htga"]
+[ext_resource type="Script" uid="uid://iq3uko2v8hlx" path="res://Player/StateMachine/PlayerStateMachine/States/fall.gd" id="10_p5o4e"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_4flbx"]
 
@@ -68,3 +73,19 @@ script = ExtResource("3_hqtel")
 
 [node name="WeaponPivot" type="Marker3D" parent="." unique_id=1094587119]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, -1.5)
+
+[node name="StateMachine" type="Node" parent="." unique_id=1368384633 node_paths=PackedStringArray("start_state")]
+script = ExtResource("6_fhl08")
+start_state = NodePath("Idle")
+
+[node name="Idle" type="Node" parent="StateMachine" unique_id=1935281402]
+script = ExtResource("7_x3vf3")
+
+[node name="Run" type="Node" parent="StateMachine" unique_id=1468686849]
+script = ExtResource("8_apopc")
+
+[node name="Jump" type="Node" parent="StateMachine" unique_id=199979666]
+script = ExtResource("9_5htga")
+
+[node name="Fall" type="Node" parent="StateMachine" unique_id=270593607]
+script = ExtResource("10_p5o4e")
