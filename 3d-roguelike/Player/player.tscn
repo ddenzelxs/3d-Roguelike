@@ -6,6 +6,7 @@
 [ext_resource type="Script" uid="uid://bp5eg2yrig6sn" path="res://Player/camera_system.gd" id="3_i3pqv"]
 [ext_resource type="Script" uid="uid://dg8pls22m4ihb" path="res://Player/sword_hitbox.gd" id="3_sweqy"]
 [ext_resource type="Script" uid="uid://xb2d5mjufaxc" path="res://Player/StateMachine/PlayerStateMachine/player_state_machine.gd" id="6_fhl08"]
+[ext_resource type="Resource" uid="uid://4h05xvn667ti" path="res://Player/player_movement_stats.tres" id="7_o28un"]
 [ext_resource type="Script" uid="uid://dg7bxms2u70wa" path="res://Player/StateMachine/PlayerStateMachine/States/idle.gd" id="7_x3vf3"]
 [ext_resource type="Script" uid="uid://dw1qnxc5ecs1u" path="res://Player/StateMachine/PlayerStateMachine/States/run.gd" id="8_apopc"]
 [ext_resource type="Script" uid="uid://dxqe25orpoy63" path="res://Player/StateMachine/PlayerStateMachine/States/jump.gd" id="9_5htga"]
@@ -82,6 +83,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.34764785, 1.0793123, -1.5)
 
 [node name="StateMachine" type="Node" parent="." unique_id=1368384633 node_paths=PackedStringArray("start_state")]
 script = ExtResource("6_fhl08")
+player_movement_stats = ExtResource("7_o28un")
 start_state = NodePath("Idle")
 
 [node name="Idle" type="Node" parent="StateMachine" unique_id=1935281402]

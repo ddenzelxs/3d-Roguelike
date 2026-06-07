@@ -18,10 +18,10 @@ func _state_input(event: InputEvent) -> void:
 	
 func _update(delta: float) -> void:
 	set_direction()
-	calculate_velocity(SPRINT_SPEED, direction, delta)
-	
+	calculate_velocity(sprint_speed, direction, PLAYER_MOVEMENT_STATS.acceleration, delta)
+
 	sprint_remaining -= delta
-	get_tree().create_timer(SPRINT_DURATION)
+	get_tree().create_timer(PLAYER_MOVEMENT_STATS.sprint_duration)
 	
 	if sprint_remaining <= 0.0:
 		sprint_ended.emit()
