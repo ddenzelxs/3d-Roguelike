@@ -9,7 +9,10 @@
 [ext_resource type="Script" uid="uid://dg7bxms2u70wa" path="res://Player/StateMachine/PlayerStateMachine/States/idle.gd" id="7_x3vf3"]
 [ext_resource type="Script" uid="uid://dw1qnxc5ecs1u" path="res://Player/StateMachine/PlayerStateMachine/States/run.gd" id="8_apopc"]
 [ext_resource type="Script" uid="uid://dxqe25orpoy63" path="res://Player/StateMachine/PlayerStateMachine/States/jump.gd" id="9_5htga"]
+[ext_resource type="Script" uid="uid://bkw8rgst4v01t" path="res://Player/StateMachine/PlayerStateMachine/States/sprint.gd" id="9_apopc"]
 [ext_resource type="Script" uid="uid://iq3uko2v8hlx" path="res://Player/StateMachine/PlayerStateMachine/States/fall.gd" id="10_p5o4e"]
+[ext_resource type="Script" uid="uid://bgadg81bmds7k" path="res://Player/StateMachine/PlayerStateMachine/States/sprint_jump.gd" id="12_5htga"]
+[ext_resource type="Script" uid="uid://c4183hyff7guw" path="res://Player/StateMachine/PlayerStateMachine/States/sprint_fall.gd" id="13_p5o4e"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_4flbx"]
 
@@ -84,8 +87,17 @@ script = ExtResource("7_x3vf3")
 [node name="Run" type="Node" parent="StateMachine" unique_id=1468686849]
 script = ExtResource("8_apopc")
 
+[node name="Sprint" type="Node" parent="StateMachine" unique_id=848906052]
+script = ExtResource("9_apopc")
+
 [node name="Jump" type="Node" parent="StateMachine" unique_id=199979666]
 script = ExtResource("9_5htga")
 
 [node name="Fall" type="Node" parent="StateMachine" unique_id=270593607]
 script = ExtResource("10_p5o4e")
+
+[node name="SprintJump" type="Node" parent="StateMachine" unique_id=1072711725]
+script = ExtResource("12_5htga")
+
+[node name="SprintFall" type="Node" parent="StateMachine" unique_id=2060906766]
+script = ExtResource("13_p5o4e")

@@ -27,7 +27,7 @@ uv1_triplanar = true
 [node name="root" type="Node3D" unique_id=1205778946]
 
 [node name="Player" parent="." unique_id=422190102 groups=["player"] instance=ExtResource("2_vvh5c")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4.282234, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 10, 0)
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1703029159]
 environment = SubResource("Environment_28aoi")

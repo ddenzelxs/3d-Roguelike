@@ -3,7 +3,8 @@ class_name Motion
 
 signal velocity_updated(vel: Vector3)
 
-const SPEED :float = 10.0
+const SPEED :float = 5.0
+const SPRINT_SPEED :float = 8.0
 const JUMP_VELOCITY : float = 10
 const GRAVITY: float = -9.8
 const ACCELERATION: float = 1000
