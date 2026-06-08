@@ -1,86 +1,52 @@
 extends CharacterBody3D
 
-@export var move_speed := 5.0
-@export var jump_velocity := 4.5
-
 @export var bullet_scene : PackedScene
 
-var gravity = ProjectSettings.get_setting("physics/3d/default_gravity")
-var can_attack := true
+@onready var health = $"HealthComponent"
+var can_attack: bool = true
+var spawn: bool = true
 
 func set_velocity_from_motion(vel: Vector3) -> void:
 	velocity = vel
 
 func _ready():
-
+	if spawn:
+		$"AnimationPlayer".play("Rig_Medium_General/Spawn_Air")
+		await $"AnimationPlayer".animation_finished
+		spawn = false
+		
 	add_to_group("player")
-
-	$HealthComponent.died.connect(_on_died)
+	health.died.connect(_on_died)
 
 func _physics_process(delta):
-	# Add the gravity
-	#if not is_on_floor():
-		#velocity.y -= gravity * delta
-	
-	# Handle Jump
-	#if Input.is_action_just_pressed("jump") and is_on_floor():
-		#velocity.y = jump_velocity
-		
-	#var input_dir = Input.get_vector(
-		#"move_left",
-		#"move_right",
-		#"move_forward",
-		#"move_backward"
-	#)
-	#var direction = (
-		#transform.basis *
-		#Vector3(input_dir.x, 0, input_dir.y)
-	#).normalized()
-	#if direction:
-		#velocity.x = direction.x * move_speed
-		#velocity.z = direction.z * move_speed
-	#else:
-		#velocity.x = move_toward(velocity.x, 0, move_speed)
-		#velocity.z = move_toward(velocity.z, 0, move_speed)
-		
 	move_and_slide()
-	
 	if Input.is_action_just_pressed("shoot"):
 		shoot()
 		
 	if Input.is_action_just_pressed("attack"):
 		attack()
 
-
 func take_damage(amount : int):
-
-	$HealthComponent.take_damage(amount)
+	health.take_damage(amount)
 
 func _on_died():
-
+	$"AnimationPlayer".play("Rig_Medium_General/Death_A")
+	await $"AnimationPlayer".animation_finished
 	print("Player died")
+	#get_tree().reload_current_scene()
 	
 func attack():
-
 	if not can_attack:
 		return
-
 	can_attack = false
 
 	$SwordHitbox.monitoring = true
-
 	await get_tree().create_timer(0.2).timeout
-
 	$SwordHitbox.monitoring = false
-
 	await get_tree().create_timer(0.3).timeout
-
 	can_attack = true
 
 func shoot():
-
 	var bullet = bullet_scene.instantiate()
-
 	get_tree().current_scene.add_child(bullet)
-
 	bullet.global_transform = $WeaponPivot.global_transform

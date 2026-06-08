@@ -19,6 +19,7 @@
 [ext_resource type="AnimationLibrary" uid="uid://dto2r6kyipo03" path="res://assets/Character/Player/Animations/gltf/Rig_Medium/Rig_Medium_General.glb" id="15_lfmf2"]
 [ext_resource type="Script" uid="uid://7mgpj58y8v72" path="res://Player/StateMachine/PlayerStateMachine/States/aim_walk.gd" id="15_o28un"]
 [ext_resource type="AnimationLibrary" uid="uid://b26fttva1plm8" path="res://assets/Character/Player/Animations/gltf/Rig_Medium/Rig_Medium_MovementBasic.glb" id="16_pisgm"]
+[ext_resource type="Script" uid="uid://00s46s4qwdax" path="res://Player/StateMachine/PlayerStateMachine/States/slash.gd" id="17_n471f"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_4flbx"]
 radius = 0.9511719
@@ -112,6 +113,9 @@ script = ExtResource("14_b1ygp")
 
 [node name="AimWalk" type="Node" parent="StateMachine" unique_id=1907755828]
 script = ExtResource("15_o28un")
+
+[node name="Slash" type="Node" parent="StateMachine" unique_id=1580973804]
+script = ExtResource("17_n471f")
 
 [node name="Rogue" parent="." unique_id=1364746951 instance=ExtResource("14_pisgm")]
 transform = Transform3D(-0.99976546, 0, 0.02165791, 0, 1, 0, -0.02165791, 0, -0.99976546, 0, 0, 0)

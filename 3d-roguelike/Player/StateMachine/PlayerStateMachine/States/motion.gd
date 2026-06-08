@@ -10,14 +10,6 @@ var jump_velocity: float
 var jump_gravity: float
 var fall_gravity: float
 
-#const SPEED :float = 5.0
-#const SPRINT_SPEED :float = 8.0
-#const AIM_SPEED : float = 2.0
-#const JUMP_VELOCITY : float = 10
-#const GRAVITY: float = -9.8
-#const ACCELERATION: float = 1000
-#const SPRINT_DURATION: float = 3.0
-
 static var input_dir : Vector2 = Vector2.ZERO
 static var direction : Vector3 = Vector3.ZERO
 static var velocity : Vector3 = Vector3.ZERO
@@ -28,7 +20,7 @@ const PLAYER_MOVEMENT_STATS = preload("res://Player/player_movement_stats.tres")
 func _ready() -> void:
 	sprint_remaining = PLAYER_MOVEMENT_STATS.sprint_duration
 	velocity_updated.connect(owner.set_velocity_from_motion)
-	speed = PLAYER_MOVEMENT_STATS.get_velocity(PLAYER_MOVEMENT_STATS.jump_distance, 
+	speed = PLAYER_MOVEMENT_STATS.get_velocity(PLAYER_MOVEMENT_STATS.jump_distance,
 	PLAYER_MOVEMENT_STATS.time_to_jump_apex+PLAYER_MOVEMENT_STATS.time_to_land)
 	sprint_speed = PLAYER_MOVEMENT_STATS.get_velocity(PLAYER_MOVEMENT_STATS.sprint_jump_distance, 
 	PLAYER_MOVEMENT_STATS.time_to_jump_apex+PLAYER_MOVEMENT_STATS.time_to_land)

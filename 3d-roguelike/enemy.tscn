@@ -14,9 +14,6 @@ stencil_flags = 2
 [sub_resource type="CapsuleMesh" id="CapsuleMesh_4gyqm"]
 material = SubResource("StandardMaterial3D_4gyqm")
 
-[sub_resource type="SphereShape3D" id="SphereShape3D_qi2p4"]
-radius = 20.0
-
 [node name="Enemy" type="CharacterBody3D" unique_id=1691554510 groups=["enemy"]]
 script = ExtResource("1_7k104")
 
@@ -25,11 +22,6 @@ shape = SubResource("CapsuleShape3D_4gyqm")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1058452637]
 mesh = SubResource("CapsuleMesh_4gyqm")
-
-[node name="DetectionArea" type="Area3D" parent="." unique_id=830870741]
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="DetectionArea" unique_id=1978024862]
-shape = SubResource("SphereShape3D_qi2p4")
 
 [node name="HealthComponent" type="Node" parent="." unique_id=1701918667]
 script = ExtResource("2_4gyqm")
@@ -43,4 +35,9 @@ offset = Vector2(0, 1)
 text = "Health : 100"
 script = ExtResource("3_qi2p4")
 
-[connection signal="body_entered" from="DetectionArea" to="." method="_on_detection_area_body_entered"]
+[node name="Hitbox" type="Area3D" parent="." unique_id=1774506577]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Hitbox" unique_id=70798990]
+shape = SubResource("CapsuleShape3D_4gyqm")
+
+[connection signal="body_entered" from="Hitbox" to="." method="_on_hitbox_body_entered"]

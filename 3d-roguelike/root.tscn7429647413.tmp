@@ -27,7 +27,7 @@ uv1_triplanar = true
 [node name="root" type="Node3D" unique_id=1205778946]
 
 [node name="Player" parent="." unique_id=422190102 groups=["player"] instance=ExtResource("2_vvh5c")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 13.595248, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.2517548, 0)
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1703029159]
 environment = SubResource("Environment_28aoi")
@@ -61,7 +61,7 @@ enemy_scene = ExtResource("4_28aoi")
 [node name="EnemyContainer" type="Node3D" parent="GameManager/WaveManager" unique_id=799000902]
 
 [node name="SpawnPoints" type="Node3D" parent="GameManager/WaveManager" unique_id=2128651816]
-transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 13.595, 0)
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0)
 
 [node name="Spawn1" type="Marker3D" parent="GameManager/WaveManager/SpawnPoints" unique_id=293594031]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.3329146, 10.4032135)
@@ -95,7 +95,6 @@ offset_right = 58.0
 offset_bottom = 88.0
 text = "Gold : 0
 "
-metadata/_edit_use_anchors_ = true
 
 [connection signal="gold_changed" from="GameManager/WaveManager" to="GameManager/UI" method="_update_gold"]
 [connection signal="wave_changed" from="GameManager/WaveManager" to="GameManager/UI" method="_update_wave"]
