@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://com0siytsvaiw"]
+
+[ext_resource type="Texture2D" uid="uid://b4hiuqn4voqtp" path="res://assets/kenney_prototype-textures/PNG/Dark/texture_05.png" id="1_3hlbx"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_fb8os"]
+albedo_color = Color(1, 0.06666667, 1, 1)
+albedo_texture = ExtResource("1_3hlbx")
+uv1_triplanar = true
+
+[node name="Chunk1" type="Node3D" unique_id=643688039]
+
+[node name="ChunkSize" type="CSGCombiner3D" parent="." unique_id=215692297]
+use_collision = true
+
+[node name="CSGBox3D" type="CSGBox3D" parent="ChunkSize" unique_id=1310190466]
+size = Vector3(20, 1, 20)
+material = SubResource("StandardMaterial3D_fb8os")

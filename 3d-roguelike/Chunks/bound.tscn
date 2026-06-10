@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://de1tx6t636ck7"]
+
+[ext_resource type="Texture2D" uid="uid://b4hiuqn4voqtp" path="res://assets/kenney_prototype-textures/PNG/Dark/texture_05.png" id="1_jhadx"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_hm45v"]
+albedo_color = Color(1, 0.06666667, 1, 1)
+albedo_texture = ExtResource("1_jhadx")
+uv1_triplanar = true
+
+[node name="Edge" type="Node3D" unique_id=24291117]
+
+[node name="ChunkSize" type="CSGCombiner3D" parent="." unique_id=2006588626]
+
+[node name="CSGBox3D3" type="CSGBox3D" parent="ChunkSize" unique_id=660018221]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 6.230695, 0)
+size = Vector3(20, 20, 20)
+material = SubResource("StandardMaterial3D_hm45v")
