@@ -7,10 +7,8 @@ var gold := 0
 @onready var map_generator = $MapGenerator
 
 func _ready():
-
 	map_generator.generate_layout(10, 10)
 	map_generator.generate_map()
-
 	player.global_position = map_generator.get_random_spawn_position()
 
 func _process(delta: float) -> void:

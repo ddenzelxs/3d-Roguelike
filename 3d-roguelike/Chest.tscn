@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://bpajbrcrk7lo2"]
+
+[ext_resource type="PackedScene" uid="uid://co0kca7han45s" path="res://assets/Chest/low_poly_treasure_chest_set.glb" id="1_4gslm"]
+[ext_resource type="Script" uid="uid://bg3jn67rhcrto" path="res://Chest/chest.gd" id="1_5udua"]
+
+[node name="Chest" type="Node3D" unique_id=1752579689]
+script = ExtResource("1_5udua")
+
+[node name="Sketchfab_Scene" parent="." unique_id=558493633 instance=ExtResource("1_4gslm")]
+
+[node name="Skeleton3D" parent="Sketchfab_Scene/Sketchfab_model/TreasureChest_FBX/Object_2/RootNode/Object_4" parent_id_path=PackedInt32Array(558493633, 991068794) index="0" unique_id=1230651635]
+bones/1/rotation = Quaternion(-0.49999994, -0.4999999, 0.5000001, 0.50000006)
+bones/2/rotation = Quaternion(1.10478e-07, -4.476528e-07, -0.7071068, 0.7071067)
+
+[node name="Bone001_00" parent="Sketchfab_Scene/Sketchfab_model/TreasureChest_FBX/Object_2/RootNode/Object_4/Skeleton3D" index="0" unique_id=764025929]
+transform = Transform3D(0, -3.2782552e-07, -0.99999994, 1, -1.1920928e-07, 0, -8.940697e-08, -0.99999994, 2.980232e-07, 6.556511e-07, 0.010524668, -0.51771164)
+
+[editable path="Sketchfab_Scene"]

@@ -10,9 +10,6 @@ var layout = []
 func _ready() -> void:
 	randomize()
 	chunk_size = get_chunk_size(chunks[0])
-	generate_layout(10, 10)
-	print(layout)
-	generate_map()
 	
 func get_chunk_size(chunk: PackedScene) -> Vector3:
 	var chunk_instance = chunk.instantiate()

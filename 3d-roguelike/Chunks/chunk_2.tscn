@@ -13,5 +13,6 @@ uv1_triplanar = true
 use_collision = true
 
 [node name="CSGBox3D" type="CSGBox3D" parent="ChunkSize" unique_id=428581333]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.5, 0)
 size = Vector3(20, 1, 20)
 material = SubResource("StandardMaterial3D_p4knu")
