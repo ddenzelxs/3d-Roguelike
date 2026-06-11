@@ -8,13 +8,15 @@ extends CanvasLayer
 
 func _ready():
 	var player = get_tree().current_scene.get_node("Player")
-	var health_component = player.get_node("HealthComponent")
+	var health_component = player.get_node("Component/Health")
+	var gold_component = player.get_node("Component/Gold")
 	health_component.health_changed.connect(_update_health)
+	gold_component.gold_changed.connect(_update_gold)
 
 	_update_health(health_component.current_health)
+	_update_gold(gold_component.gold)
 
 	_update_wave(wave_manager.current_wave)
-	_update_gold(wave_manager.gold)
 
 func _update_health(value):
 	health_label.text = "Health: " + str(value)

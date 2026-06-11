@@ -13,7 +13,3 @@ func _ready():
 
 func _process(delta: float) -> void:
 	spawn_points.global_position = player.global_position
-
-func add_gold(amount):
-	gold += amount
-	print("Gold:", gold)

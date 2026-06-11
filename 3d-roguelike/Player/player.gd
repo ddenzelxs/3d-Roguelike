@@ -2,7 +2,8 @@ extends CharacterBody3D
 
 @export var bullet_scene : PackedScene
 
-@onready var health = $"HealthComponent"
+@onready var health = $"Component/Health"
+@onready var gold = $"Component/Gold"
 var can_attack: bool = true
 var spawn: bool = true
 
@@ -28,6 +29,9 @@ func _physics_process(delta):
 
 func take_damage(amount : int):
 	health.take_damage(amount)
+	
+func add_gold(amount: int):
+	gold.add_gold(amount)
 
 func _on_died():
 	$"AnimationPlayer".play("Rig_Medium_General/Death_A")

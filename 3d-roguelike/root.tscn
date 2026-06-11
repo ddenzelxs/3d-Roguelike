@@ -86,5 +86,4 @@ text = "Gold : 0
 "
 metadata/_edit_use_anchors_ = true
 
-[connection signal="gold_changed" from="GameManager/WaveManager" to="GameManager/UI" method="_update_gold"]
 [connection signal="wave_changed" from="GameManager/WaveManager" to="GameManager/UI" method="_update_wave"]

@@ -3,10 +3,8 @@ extends Node
 @export var enemy_scene : PackedScene
 
 signal wave_changed(wave)
-signal gold_changed(amount)
 
 var current_wave := 1
-var gold := 0
 
 @onready var enemy_container = $EnemyContainer
 @onready var spawn_points = $SpawnPoints
@@ -46,7 +44,3 @@ func _on_enemy_died():
 		current_wave += 1
 		print("Starting wave ", current_wave)
 		start_wave()
-
-func add_gold(amount):
-	gold += amount
-	gold_changed.emit(gold)

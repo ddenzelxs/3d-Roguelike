@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://b1gttpr3qp61y"]
 
 [ext_resource type="Script" uid="uid://g6fw38ieqkt0" path="res://enemy.gd" id="1_7k104"]
-[ext_resource type="Script" uid="uid://cu5xmkolsxwst" path="res://health_component.gd" id="2_4gyqm"]
+[ext_resource type="Script" uid="uid://cu5xmkolsxwst" path="res://Player/health.gd" id="2_4gyqm"]
 [ext_resource type="Script" uid="uid://b1bs8kr5i865f" path="res://enemy_health_label.gd" id="3_qi2p4"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_4gyqm"]

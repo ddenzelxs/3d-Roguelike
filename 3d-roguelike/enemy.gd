@@ -44,8 +44,7 @@ func attack():
 	can_attack = true
 	
 func _on_died():
-	var wave_manager = get_parent().get_parent()
-	wave_manager.add_gold(10)
+	player.add_gold(10)
 	queue_free()
 
 func _on_hitbox_entered(area: Area3D) -> void:
