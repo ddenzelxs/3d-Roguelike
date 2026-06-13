@@ -20,6 +20,28 @@ func _ready():
 	health.died.connect(_on_died)
 
 func _physics_process(delta):
+
+# AI Generate (2372020) id = AIG_0012372020
+	var cam = $CameraSystem.camera
+	if cam:
+		var screen_center = get_viewport().size / 2
+		var origin = cam.project_ray_origin(screen_center)
+		var normal = cam.project_ray_normal(screen_center)
+		
+		var space_state = get_world_3d().direct_space_state
+		if space_state:
+			var query = PhysicsRayQueryParameters3D.create(origin, origin + normal * 1000.0)
+			query.exclude = [get_rid()]
+			var result = space_state.intersect_ray(query)
+			if result:
+				$AimTarget.global_position = result.position
+			else:
+				$AimTarget.global_position = origin + normal * 1000.0
+			
+			# Rotate WeaponPivot to look at the AimTarget
+			$WeaponPivot.look_at($AimTarget.global_position, Vector3.UP)
+# AI Generate (23272020) id = AIG_0012372020
+
 	move_and_slide()
 	if Input.is_action_just_pressed("shoot"):
 		shoot()

@@ -9,6 +9,7 @@
 [ext_resource type="Script" uid="uid://bmbaar4v6eyr7" path="res://ui.gd" id="5_l8v81"]
 [ext_resource type="PackedScene" uid="uid://c141qvjeuwou5" path="res://Chunks/chunk_2.tscn" id="6_tw3kd"]
 [ext_resource type="PackedScene" uid="uid://de1tx6t636ck7" path="res://Chunks/bound.tscn" id="7_tw3kd"]
+[ext_resource type="Script" path="res://crosshair_ui.gd" id="8_crosshair"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_pyidc"]
 sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
@@ -85,5 +86,16 @@ offset_bottom = 88.0
 text = "Gold : 0
 "
 metadata/_edit_use_anchors_ = true
+
+[node name="Crosshair" type="Control" parent="GameManager/UI" unique_id=2026061401]
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("8_crosshair")
 
 [connection signal="wave_changed" from="GameManager/WaveManager" to="GameManager/UI" method="_update_wave"]
