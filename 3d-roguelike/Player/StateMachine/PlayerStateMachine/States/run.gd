@@ -24,3 +24,5 @@ func _update(delta: float) -> void:
 	
 	if not is_on_floor():
 		finished.emit("Fall")
+	
+	input_directon_changed.emit(input_dir)

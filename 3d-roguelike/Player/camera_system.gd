@@ -1,5 +1,7 @@
 extends Node3D
 
+signal mouse_rotated(_rotation: Vector2)
+
 @export var character: CharacterBody3D
 @export var edge_spring_arm: SpringArm3D
 @export var rear_spring_arm: SpringArm3D 
@@ -47,15 +49,16 @@ func _input(event: InputEvent):
 	
 func camera_look(mouse_movement: Vector2) -> void:
 	camera_rotation += mouse_movement
-	camera_rotation.y = clamp(camera_rotation.y, -max_y_rotation, max_y_rotation)
 	
 	transform.basis = Basis()
 	character.transform.basis = Basis()
 	
 	character.rotate_object_local(Vector3(0,1,0), -camera_rotation.x)
 	rotate_object_local(Vector3(1,0,0), -camera_rotation.y)
-	pass
-		
+	
+	camera_rotation.y = clamp(camera_rotation.y, -max_y_rotation, max_y_rotation)
+	mouse_rotated.emit(camera_rotation)
+	
 func swap_camera_alignment() -> void:
 	match current_camera_alignment:
 		CameraAlignment.RIGHT:

@@ -2,10 +2,13 @@
 
 [ext_resource type="PackedScene" uid="uid://b7x5cs3hihs8g" path="res://assets/Character/Player/Characters/gltf/Rogue.glb" id="1_0efhu"]
 [ext_resource type="PackedScene" uid="uid://cm4c3xoxh1t6g" path="res://assets/LowPolyRPGWeapons_Lite_FBX/Bow_01.fbx" id="2_7nvfa"]
+[ext_resource type="Script" uid="uid://cpsemr66x47gs" path="res://rogue.gd" id="2_we0yv"]
 
-[node name="Rogue" unique_id=1364746951 instance=ExtResource("1_0efhu")]
+[node name="Rogue" unique_id=1364746951 node_paths=PackedStringArray("rig") instance=ExtResource("1_0efhu")]
+script = ExtResource("2_we0yv")
+rig = NodePath("Rig_Medium")
 
-[node name="BoneAttachment3D" type="BoneAttachment3D" parent="Rig_Medium/Skeleton3D" parent_id_path=PackedInt32Array(246129655) index="7" unique_id=626311226]
+[node name="BoneAttachment3D" type="BoneAttachment3D" parent="Rig_Medium/Skeleton3D" parent_id_path=PackedInt32Array(1604367858) index="7" unique_id=626311226]
 transform = Transform3D(1.0561198e-05, -0.99999917, 4.5035844e-07, 4.0452986e-07, 3.9085265e-07, 0.9999996, -0.9999995, -1.06319785e-05, 3.51663e-07, -0.7131815, 1.1067611, 5.9604645e-08)
 bone_name = "wrist.r"
 bone_idx = 14

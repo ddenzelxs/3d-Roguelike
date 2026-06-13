@@ -11,3 +11,5 @@ func _update(delta: float) -> void:
 	
 	if is_on_floor(): 
 		finished.emit("Idle")
+	
+	input_directon_changed.emit(input_dir)

@@ -3,7 +3,7 @@
 [ext_resource type="PackedScene" uid="uid://d113ks78yv0mr" path="res://Player/player.tscn" id="2_vvh5c"]
 [ext_resource type="Script" uid="uid://mmmm4dqjxgkv" path="res://wave_manager.gd" id="3_28aoi"]
 [ext_resource type="PackedScene" uid="uid://b1gttpr3qp61y" path="res://enemy.tscn" id="4_28aoi"]
-[ext_resource type="Script" path="res://map_generator.gd" id="4_vyht1"]
+[ext_resource type="Script" uid="uid://bevsdvq31u3ff" path="res://map_generator.gd" id="4_vyht1"]
 [ext_resource type="PackedScene" uid="uid://com0siytsvaiw" path="res://Chunks/chunk_1.tscn" id="5_huihk"]
 [ext_resource type="Script" uid="uid://d4rclygpvhx" path="res://game_manager.gd" id="5_jnlp7"]
 [ext_resource type="Script" uid="uid://bmbaar4v6eyr7" path="res://ui.gd" id="5_l8v81"]

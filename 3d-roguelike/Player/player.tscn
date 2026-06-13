@@ -80,9 +80,10 @@ shape = SubResource("BoxShape3D_2hs0m")
 [node name="WeaponPivot" type="Marker3D" parent="." unique_id=1094587119]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.34764785, 1.0793123, -1.5)
 
-[node name="StateMachine" type="Node" parent="." unique_id=1368384633 node_paths=PackedStringArray("start_state")]
+[node name="StateMachine" type="Node" parent="." unique_id=1368384633 node_paths=PackedStringArray("character_model", "start_state")]
 script = ExtResource("6_fhl08")
 player_movement_stats = ExtResource("7_o28un")
+character_model = NodePath("../Rogue")
 start_state = NodePath("Idle")
 
 [node name="Idle" type="Node" parent="StateMachine" unique_id=1935281402]
@@ -116,7 +117,6 @@ script = ExtResource("15_o28un")
 script = ExtResource("17_n471f")
 
 [node name="Rogue" parent="." unique_id=1364746951 instance=ExtResource("14_pisgm")]
-transform = Transform3D(-0.99976546, 0, 0.02165791, 0, 1, 0, -0.02165791, 0, -0.99976546, 0, 0, 0)
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1731973680]
 root_node = NodePath("../Rogue")
@@ -131,6 +131,7 @@ script = ExtResource("20_7emwf")
 [node name="Health" type="Node" parent="Component" unique_id=1208903636]
 script = ExtResource("3_hqtel")
 
+[connection signal="mouse_rotated" from="CameraSystem" to="Rogue" method="_on_camera_system_mouse_rotated"]
 [connection signal="sprint_ended" from="StateMachine/Sprint" to="CameraSystem" method="_on_sprint_ended"]
 [connection signal="sprint_started" from="StateMachine/Sprint" to="CameraSystem" method="_on_sprint_started"]
 [connection signal="sprint_ended" from="StateMachine/SprintFall" to="CameraSystem" method="_on_sprint_ended"]

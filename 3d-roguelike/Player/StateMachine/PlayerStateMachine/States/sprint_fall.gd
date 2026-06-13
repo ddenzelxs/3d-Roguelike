@@ -22,3 +22,5 @@ func _update(delta: float) -> void:
 		else:
 			sprint_ended.emit()
 			finished.emit("Idle")
+			
+	input_directon_changed.emit(input_dir)

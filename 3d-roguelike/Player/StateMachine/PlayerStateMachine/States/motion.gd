@@ -2,6 +2,8 @@ extends State
 class_name Motion
 
 signal velocity_updated(vel: Vector3)
+#signal animation_state_changed(state: String)
+signal input_directon_changed(_input_dir: Vector2) 
 
 var speed: float
 var sprint_speed: float

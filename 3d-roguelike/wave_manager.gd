@@ -4,7 +4,7 @@ extends Node
 
 signal wave_changed(wave)
 
-var current_wave := 1
+var current_wave := 0
 
 @onready var enemy_container = $EnemyContainer
 @onready var spawn_points = $SpawnPoints

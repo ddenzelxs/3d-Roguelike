@@ -13,6 +13,8 @@ func _update(delta: float) -> void:
 
 	if velocity.y <= 0:
 		finished.emit("Fall")
+		
+	input_directon_changed.emit(input_dir)
 
 func jump() -> void:
 	velocity.y = jump_velocity
