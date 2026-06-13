@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ep8jolkocfos"
+path="res://.godot/imported/lever.obj-fd8f3f1c40475d124a79f3db60c611be.mesh"
+
+[deps]
+
+files=["res://.godot/imported/lever.obj-fd8f3f1c40475d124a79f3db60c611be.mesh"]
+
+source_file="res://assets/kenney platformer/Models/OBJ format/lever.obj"
+dest_files=["res://.godot/imported/lever.obj-fd8f3f1c40475d124a79f3db60c611be.mesh", "res://.godot/imported/lever.obj-fd8f3f1c40475d124a79f3db60c611be.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

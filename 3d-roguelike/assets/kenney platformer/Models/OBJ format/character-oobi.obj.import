@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c5eg3wt80vqak"
+path="res://.godot/imported/character-oobi.obj-d66c4a56056a9857c1b34dfca2039170.mesh"
+
+[deps]
+
+files=["res://.godot/imported/character-oobi.obj-d66c4a56056a9857c1b34dfca2039170.mesh"]
+
+source_file="res://assets/kenney platformer/Models/OBJ format/character-oobi.obj"
+dest_files=["res://.godot/imported/character-oobi.obj-d66c4a56056a9857c1b34dfca2039170.mesh", "res://.godot/imported/character-oobi.obj-d66c4a56056a9857c1b34dfca2039170.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false
