@@ -19,6 +19,7 @@ var move_speed_multiplier: float = 1.0
 var attack_cooldown_multiplier: float = 1.0
 var is_invincible: bool = false
 var is_dead: bool = false
+var is_hit: bool = false
 var invincibility_duration: float = 0.5
 var total_kills: int = 0
 

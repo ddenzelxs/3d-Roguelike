@@ -1,6 +1,6 @@
 extends Node
 
-@export var enemy_scene : PackedScene
+@export var enemy_types : Array[PackedScene]
 
 signal wave_changed(wave)
 
@@ -25,7 +25,8 @@ func start_wave():
 
 func spawn_enemy():
 	await get_tree().create_timer(1.0).timeout
-	var enemy = enemy_scene.instantiate()
+	var random_scene = enemy_types.pick_random()
+	var enemy = random_scene.instantiate()
 	enemy.set_damage(damage * current_wave)
 	enemy.set_gold(gold * current_wave)
 	enemy.set_xp(xp * current_wave)

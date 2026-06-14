@@ -2,7 +2,6 @@
 
 [ext_resource type="PackedScene" uid="uid://d113ks78yv0mr" path="res://Player/player.tscn" id="2_vvh5c"]
 [ext_resource type="Script" uid="uid://mmmm4dqjxgkv" path="res://wave_manager.gd" id="3_28aoi"]
-[ext_resource type="PackedScene" uid="uid://b1gttpr3qp61y" path="res://enemy.tscn" id="4_28aoi"]
 [ext_resource type="PackedScene" uid="uid://do16ed43fpx88" path="res://Chunks/test_chunk.tscn" id="4_gd4vy"]
 [ext_resource type="Script" uid="uid://bevsdvq31u3ff" path="res://map_generator.gd" id="4_vyht1"]
 [ext_resource type="PackedScene" uid="uid://com0siytsvaiw" path="res://Chunks/chunk_1.tscn" id="5_huihk"]
@@ -11,6 +10,8 @@
 [ext_resource type="PackedScene" uid="uid://c141qvjeuwou5" path="res://Chunks/chunk_2.tscn" id="6_tw3kd"]
 [ext_resource type="PackedScene" uid="uid://de1tx6t636ck7" path="res://Chunks/bound.tscn" id="7_tw3kd"]
 [ext_resource type="Script" uid="uid://fgn6l0qnugyb" path="res://crosshair_ui.gd" id="8_crosshair"]
+[ext_resource type="PackedScene" uid="uid://ewm7fmcu17dq" path="res://enemy_mage.tscn" id="9_sq7yr"]
+[ext_resource type="PackedScene" uid="uid://d1lngexs74sj1" path="res://enemy_rogue.tscn" id="10_r3r3k"]
 [ext_resource type="PackedScene" uid="uid://tegykmvsgk0y" path="res://UI/UpgradeMenu.tscn" id="12_qw60f"]
 [ext_resource type="Script" uid="uid://2tvv4tdoxsxi" path="res://UI/upgrade_menu.gd" id="13_eji0w"]
 [ext_resource type="PackedScene" uid="uid://dknbtlwb11lmt" path="res://death_screen.tscn" id="14_qwhpj"]
@@ -51,7 +52,7 @@ bound = ExtResource("7_tw3kd")
 
 [node name="WaveManager" type="Node" parent="GameManager" unique_id=181262002]
 script = ExtResource("3_28aoi")
-enemy_scene = ExtResource("4_28aoi")
+enemy_types = Array[PackedScene]([ExtResource("9_sq7yr"), ExtResource("10_r3r3k")])
 
 [node name="EnemyContainer" type="Node3D" parent="GameManager/WaveManager" unique_id=799000902]
 
