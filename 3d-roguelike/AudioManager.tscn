@@ -1,6 +1,6 @@
-[gd_scene format=3 uid="uid://3grdtxq0noug"]
+[gd_scene format=3 uid="uid://dwitd8eg4k4tn"]
 
-[ext_resource type="Script" uid="uid://bql7quy1mifox" path="res://Managers/audio_manager.gd" id="1_2nh25"]
+[ext_resource type="Script" path="res://audio_manager.gd" id="1_2nh25"]
 [ext_resource type="AudioStream" uid="uid://dvu527grlew7i" path="res://assets/sounds/pipe.mp3" id="2_d16gy"]
 [ext_resource type="AudioStream" uid="uid://4d871f1r3es0" path="res://assets/sounds/cat.mp3" id="3_er85w"]
 [ext_resource type="AudioStream" uid="uid://dwu0dfdw6eeri" path="res://assets/sounds/jump.mp3" id="4_sxe6l"]

@@ -22,6 +22,8 @@ var is_dead: bool = false
 var is_hit: bool = false
 var invincibility_duration: float = 0.5
 var total_kills: int = 0
+var is_fps_mode: bool = false
+var fps_fire_timer: float = 0.0
 
 func set_velocity_from_motion(vel: Vector3) -> void:
 	velocity = vel
@@ -68,11 +70,23 @@ func _physics_process(delta):
 # AI Generate (23272020) id = AIG_0012372020
 
 	move_and_slide()
-	if Input.is_action_just_pressed("shoot"):
-		shoot()
+	
+	# Normal 3rd Person Shooting
+	if not is_fps_mode:
+		if Input.is_action_just_pressed("shoot"):
+			shoot()
+		if Input.is_action_just_pressed("attack"):
+			attack()
+			
+	# JETT FULL-AUTO FPS SHOOTING
+	else:
+		if Input.is_action_pressed("shoot") and fps_fire_timer <= 0:
+			shoot_fps()
+			fps_fire_timer = 0.1 # Fires 10 bullets a second (Vandal fire rate)
 		
-	if Input.is_action_just_pressed("attack"):
-		attack()
+		# Count down the timer
+		if fps_fire_timer > 0:
+			fps_fire_timer -= delta
 
 func take_damage(amount: int):
 	AudioManager.play(AudioManager.player_hit_sound)
@@ -83,17 +97,19 @@ func take_damage(amount: int):
 
 func start_invincibility():
 	is_invincible = true
-
-	# Flash the character model
 	var model = $Rogue
-	var tween = create_tween()
-	tween.set_loops(5)
-	tween.tween_callback(func(): model.visible = false).set_delay(0.05)
-	tween.tween_callback(func(): model.visible = true).set_delay(0.05)
+
+	if not is_fps_mode:
+		var tween = create_tween()
+		tween.set_loops(5)
+		tween.tween_callback(func(): model.visible = false).set_delay(0.05)
+		tween.tween_callback(func(): model.visible = true).set_delay(0.05)
 
 	await get_tree().create_timer(invincibility_duration).timeout
 	is_invincible = false
-	model.visible = true
+	
+	if not is_fps_mode:
+		model.visible = true
 	
 func add_gold(amount: int):
 	gold.add_gold(amount)
@@ -203,18 +219,35 @@ func upgrade_attack_speed(value: float) -> void:
 	print("UPGRADE: Attack cooldown multiplier now ", attack_cooldown_multiplier)
 	
 func fire_enuma_elish():
-	# 1. Crazy screen shake! (3 full seconds, extremely violent intensity)
 	get_tree().call_group("camera", "shake", 5.0, 0.8)
-	
-	# 2. Ear-shattering audio
 	AudioManager.play(AudioManager.enuma)
-	
-	# 3. Spawn the beam
 	var laser = enuma_scene.instantiate()
-	
-	# We add it to the main scene (not the player) so it stays exactly where it was fired
 	get_tree().current_scene.add_child(laser)
-	
-	# 4. Position and rotate it exactly where the player is looking
 	laser.global_transform = global_transform
-	laser.position.y += 5.0 # Lift it off the ground slightly so it shoots from chest height
+	laser.position.y += 5.0 
+	
+func activate_jett_mode():
+	if is_fps_mode: return
+	is_fps_mode = true
+	
+	# Automatically find the FPSCamera no matter where it is hiding!
+	var fps_cam = find_child("FPSCamera", true, false)
+	
+	$CameraSystem.camera.current = false
+	fps_cam.current = true
+	fps_cam.visible = true 
+	
+	$Rogue.visible = false
+
+func shoot_fps():
+	AudioManager.play(AudioManager.vandal) 
+	
+	var bullet = bullet_scene.instantiate()
+	get_tree().current_scene.add_child(bullet)
+	
+	# Automatically find it here too!
+	var fps_cam = find_child("FPSCamera", true, false)
+	bullet.global_transform = fps_cam.global_transform
+	
+	bullet.speed = bullet.speed * bullet_speed_multiplier * 3.0 
+	bullet.damage = (bullet.damage + bullet_damage_bonus) * 5

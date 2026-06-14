@@ -1,8 +1,10 @@
 extends Node
 
 var cheat_code = "cyrene"
-var enuma_code = "enkidu"  # <--- NEW
+var enuma_code = "enkidu"  
+var jett_code = "jett" 
 var current_input = ""
+
 
 func _input(event):
 	if event is InputEventKey and event.pressed and not event.echo:
@@ -15,9 +17,12 @@ func _input(event):
 			if current_input.ends_with(cheat_code):
 				current_input = ""
 				trigger_event()
-			elif current_input.ends_with(enuma_code): # <--- NEW
+			elif current_input.ends_with(enuma_code):
 				current_input = ""
 				trigger_enuma()
+			elif current_input.ends_with(jett_code): # <--- NEW
+				current_input = ""
+				trigger_jett()
 
 func trigger_event():
 	print("CHEAT ACTIVATED: METEOR RAIN")
@@ -31,3 +36,9 @@ func trigger_enuma():
 	var player = get_tree().current_scene.get_node_or_null("Player")
 	if player and player.has_method("fire_enuma_elish"):
 		player.fire_enuma_elish()
+		
+func trigger_jett():
+	print("WATCH THIS!")
+	var player = get_tree().current_scene.get_node_or_null("Player")
+	if player and player.has_method("activate_jett_mode"):
+		player.activate_jett_mode()
