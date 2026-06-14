@@ -18,6 +18,7 @@ config/icon="res://icon.svg"
 [autoload]
 
 AudioManager="*uid://3grdtxq0noug"
+CheatManager="*uid://jvgx2ejvtvqj"
 
 [filesystem]
 

@@ -7,6 +7,8 @@ extends Node
 @export var jump_sound: AudioStream
 @export var level_up_sound: AudioStream
 @export var buy_sound: AudioStream
+@export var meteor_impact: AudioStream
+@export var enuma : AudioStream
 
 # This function spawns a temporary audio player, plays the sound, and deletes itself
 func play(stream: AudioStream, pitch_variance: float = 0.1):

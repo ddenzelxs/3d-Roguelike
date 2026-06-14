@@ -1,7 +1,7 @@
 extends CharacterBody3D
 
 @export var bullet_scene : PackedScene
-
+@onready var enuma_scene = preload("res://EnumaLaser.tscn")
 @onready var health = $"Component/Health"
 @onready var gold = $"Component/Gold"
 @onready var xp = $"Component/Xp"
@@ -201,3 +201,20 @@ func upgrade_sprint_duration(value: float) -> void:
 func upgrade_attack_speed(value: float) -> void:
 	attack_cooldown_multiplier = max(0.2, attack_cooldown_multiplier - value)
 	print("UPGRADE: Attack cooldown multiplier now ", attack_cooldown_multiplier)
+	
+func fire_enuma_elish():
+	# 1. Crazy screen shake! (3 full seconds, extremely violent intensity)
+	get_tree().call_group("camera", "shake", 5.0, 0.8)
+	
+	# 2. Ear-shattering audio
+	AudioManager.play(AudioManager.enuma)
+	
+	# 3. Spawn the beam
+	var laser = enuma_scene.instantiate()
+	
+	# We add it to the main scene (not the player) so it stays exactly where it was fired
+	get_tree().current_scene.add_child(laser)
+	
+	# 4. Position and rotate it exactly where the player is looking
+	laser.global_transform = global_transform
+	laser.position.y += 5.0 # Lift it off the ground slightly so it shoots from chest height
