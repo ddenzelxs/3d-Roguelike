@@ -29,9 +29,29 @@ var current_camera_alignment: int = CameraAlignment.LEFT
 @onready var default_rear_spring_arm_length: float = rear_spring_arm.spring_length
 @onready var default_fov: float = camera.fov
 
-# Called when the node enters the scene tree for the first time.
+# --- NEW: Screen Shake Variables ---
+var shake_intensity: float = 0.0
+var shake_duration: float = 0.0
+
 func _ready() -> void:
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
+	add_to_group("camera") # Make this discoverable globally for screen shake
+
+# --- NEW: Process loop to physically shake the camera offsets ---
+func _process(delta: float) -> void:
+	if shake_duration > 0:
+		shake_duration -= delta
+		# Using the exported 'camera' variable directly
+		camera.h_offset = randf_range(-shake_intensity, shake_intensity)
+		camera.v_offset = randf_range(-shake_intensity, shake_intensity)
+	else:
+		camera.h_offset = 0.0
+		camera.v_offset = 0.0
+
+# --- NEW: Function to trigger the shake from anywhere ---
+func shake(duration: float, intensity: float):
+	shake_duration = duration
+	shake_intensity = intensity
 
 func _input(event: InputEvent):
 	if event.is_action_pressed("ui_cancel"):

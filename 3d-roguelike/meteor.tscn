@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://c2ki46i566v3q"]
+
+[ext_resource type="Script" uid="uid://syswgmhhs3gf" path="res://meteor.gd" id="1_ohe0j"]
+[ext_resource type="PackedScene" uid="uid://bovpoxbp2evgb" path="res://assets/Low Poly Fantasy Weapon Asset Pack (Lite Version)/Low Poly Fantasy Weapon Asset Pack (Lite Version)/Models (Lite)/001_Broad_Sword.fbx" id="2_ohe0j"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ohe0j"]
+size = Vector3(0.65722656, 1.7110596, 0.11529541)
+
+[node name="Meteor" type="Area3D" unique_id=1751686566]
+script = ExtResource("1_ohe0j")
+
+[node name="001_Broad_Sword" parent="." unique_id=263778970 instance=ExtResource("2_ohe0j")]
+transform = Transform3D(-5, 7.54979e-07, 0, -7.54979e-07, -5, 0, 0, 0, 5, -0.10860586, 1.7025319, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=2115740605]
+transform = Transform3D(1.5, 0, 0, 0, 1.5, 0, 0, 0, 2.7, -0.084228516, 0.9613561, -0.014799863)
+shape = SubResource("BoxShape3D_ohe0j")

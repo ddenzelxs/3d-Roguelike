@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://d0r1bknww8uyi"]
+
+[ext_resource type="Script" uid="uid://bvj8sx4hpy5eh" path="res://video_cutscene.gd" id="1_0cp6c"]
+[ext_resource type="VideoStream" uid="uid://ipa5ksle45ol" path="res://0614.ogv" id="2_4spfl"]
+
+[node name="VideoCutscene" type="CanvasLayer" unique_id=100224234]
+layer = 100
+script = ExtResource("1_0cp6c")
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="." unique_id=285059705]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+stream = ExtResource("2_4spfl")
