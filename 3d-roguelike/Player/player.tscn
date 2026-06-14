@@ -22,6 +22,7 @@
 [ext_resource type="Script" uid="uid://00s46s4qwdax" path="res://Player/StateMachine/PlayerStateMachine/States/slash.gd" id="17_n471f"]
 [ext_resource type="Script" uid="uid://ia7nljswfdw0" path="res://Player/gold.gd" id="20_7emwf"]
 [ext_resource type="Script" uid="uid://rdg31uuut3wh" path="res://Player/exp.gd" id="22_hshwv"]
+[ext_resource type="PackedScene" uid="uid://cdpv15vmohy0l" path="res://assets/vandal/vandal_prime_model.glb" id="23_gpjlu"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_4flbx"]
 radius = 0.9511719
@@ -69,6 +70,13 @@ shape = SubResource("SphereShape3D_i3pqv")
 spring_length = 1.75
 
 [node name="Camera3D" type="Camera3D" parent="CameraSystem/EdgeSpringArm/RearSpringArm" unique_id=741193380]
+
+[node name="FPSCamera" type="Camera3D" parent="CameraSystem" unique_id=1913907842]
+transform = Transform3D(0.43291706, 0, 0, 0, 1, 0, 0, 0, 0.5284703, 0, -0.013953209, -0.83559656)
+visible = false
+
+[node name="Sketchfab_Scene" parent="CameraSystem/FPSCamera" unique_id=634407290 instance=ExtResource("23_gpjlu")]
+transform = Transform3D(-4.3711387e-10, 0, -0.01, 0, 0.01, 0, 0.01, 0, -4.3711387e-10, 0.40170163, -0.55573523, -0.5977717)
 
 [node name="SwordHitbox" type="Area3D" parent="." unique_id=1281435588]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, -1)
