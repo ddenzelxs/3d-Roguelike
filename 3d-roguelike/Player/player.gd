@@ -4,8 +4,11 @@ extends CharacterBody3D
 
 @onready var health = $"Component/Health"
 @onready var gold = $"Component/Gold"
+@onready var xp = $"Component/Xp"
+
 var can_attack: bool = true
 var spawn: bool = true
+var threshold_level: int = 100
 
 func set_velocity_from_motion(vel: Vector3) -> void:
 	velocity = vel
@@ -55,6 +58,9 @@ func take_damage(amount : int):
 func add_gold(amount: int):
 	gold.add_gold(amount)
 
+func add_xp(amount: int):
+	xp.add_xp(amount)
+
 func _on_died():
 	$"AnimationPlayer".play("Rig_Medium_General/Death_A")
 	await $"AnimationPlayer".animation_finished
@@ -76,3 +82,12 @@ func shoot():
 	var bullet = bullet_scene.instantiate()
 	get_tree().current_scene.add_child(bullet)
 	bullet.global_transform = $WeaponPivot.global_transform
+
+func add_threshold_level():
+	threshold_level = round(threshold_level * 1.5)
+	
+func level_up():
+	#show UI
+	print("Levelup")
+	xp.reset_xp()
+	add_threshold_level()

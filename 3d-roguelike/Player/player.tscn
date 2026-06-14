@@ -21,6 +21,7 @@
 [ext_resource type="AnimationLibrary" uid="uid://b26fttva1plm8" path="res://assets/Character/Player/Animations/gltf/Rig_Medium/Rig_Medium_MovementBasic.glb" id="16_pisgm"]
 [ext_resource type="Script" uid="uid://00s46s4qwdax" path="res://Player/StateMachine/PlayerStateMachine/States/slash.gd" id="17_n471f"]
 [ext_resource type="Script" uid="uid://ia7nljswfdw0" path="res://Player/gold.gd" id="20_7emwf"]
+[ext_resource type="Script" uid="uid://rdg31uuut3wh" path="res://Player/exp.gd" id="22_hshwv"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_4flbx"]
 radius = 0.9511719
@@ -130,6 +131,9 @@ script = ExtResource("20_7emwf")
 
 [node name="Health" type="Node" parent="Component" unique_id=1208903636]
 script = ExtResource("3_hqtel")
+
+[node name="Xp" type="Node" parent="Component" unique_id=1293548709]
+script = ExtResource("22_hshwv")
 
 [connection signal="mouse_rotated" from="CameraSystem" to="Rogue" method="_on_camera_system_mouse_rotated"]
 [connection signal="sprint_ended" from="StateMachine/Sprint" to="CameraSystem" method="_on_sprint_ended"]

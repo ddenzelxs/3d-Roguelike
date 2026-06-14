@@ -5,7 +5,7 @@ signal aim_exited
 
 func _enter() -> void:
 	aim_entered.emit()
-	print(name)
+	#print(name)
 	# Add Aim Animation Here
 
 func _state_input(event: InputEvent) -> void:

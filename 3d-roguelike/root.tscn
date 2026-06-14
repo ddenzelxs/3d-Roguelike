@@ -9,7 +9,7 @@
 [ext_resource type="Script" uid="uid://bmbaar4v6eyr7" path="res://ui.gd" id="5_l8v81"]
 [ext_resource type="PackedScene" uid="uid://c141qvjeuwou5" path="res://Chunks/chunk_2.tscn" id="6_tw3kd"]
 [ext_resource type="PackedScene" uid="uid://de1tx6t636ck7" path="res://Chunks/bound.tscn" id="7_tw3kd"]
-[ext_resource type="Script" path="res://crosshair_ui.gd" id="8_crosshair"]
+[ext_resource type="Script" uid="uid://fgn6l0qnugyb" path="res://crosshair_ui.gd" id="8_crosshair"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_pyidc"]
 sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
@@ -69,20 +69,24 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.635729, 3.1492114, 0)
 script = ExtResource("5_l8v81")
 
 [node name="HealthLabel" type="Label" parent="GameManager/UI" unique_id=1235381663]
-offset_right = 40.0
-offset_bottom = 23.0
+offset_left = -1.0
+offset_top = 29.0
+offset_right = 91.0
+offset_bottom = 52.0
 text = "Health : 100"
 
 [node name="WaveLabel" type="Label" parent="GameManager/UI" unique_id=767854724]
-offset_top = 20.0
-offset_right = 65.0
-offset_bottom = 43.0
+offset_left = -1.0
+offset_top = 49.0
+offset_right = 64.0
+offset_bottom = 72.0
 text = "Wave : 1"
 
 [node name="GoldLabel" type="Label" parent="GameManager/UI" unique_id=792876284]
-offset_top = 39.0
-offset_right = 58.0
-offset_bottom = 88.0
+offset_left = -1.0
+offset_top = 68.0
+offset_right = 57.0
+offset_bottom = 117.0
 text = "Gold : 0
 "
 metadata/_edit_use_anchors_ = true
@@ -97,5 +101,9 @@ anchor_bottom = 0.5
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("8_crosshair")
+
+[node name="XpBar" type="ProgressBar" parent="GameManager/UI" unique_id=522939480]
+offset_right = 1154.0
+offset_bottom = 27.0
 
 [connection signal="wave_changed" from="GameManager/WaveManager" to="GameManager/UI" method="_update_wave"]

@@ -2,7 +2,7 @@ extends Node
 
 signal gold_changed(gold)
 
-var gold : float
+var gold : int
 
 func _ready():
 	gold = 0

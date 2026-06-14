@@ -3,7 +3,8 @@ extends Motion
 signal sprint_ended
 
 func _enter() -> void:
-	print(name)
+	#print(name)
+	pass
 
 func _update(delta: float) -> void:
 	# Player cant change direction midair

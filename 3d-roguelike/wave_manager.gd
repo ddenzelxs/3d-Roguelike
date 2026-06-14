@@ -4,10 +4,14 @@ extends Node
 
 signal wave_changed(wave)
 
-var current_wave := 0
+var current_wave:int = 1
 
 @onready var enemy_container = $EnemyContainer
 @onready var spawn_points = $SpawnPoints
+
+var damage: int = 5
+var gold: int = 5
+var xp: int = 20
 
 func _ready():
 	await get_tree().process_frame
@@ -22,6 +26,10 @@ func start_wave():
 func spawn_enemy():
 	await get_tree().create_timer(1.0).timeout
 	var enemy = enemy_scene.instantiate()
+	enemy.set_damage(damage * current_wave)
+	enemy.set_gold(gold * current_wave)
+	enemy.set_xp(xp * current_wave)
+	
 	enemy_container.add_child(enemy)
 	var points = []
 	

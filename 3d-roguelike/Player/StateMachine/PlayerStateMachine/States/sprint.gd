@@ -5,7 +5,7 @@ signal sprint_ended
 
 func _enter() -> void:
 	sprint_started.emit()
-	print(name)
+	#print(name)
 	$"../../AnimationPlayer".play("Rig_Medium_MovementBasic/Running_A")
 	
 func _state_input(event: InputEvent) -> void:
