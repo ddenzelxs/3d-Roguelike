@@ -1,7 +1,7 @@
 extends CharacterBody3D
 
 @export var bullet_scene : PackedScene
-@onready var enuma_scene = preload("res://EnumaLaser.tscn")
+@onready var enuma_scene = preload("res://Weapons/EnumaLaser.tscn")
 @onready var health = $"Component/Health"
 @onready var gold = $"Component/Gold"
 @onready var xp = $"Component/Xp"

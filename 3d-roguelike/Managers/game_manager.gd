@@ -16,7 +16,7 @@ func _process(delta: float) -> void:
 	spawn_points.global_position = player.global_position
 	
 var is_raining_meteors = false
-@onready var meteor_scene = preload("res://Meteor.tscn")
+@onready var meteor_scene = preload("res://Weapons/meteor.tscn")
 
 func start_meteor_cutscene():
 	if is_raining_meteors: return
