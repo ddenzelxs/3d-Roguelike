@@ -10,6 +10,10 @@ func _on_body_entered(body):
 	if not body.is_in_group("enemy"):
 		return
 
-	body.take_damage(damage)
+	var player = get_tree().current_scene.get_node("Player")
 
-	print("Hit Enemy")
+	var final_damage = round(damage * player.damage_multiplier)
+
+	body.take_damage(final_damage)
+
+	print("Hit Enemy for ", final_damage, " damage")

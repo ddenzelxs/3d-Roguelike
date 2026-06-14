@@ -82,7 +82,7 @@ transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, -7, 1, -5)
 [node name="rocks2" parent="Elements" unique_id=1889607788 instance=ExtResource("9_vs6uy")]
 transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, -5, 1, 6)
 
-[node name="StaticBody3D" type="StaticBody3D" parent="Elements/rocks2/rocks" parent_id_path=PackedInt32Array(1889607788, 1770593904) index="0" unique_id=552400685]
+[node name="StaticBody3D" type="StaticBody3D" parent="Elements/rocks2/rocks" parent_id_path=PackedInt32Array(1889607788, 7881761) index="0" unique_id=552400685]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Elements/rocks2/rocks/StaticBody3D" unique_id=1100105794]
 shape = SubResource("ConcavePolygonShape3D_07p2k")
@@ -90,7 +90,7 @@ shape = SubResource("ConcavePolygonShape3D_07p2k")
 [node name="tree-pine2" parent="Elements" unique_id=1054542652 instance=ExtResource("5_e27q6")]
 transform = Transform3D(3, 0, 0, 0, 3, 0, 0, 0, 3, 0, 1, 0)
 
-[node name="tree-pine" parent="Elements/tree-pine2" index="0" unique_id=1175175385]
+[node name="tree-pine" parent="Elements/tree-pine2" index="0" unique_id=365926803]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 0)
 
 [node name="StaticBody3D" type="StaticBody3D" parent="Elements/tree-pine2/tree-pine" index="0" unique_id=1416334937]

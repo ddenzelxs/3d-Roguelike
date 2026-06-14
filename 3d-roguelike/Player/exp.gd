@@ -11,5 +11,6 @@ func add_xp(amount : int):
 	xp += amount
 	xp_changed.emit(xp)
 
-func reset_xp():
-	xp = 0
+func remove_xp(amount: int):
+	xp -= amount
+	xp_changed.emit(xp)

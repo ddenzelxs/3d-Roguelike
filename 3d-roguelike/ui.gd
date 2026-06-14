@@ -8,7 +8,6 @@ extends CanvasLayer
 @onready var xp_bar = $XpBar
 
 @onready var player = get_tree().current_scene.get_node("Player")
-@onready var threshold_level = player.threshold_level
 
 func _ready():
 	var health_component = player.get_node("Component/Health")
@@ -23,6 +22,7 @@ func _ready():
 	_update_gold(gold_component.gold)
 
 	_update_wave(wave_manager.current_wave)
+	xp_bar.max_value = player.threshold_level
 
 func _update_health(value):
 	health_label.text = "Health: " + str(value)
@@ -34,6 +34,5 @@ func _update_gold(value):
 	gold_label.text = "Gold: " + str(value)
 
 func _update_xp(value):
-	if value >= threshold_level:
-		player.level_up()
+	xp_bar.max_value = player.threshold_level
 	xp_bar.value = value

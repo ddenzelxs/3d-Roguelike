@@ -19,7 +19,7 @@ func _ready():
 
 func start_wave():
 	wave_changed.emit(current_wave)
-	var enemy_count = current_wave * 4
+	var enemy_count = round(4 * pow(current_wave, 1.15))
 	for i in enemy_count:
 		spawn_enemy()
 

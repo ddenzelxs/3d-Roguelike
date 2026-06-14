@@ -17,4 +17,5 @@ func _update(delta: float) -> void:
 	input_directon_changed.emit(input_dir)
 
 func jump() -> void:
+	AudioManager.play(AudioManager.jump_sound)
 	velocity.y = jump_velocity

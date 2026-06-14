@@ -3,6 +3,8 @@
 [ext_resource type="PackedScene" uid="uid://co0kca7han45s" path="res://assets/Chest/low_poly_treasure_chest_set.glb" id="1_4gslm"]
 [ext_resource type="Script" uid="uid://bg3jn67rhcrto" path="res://Chest/chest.gd" id="1_5udua"]
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_5udua"]
+
 [node name="Chest" type="Node3D" unique_id=1752579689]
 script = ExtResource("1_5udua")
 
@@ -14,5 +16,19 @@ bones/2/rotation = Quaternion(1.10478e-07, -4.476528e-07, -0.7071068, 0.7071067)
 
 [node name="Bone001_00" parent="Sketchfab_Scene/Sketchfab_model/TreasureChest_FBX/Object_2/RootNode/Object_4/Skeleton3D" index="0" unique_id=764025929]
 transform = Transform3D(0, -3.2782552e-07, -0.99999994, 1, -1.1920928e-07, 0, -8.940697e-08, -0.99999994, 2.980232e-07, 6.556511e-07, 0.010524668, -0.51771164)
+
+[node name="InteractArea" type="Area3D" parent="." unique_id=939957195]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="InteractArea" unique_id=1115097194]
+transform = Transform3D(1.4, 0, 0, 0, 1.4, 0, 0, 0, 1.4, 0, 0.5215213, 0)
+shape = SubResource("BoxShape3D_5udua")
+
+[node name="InteractPrompt" type="Label3D" parent="." unique_id=1570671967]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.3510116, 0)
+visible = false
+billboard = 1
+no_depth_test = true
+fixed_size = true
+text = "[F] Open Shop!"
 
 [editable path="Sketchfab_Scene"]
