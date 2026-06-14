@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://c40m2ukjjhgxq"
-path="res://.godot/imported/block-snow-long.obj-55b0f1be85af9fd1ce0fd719b2a54d19.mesh"
+path="res://.godot/imported/block-snow-long.obj-387f4ef2c8f6aec1fa7f8fd2c4ecbf8d.mesh"
 
 [deps]
 
-files=["res://.godot/imported/block-snow-long.obj-55b0f1be85af9fd1ce0fd719b2a54d19.mesh"]
+files=["res://.godot/imported/block-snow-long.obj-387f4ef2c8f6aec1fa7f8fd2c4ecbf8d.mesh"]
 
-source_file="res://assets/kenney platformer/Models/OBJ format/block-snow-long.obj"
-dest_files=["res://.godot/imported/block-snow-long.obj-55b0f1be85af9fd1ce0fd719b2a54d19.mesh", "res://.godot/imported/block-snow-long.obj-55b0f1be85af9fd1ce0fd719b2a54d19.mesh"]
+source_file="res://assets/Map/kenney platformer/Models/OBJ format/block-snow-long.obj"
+dest_files=["res://.godot/imported/block-snow-long.obj-387f4ef2c8f6aec1fa7f8fd2c4ecbf8d.mesh", "res://.godot/imported/block-snow-long.obj-387f4ef2c8f6aec1fa7f8fd2c4ecbf8d.mesh"]
 
 [params]
 

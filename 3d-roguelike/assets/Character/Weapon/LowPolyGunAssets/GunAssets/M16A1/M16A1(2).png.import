@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://5slnjdl2ofu2"
-path="res://.godot/imported/M16A1(2).png-983883bcc34baf6fddbccaad5c4cc0ac.ctex"
+path="res://.godot/imported/M16A1(2).png-6e7499c6e5d052a21d97e44f39503398.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/LowPolyGunAssets/GunAssets/M16A1/M16A1(2).png"
-dest_files=["res://.godot/imported/M16A1(2).png-983883bcc34baf6fddbccaad5c4cc0ac.ctex"]
+source_file="res://assets/Character/Weapon/LowPolyGunAssets/GunAssets/M16A1/M16A1(2).png"
+dest_files=["res://.godot/imported/M16A1(2).png-6e7499c6e5d052a21d97e44f39503398.ctex"]
 
 [params]
 

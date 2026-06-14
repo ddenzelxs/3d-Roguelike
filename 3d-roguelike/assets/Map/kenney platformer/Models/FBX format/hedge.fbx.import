@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://csqqya4lxfxag"
-path="res://.godot/imported/hedge.fbx-8cad33253fcc4ce8564f4bf622097872.scn"
+path="res://.godot/imported/hedge.fbx-bcacb840a511e05dfca56cf7b90805f2.scn"
 
 [deps]
 
-source_file="res://assets/kenney platformer/Models/FBX format/hedge.fbx"
-dest_files=["res://.godot/imported/hedge.fbx-8cad33253fcc4ce8564f4bf622097872.scn"]
+source_file="res://assets/Map/kenney platformer/Models/FBX format/hedge.fbx"
+dest_files=["res://.godot/imported/hedge.fbx-bcacb840a511e05dfca56cf7b90805f2.scn"]
 
 [params]
 

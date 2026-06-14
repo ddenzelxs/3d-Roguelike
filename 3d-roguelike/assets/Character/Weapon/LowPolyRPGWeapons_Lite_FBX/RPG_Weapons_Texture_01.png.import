@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dxos6xpgx473i"
-path="res://.godot/imported/RPG_Weapons_Texture_01.png-c7e2f23c64c7cc7daf545b2ebf3df952.ctex"
+path="res://.godot/imported/RPG_Weapons_Texture_01.png-6b408856e3394e5bf3629b3a897c7a02.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/LowPolyRPGWeapons_Lite_FBX/RPG_Weapons_Texture_01.png"
-dest_files=["res://.godot/imported/RPG_Weapons_Texture_01.png-c7e2f23c64c7cc7daf545b2ebf3df952.ctex"]
+source_file="res://assets/Character/Weapon/LowPolyRPGWeapons_Lite_FBX/RPG_Weapons_Texture_01.png"
+dest_files=["res://.godot/imported/RPG_Weapons_Texture_01.png-6b408856e3394e5bf3629b3a897c7a02.ctex"]
 
 [params]
 

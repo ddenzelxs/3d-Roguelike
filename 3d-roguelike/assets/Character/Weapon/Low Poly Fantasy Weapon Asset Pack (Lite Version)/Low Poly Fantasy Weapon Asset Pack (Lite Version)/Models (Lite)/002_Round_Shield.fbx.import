@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dgoek6upa5xmx"
-path="res://.godot/imported/002_Round_Shield.fbx-d71d39a043f69a1dd9dc87cea0b1b472.scn"
+path="res://.godot/imported/002_Round_Shield.fbx-1a26cd9ba4d4f17b9476231ee0cc5fe8.scn"
 
 [deps]
 
-source_file="res://assets/Low Poly Fantasy Weapon Asset Pack (Lite Version)/Low Poly Fantasy Weapon Asset Pack (Lite Version)/Models (Lite)/002_Round_Shield.fbx"
-dest_files=["res://.godot/imported/002_Round_Shield.fbx-d71d39a043f69a1dd9dc87cea0b1b472.scn"]
+source_file="res://assets/Character/Weapon/Low Poly Fantasy Weapon Asset Pack (Lite Version)/Low Poly Fantasy Weapon Asset Pack (Lite Version)/Models (Lite)/002_Round_Shield.fbx"
+dest_files=["res://.godot/imported/002_Round_Shield.fbx-1a26cd9ba4d4f17b9476231ee0cc5fe8.scn"]
 
 [params]
 

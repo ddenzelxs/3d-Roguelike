@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://vs4n72semaq4"
-path="res://.godot/imported/Low_Poly_Grass_001.fbx-97e3af6a6075ea6625b3c7a269d34316.scn"
+path="res://.godot/imported/Low_Poly_Grass_001.fbx-3e48aa49241d1e6ed15569725819ea24.scn"
 
 [deps]
 
-source_file="res://assets/EEE - Low_Poly_Foliage_Pack_001/Low_Poly_Foliage_Pack_001/FBX Files/Low_Poly_Grass_001.fbx"
-dest_files=["res://.godot/imported/Low_Poly_Grass_001.fbx-97e3af6a6075ea6625b3c7a269d34316.scn"]
+source_file="res://assets/Map/EEE - Low_Poly_Foliage_Pack_001/Low_Poly_Foliage_Pack_001/FBX Files/Low_Poly_Grass_001.fbx"
+dest_files=["res://.godot/imported/Low_Poly_Grass_001.fbx-3e48aa49241d1e6ed15569725819ea24.scn"]
 
 [params]
 

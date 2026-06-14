@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://dkhwk3ta3is01"
-path="res://.godot/imported/rocks.obj-3087bfdd60e351cc158b80f1769970a2.mesh"
+path="res://.godot/imported/rocks.obj-ebe4589f190d183c529f05f368eb73cd.mesh"
 
 [deps]
 
-files=["res://.godot/imported/rocks.obj-3087bfdd60e351cc158b80f1769970a2.mesh"]
+files=["res://.godot/imported/rocks.obj-ebe4589f190d183c529f05f368eb73cd.mesh"]
 
-source_file="res://assets/kenney platformer/Models/OBJ format/rocks.obj"
-dest_files=["res://.godot/imported/rocks.obj-3087bfdd60e351cc158b80f1769970a2.mesh", "res://.godot/imported/rocks.obj-3087bfdd60e351cc158b80f1769970a2.mesh"]
+source_file="res://assets/Map/kenney platformer/Models/OBJ format/rocks.obj"
+dest_files=["res://.godot/imported/rocks.obj-ebe4589f190d183c529f05f368eb73cd.mesh", "res://.godot/imported/rocks.obj-ebe4589f190d183c529f05f368eb73cd.mesh"]
 
 [params]
 

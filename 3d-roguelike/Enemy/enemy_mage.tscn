@@ -1,10 +1,15 @@
-[gd_scene format=3 uid="uid://b1gttpr3qp61y"]
+[gd_scene format=3 uid="uid://ewm7fmcu17dq"]
 
-[ext_resource type="Script" uid="uid://g6fw38ieqkt0" path="res://enemy.gd" id="1_7k104"]
-[ext_resource type="Script" uid="uid://cu5xmkolsxwst" path="res://Player/health.gd" id="2_4gyqm"]
-[ext_resource type="Script" uid="uid://b1bs8kr5i865f" path="res://enemy_health_label.gd" id="3_qi2p4"]
+[ext_resource type="Script" uid="uid://g6fw38ieqkt0" path="res://Enemy/enemy.gd" id="1_ts2gx"]
+[ext_resource type="Script" uid="uid://cu5xmkolsxwst" path="res://Player/health.gd" id="2_5ttu5"]
+[ext_resource type="Script" uid="uid://b1bs8kr5i865f" path="res://Enemy/enemy_health_label.gd" id="3_noats"]
+[ext_resource type="PackedScene" uid="uid://dcs6oa0ooa6r3" path="res://assets/Character/Enemies/characters/gltf/Skeleton_Mage.glb" id="4_38xvv"]
+[ext_resource type="AnimationLibrary" uid="uid://dto2r6kyipo03" path="res://assets/Character/Player/Animations/gltf/Rig_Medium/Rig_Medium_General.glb" id="5_e855k"]
+[ext_resource type="AnimationLibrary" uid="uid://b26fttva1plm8" path="res://assets/Character/Player/Animations/gltf/Rig_Medium/Rig_Medium_MovementBasic.glb" id="6_qd364"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_4gyqm"]
+radius = 0.41796875
+height = 1.5239258
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_4gyqm"]
 emission_enabled = true
@@ -15,16 +20,18 @@ stencil_flags = 2
 material = SubResource("StandardMaterial3D_4gyqm")
 
 [node name="Enemy" type="CharacterBody3D" unique_id=1691554510 groups=["enemy"]]
-script = ExtResource("1_7k104")
+script = ExtResource("1_ts2gx")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1177620901]
+transform = Transform3D(1, 0, 0, 0, 0.6453487, 0, 0, 0, 1, 0, 0.27895623, 0)
 shape = SubResource("CapsuleShape3D_4gyqm")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1058452637]
+visible = false
 mesh = SubResource("CapsuleMesh_4gyqm")
 
 [node name="HealthComponent" type="Node" parent="." unique_id=1701918667]
-script = ExtResource("2_4gyqm")
+script = ExtResource("2_5ttu5")
 
 [node name="HealthBarAnchor" type="Node3D" parent="." unique_id=1573194378]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
@@ -33,15 +40,24 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.1380148, 0)
 offset = Vector2(0, 1)
 text = "Health : 100"
-script = ExtResource("3_qi2p4")
+script = ExtResource("3_noats")
 
 [node name="Hitbox" type="Area3D" parent="." unique_id=1774506577]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Hitbox" unique_id=70798990]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.14819336, 0)
 shape = SubResource("CapsuleShape3D_4gyqm")
 
 [node name="JumpRay" type="RayCast3D" parent="." unique_id=72536307]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.85, 0)
 target_position = Vector3(0, 0.5, -2)
+
+[node name="Skeleton_Mage" parent="." unique_id=608641978 instance=ExtResource("4_38xvv")]
+transform = Transform3D(0.50786126, 0, 0, 0, 0.50797886, 0, 0, 0, 0.5611635, 0, -0.5, 0)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=818806432]
+root_node = NodePath("../Skeleton_Mage")
+libraries/Rig_Medium_General = ExtResource("5_e855k")
+libraries/Rig_Medium_MovementBasic = ExtResource("6_qd364")
 
 [connection signal="body_entered" from="Hitbox" to="." method="_on_hitbox_body_entered"]

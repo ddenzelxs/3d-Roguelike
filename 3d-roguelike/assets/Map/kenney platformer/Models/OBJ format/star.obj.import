@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://bmu4tsgg4ikk0"
-path="res://.godot/imported/star.obj-f26b596fedc54d0ef5561970a53afdf6.mesh"
+path="res://.godot/imported/star.obj-babfc685714468ebb8630a41f0cecef0.mesh"
 
 [deps]
 
-files=["res://.godot/imported/star.obj-f26b596fedc54d0ef5561970a53afdf6.mesh"]
+files=["res://.godot/imported/star.obj-babfc685714468ebb8630a41f0cecef0.mesh"]
 
-source_file="res://assets/kenney platformer/Models/OBJ format/star.obj"
-dest_files=["res://.godot/imported/star.obj-f26b596fedc54d0ef5561970a53afdf6.mesh", "res://.godot/imported/star.obj-f26b596fedc54d0ef5561970a53afdf6.mesh"]
+source_file="res://assets/Map/kenney platformer/Models/OBJ format/star.obj"
+dest_files=["res://.godot/imported/star.obj-babfc685714468ebb8630a41f0cecef0.mesh", "res://.godot/imported/star.obj-babfc685714468ebb8630a41f0cecef0.mesh"]
 
 [params]
 

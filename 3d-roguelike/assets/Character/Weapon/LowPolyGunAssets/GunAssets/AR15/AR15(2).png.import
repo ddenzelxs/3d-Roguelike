@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c75vkl1dpq3ks"
-path="res://.godot/imported/AR15(2).png-0c324f8dab577ff116ff230f03a9ca85.ctex"
+path="res://.godot/imported/AR15(2).png-67449ca71b5fd37e7d953a2a005f45da.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/LowPolyGunAssets/GunAssets/AR15/AR15(2).png"
-dest_files=["res://.godot/imported/AR15(2).png-0c324f8dab577ff116ff230f03a9ca85.ctex"]
+source_file="res://assets/Character/Weapon/LowPolyGunAssets/GunAssets/AR15/AR15(2).png"
+dest_files=["res://.godot/imported/AR15(2).png-67449ca71b5fd37e7d953a2a005f45da.ctex"]
 
 [params]
 

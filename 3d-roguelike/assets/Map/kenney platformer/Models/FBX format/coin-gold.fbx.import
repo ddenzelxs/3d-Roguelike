@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://3dq07wjsqetm"
-path="res://.godot/imported/coin-gold.fbx-c5b50e80769d889d46b62cc36aede433.scn"
+path="res://.godot/imported/coin-gold.fbx-dfadcdb30ae0533fecfc043ffa5539cb.scn"
 
 [deps]
 
-source_file="res://assets/kenney platformer/Models/FBX format/coin-gold.fbx"
-dest_files=["res://.godot/imported/coin-gold.fbx-c5b50e80769d889d46b62cc36aede433.scn"]
+source_file="res://assets/Map/kenney platformer/Models/FBX format/coin-gold.fbx"
+dest_files=["res://.godot/imported/coin-gold.fbx-dfadcdb30ae0533fecfc043ffa5539cb.scn"]
 
 [params]
 

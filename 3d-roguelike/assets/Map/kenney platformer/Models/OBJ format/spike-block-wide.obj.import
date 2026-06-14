@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://cn46036wkjgpj"
-path="res://.godot/imported/spike-block-wide.obj-eda7c4cc5bfacb0ec8d697e7297edabb.mesh"
+path="res://.godot/imported/spike-block-wide.obj-8a4a2f2be87f1a7f4c9accdb4e6151e5.mesh"
 
 [deps]
 
-files=["res://.godot/imported/spike-block-wide.obj-eda7c4cc5bfacb0ec8d697e7297edabb.mesh"]
+files=["res://.godot/imported/spike-block-wide.obj-8a4a2f2be87f1a7f4c9accdb4e6151e5.mesh"]
 
-source_file="res://assets/kenney platformer/Models/OBJ format/spike-block-wide.obj"
-dest_files=["res://.godot/imported/spike-block-wide.obj-eda7c4cc5bfacb0ec8d697e7297edabb.mesh", "res://.godot/imported/spike-block-wide.obj-eda7c4cc5bfacb0ec8d697e7297edabb.mesh"]
+source_file="res://assets/Map/kenney platformer/Models/OBJ format/spike-block-wide.obj"
+dest_files=["res://.godot/imported/spike-block-wide.obj-8a4a2f2be87f1a7f4c9accdb4e6151e5.mesh", "res://.godot/imported/spike-block-wide.obj-8a4a2f2be87f1a7f4c9accdb4e6151e5.mesh"]
 
 [params]
 

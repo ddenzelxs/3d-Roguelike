@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://3662r8wwe465"
-path="res://.godot/imported/AR70.fbx-7166160c9d915975fea21f37dfae7dcc.scn"
+path="res://.godot/imported/AR70.fbx-f14104d740e69faca006e99dc0a1f874.scn"
 
 [deps]
 
-source_file="res://assets/LowPolyGunAssets/GunAssets/AR70/AR70.fbx"
-dest_files=["res://.godot/imported/AR70.fbx-7166160c9d915975fea21f37dfae7dcc.scn"]
+source_file="res://assets/Character/Weapon/LowPolyGunAssets/GunAssets/AR70/AR70.fbx"
+dest_files=["res://.godot/imported/AR70.fbx-f14104d740e69faca006e99dc0a1f874.scn"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bh1h34g4rssct"
-path="res://.godot/imported/004_Vase_Render_Normal.png-a11838e9c8831c5e824c440956c2709e.ctex"
+path="res://.godot/imported/004_Vase_Render_Normal.png-de49b2caf381b198b22bda8ed3640eb8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Low Poly Environment Props Asset Pack (Lite Version)/Low Poly Environment Props Asset Pack (Lite Version)/Renders/Normal/004_Vase_Render_Normal.png"
-dest_files=["res://.godot/imported/004_Vase_Render_Normal.png-a11838e9c8831c5e824c440956c2709e.ctex"]
+source_file="res://assets/Map/Low Poly Environment Props Asset Pack (Lite Version)/Low Poly Environment Props Asset Pack (Lite Version)/Renders/Normal/004_Vase_Render_Normal.png"
+dest_files=["res://.godot/imported/004_Vase_Render_Normal.png-de49b2caf381b198b22bda8ed3640eb8.ctex"]
 
 [params]
 

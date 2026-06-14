@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dgldcnrwigri7"
-path="res://.godot/imported/block-grass-large-slope.glb-4f7509f5295795ad30c568b2cdba437c.scn"
+path="res://.godot/imported/block-grass-large-slope.glb-6bf03d6206ad6a0dfbb3e6157f3fbaeb.scn"
 
 [deps]
 
-source_file="res://assets/kenney platformer/Models/GLB format/block-grass-large-slope.glb"
-dest_files=["res://.godot/imported/block-grass-large-slope.glb-4f7509f5295795ad30c568b2cdba437c.scn"]
+source_file="res://assets/Map/kenney platformer/Models/GLB format/block-grass-large-slope.glb"
+dest_files=["res://.godot/imported/block-grass-large-slope.glb-6bf03d6206ad6a0dfbb3e6157f3fbaeb.scn"]
 
 [params]
 

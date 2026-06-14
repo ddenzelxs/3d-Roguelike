@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cnvxsv1jnx5ho"
-path="res://.godot/imported/FN SCAR.fbx-8fc41d1ef93db3e9048402861a574e78.scn"
+path="res://.godot/imported/FN SCAR.fbx-044883011ff9c7200855ae9858fadd42.scn"
 
 [deps]
 
-source_file="res://assets/LowPolyGunAssets/GunAssets/FN SCAR/FN SCAR.fbx"
-dest_files=["res://.godot/imported/FN SCAR.fbx-8fc41d1ef93db3e9048402861a574e78.scn"]
+source_file="res://assets/Character/Weapon/LowPolyGunAssets/GunAssets/FN SCAR/FN SCAR.fbx"
+dest_files=["res://.godot/imported/FN SCAR.fbx-044883011ff9c7200855ae9858fadd42.scn"]
 
 [params]
 

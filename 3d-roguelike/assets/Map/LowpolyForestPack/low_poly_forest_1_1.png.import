@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bo4q0th2ope76"
-path.s3tc="res://.godot/imported/low_poly_forest_1_1.png-7d82e728b51a921a66d49d2226911586.s3tc.ctex"
+path.s3tc="res://.godot/imported/low_poly_forest_1_1.png-eae3e455f6d3f383862f117693b8d318.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/LowpolyForestPack/low_poly_forest_1_1.png"
-dest_files=["res://.godot/imported/low_poly_forest_1_1.png-7d82e728b51a921a66d49d2226911586.s3tc.ctex"]
+source_file="res://assets/Map/LowpolyForestPack/low_poly_forest_1_1.png"
+dest_files=["res://.godot/imported/low_poly_forest_1_1.png-eae3e455f6d3f383862f117693b8d318.s3tc.ctex"]
 
 [params]
 

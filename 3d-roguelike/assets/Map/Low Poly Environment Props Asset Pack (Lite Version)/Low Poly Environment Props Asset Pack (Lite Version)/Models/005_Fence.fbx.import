@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b5gxpaxkrxmsx"
-path="res://.godot/imported/005_Fence.fbx-6ca5570eb0b042045b26276da3cc2e06.scn"
+path="res://.godot/imported/005_Fence.fbx-bff9dac600b2251df222b18fb3491a6f.scn"
 
 [deps]
 
-source_file="res://assets/Low Poly Environment Props Asset Pack (Lite Version)/Low Poly Environment Props Asset Pack (Lite Version)/Models/005_Fence.fbx"
-dest_files=["res://.godot/imported/005_Fence.fbx-6ca5570eb0b042045b26276da3cc2e06.scn"]
+source_file="res://assets/Map/Low Poly Environment Props Asset Pack (Lite Version)/Low Poly Environment Props Asset Pack (Lite Version)/Models/005_Fence.fbx"
+dest_files=["res://.godot/imported/005_Fence.fbx-bff9dac600b2251df222b18fb3491a6f.scn"]
 
 [params]
 

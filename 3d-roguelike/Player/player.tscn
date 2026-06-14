@@ -15,7 +15,7 @@
 [ext_resource type="Script" uid="uid://bgadg81bmds7k" path="res://Player/StateMachine/PlayerStateMachine/States/sprint_jump.gd" id="12_5htga"]
 [ext_resource type="Script" uid="uid://c4183hyff7guw" path="res://Player/StateMachine/PlayerStateMachine/States/sprint_fall.gd" id="13_p5o4e"]
 [ext_resource type="Script" uid="uid://bpbt784tocbf6" path="res://Player/StateMachine/PlayerStateMachine/States/aim_idle.gd" id="14_b1ygp"]
-[ext_resource type="PackedScene" uid="uid://cglustncil5tu" path="res://rogue.tscn" id="14_pisgm"]
+[ext_resource type="PackedScene" uid="uid://cglustncil5tu" path="res://Player/rogue.tscn" id="14_pisgm"]
 [ext_resource type="AnimationLibrary" uid="uid://dto2r6kyipo03" path="res://assets/Character/Player/Animations/gltf/Rig_Medium/Rig_Medium_General.glb" id="15_lfmf2"]
 [ext_resource type="Script" uid="uid://7mgpj58y8v72" path="res://Player/StateMachine/PlayerStateMachine/States/aim_walk.gd" id="15_o28un"]
 [ext_resource type="AnimationLibrary" uid="uid://b26fttva1plm8" path="res://assets/Character/Player/Animations/gltf/Rig_Medium/Rig_Medium_MovementBasic.glb" id="16_pisgm"]

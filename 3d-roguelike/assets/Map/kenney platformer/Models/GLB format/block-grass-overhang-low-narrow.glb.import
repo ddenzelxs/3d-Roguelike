@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bgvecn4cp6xdy"
-path="res://.godot/imported/block-grass-overhang-low-narrow.glb-94f30ac642b16454c284ad809964413c.scn"
+path="res://.godot/imported/block-grass-overhang-low-narrow.glb-c65e4ca60092a34ac0c7c6761d32fd00.scn"
 
 [deps]
 
-source_file="res://assets/kenney platformer/Models/GLB format/block-grass-overhang-low-narrow.glb"
-dest_files=["res://.godot/imported/block-grass-overhang-low-narrow.glb-94f30ac642b16454c284ad809964413c.scn"]
+source_file="res://assets/Map/kenney platformer/Models/GLB format/block-grass-overhang-low-narrow.glb"
+dest_files=["res://.godot/imported/block-grass-overhang-low-narrow.glb-c65e4ca60092a34ac0c7c6761d32fd00.scn"]
 
 [params]
 

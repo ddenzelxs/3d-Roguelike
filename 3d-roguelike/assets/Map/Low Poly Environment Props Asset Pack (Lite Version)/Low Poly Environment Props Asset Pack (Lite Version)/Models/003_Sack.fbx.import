@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cuulwd0ms85wc"
-path="res://.godot/imported/003_Sack.fbx-1e68c232a137384e0df489efaaa21704.scn"
+path="res://.godot/imported/003_Sack.fbx-5931cdcd56393ee1f4cb69f7b3a5771f.scn"
 
 [deps]
 
-source_file="res://assets/Low Poly Environment Props Asset Pack (Lite Version)/Low Poly Environment Props Asset Pack (Lite Version)/Models/003_Sack.fbx"
-dest_files=["res://.godot/imported/003_Sack.fbx-1e68c232a137384e0df489efaaa21704.scn"]
+source_file="res://assets/Map/Low Poly Environment Props Asset Pack (Lite Version)/Low Poly Environment Props Asset Pack (Lite Version)/Models/003_Sack.fbx"
+dest_files=["res://.godot/imported/003_Sack.fbx-5931cdcd56393ee1f4cb69f7b3a5771f.scn"]
 
 [params]
 

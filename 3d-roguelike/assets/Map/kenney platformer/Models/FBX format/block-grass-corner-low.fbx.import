@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://hy7scwxtsml3"
-path="res://.godot/imported/block-grass-corner-low.fbx-d1deb3c575cae0d400a6f8528b8ee2f0.scn"
+path="res://.godot/imported/block-grass-corner-low.fbx-7da943e0e683c210db6b7625cc00add6.scn"
 
 [deps]
 
-source_file="res://assets/kenney platformer/Models/FBX format/block-grass-corner-low.fbx"
-dest_files=["res://.godot/imported/block-grass-corner-low.fbx-d1deb3c575cae0d400a6f8528b8ee2f0.scn"]
+source_file="res://assets/Map/kenney platformer/Models/FBX format/block-grass-corner-low.fbx"
+dest_files=["res://.godot/imported/block-grass-corner-low.fbx-7da943e0e683c210db6b7625cc00add6.scn"]
 
 [params]
 

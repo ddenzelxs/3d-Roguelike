@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://4lyeykyer86j"
-path="res://.godot/imported/door-open.glb-5667701237cb7497ff2f1c9b44e7c15e.scn"
+path="res://.godot/imported/door-open.glb-de3b2675c4437ea2633b44f2f1c08139.scn"
 
 [deps]
 
-source_file="res://assets/kenney platformer/Models/GLB format/door-open.glb"
-dest_files=["res://.godot/imported/door-open.glb-5667701237cb7497ff2f1c9b44e7c15e.scn"]
+source_file="res://assets/Map/kenney platformer/Models/GLB format/door-open.glb"
+dest_files=["res://.godot/imported/door-open.glb-de3b2675c4437ea2633b44f2f1c08139.scn"]
 
 [params]
 

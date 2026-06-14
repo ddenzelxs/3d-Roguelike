@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bnce2m18kinm6"
-path="res://.godot/imported/DeadSpruceTreeTrunk.png-1cf1db0cc2857dc73b3eda4178c2eca4.ctex"
+path="res://.godot/imported/DeadSpruceTreeTrunk.png-79f6f76770d439141b56fe85e5ca958a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/LowpolyForestPack/TreesTexture/DeadSpruceTreeTrunk.png"
-dest_files=["res://.godot/imported/DeadSpruceTreeTrunk.png-1cf1db0cc2857dc73b3eda4178c2eca4.ctex"]
+source_file="res://assets/Map/LowpolyForestPack/TreesTexture/DeadSpruceTreeTrunk.png"
+dest_files=["res://.godot/imported/DeadSpruceTreeTrunk.png-79f6f76770d439141b56fe85e5ca958a.ctex"]
 
 [params]
 

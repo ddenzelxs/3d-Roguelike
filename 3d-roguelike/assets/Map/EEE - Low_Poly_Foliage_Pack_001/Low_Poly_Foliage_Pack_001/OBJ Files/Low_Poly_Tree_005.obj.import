@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://dk24uvc4lldks"
-path="res://.godot/imported/Low_Poly_Tree_005.obj-a561afcefc487a0c1688047c7be294cd.mesh"
+path="res://.godot/imported/Low_Poly_Tree_005.obj-74d93996e69fb04775a0dba4e372e892.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Low_Poly_Tree_005.obj-a561afcefc487a0c1688047c7be294cd.mesh"]
+files=["res://.godot/imported/Low_Poly_Tree_005.obj-74d93996e69fb04775a0dba4e372e892.mesh"]
 
-source_file="res://assets/EEE - Low_Poly_Foliage_Pack_001/Low_Poly_Foliage_Pack_001/OBJ Files/Low_Poly_Tree_005.obj"
-dest_files=["res://.godot/imported/Low_Poly_Tree_005.obj-a561afcefc487a0c1688047c7be294cd.mesh", "res://.godot/imported/Low_Poly_Tree_005.obj-a561afcefc487a0c1688047c7be294cd.mesh"]
+source_file="res://assets/Map/EEE - Low_Poly_Foliage_Pack_001/Low_Poly_Foliage_Pack_001/OBJ Files/Low_Poly_Tree_005.obj"
+dest_files=["res://.godot/imported/Low_Poly_Tree_005.obj-74d93996e69fb04775a0dba4e372e892.mesh", "res://.godot/imported/Low_Poly_Tree_005.obj-74d93996e69fb04775a0dba4e372e892.mesh"]
 
 [params]
 

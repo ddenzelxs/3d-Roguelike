@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bqkmxqj7kpghj"
-path="res://.godot/imported/002_Pine_Tree.fbx-3349f01dbe57fac8e395dfae9b1567b0.scn"
+path="res://.godot/imported/002_Pine_Tree.fbx-19a31594ca5af3da41ff7d16f806e8ff.scn"
 
 [deps]
 
-source_file="res://assets/Low Poly Trees Asset Pack (Lite Version)/Low Poly Trees Asset Pack (Lite Version)/Models (Lite)/002_Pine_Tree.fbx"
-dest_files=["res://.godot/imported/002_Pine_Tree.fbx-3349f01dbe57fac8e395dfae9b1567b0.scn"]
+source_file="res://assets/Map/Low Poly Trees Asset Pack (Lite Version)/Low Poly Trees Asset Pack (Lite Version)/Models (Lite)/002_Pine_Tree.fbx"
+dest_files=["res://.godot/imported/002_Pine_Tree.fbx-19a31594ca5af3da41ff7d16f806e8ff.scn"]
 
 [params]
 

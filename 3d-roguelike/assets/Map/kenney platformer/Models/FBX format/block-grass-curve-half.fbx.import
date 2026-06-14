@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dcspklqpmobrx"
-path="res://.godot/imported/block-grass-curve-half.fbx-2f104e86da571a0b5188a9791108ad16.scn"
+path="res://.godot/imported/block-grass-curve-half.fbx-e1a5588b41b5e1a7159c5b54202e1cf9.scn"
 
 [deps]
 
-source_file="res://assets/kenney platformer/Models/FBX format/block-grass-curve-half.fbx"
-dest_files=["res://.godot/imported/block-grass-curve-half.fbx-2f104e86da571a0b5188a9791108ad16.scn"]
+source_file="res://assets/Map/kenney platformer/Models/FBX format/block-grass-curve-half.fbx"
+dest_files=["res://.godot/imported/block-grass-curve-half.fbx-e1a5588b41b5e1a7159c5b54202e1cf9.scn"]
 
 [params]
 

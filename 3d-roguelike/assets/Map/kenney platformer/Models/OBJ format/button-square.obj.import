@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://bxkuktvoxy5uv"
-path="res://.godot/imported/button-square.obj-2c710667476de4b9848ac65da41570b5.mesh"
+path="res://.godot/imported/button-square.obj-9a389fe4822713103d4c285e6bcff465.mesh"
 
 [deps]
 
-files=["res://.godot/imported/button-square.obj-2c710667476de4b9848ac65da41570b5.mesh"]
+files=["res://.godot/imported/button-square.obj-9a389fe4822713103d4c285e6bcff465.mesh"]
 
-source_file="res://assets/kenney platformer/Models/OBJ format/button-square.obj"
-dest_files=["res://.godot/imported/button-square.obj-2c710667476de4b9848ac65da41570b5.mesh", "res://.godot/imported/button-square.obj-2c710667476de4b9848ac65da41570b5.mesh"]
+source_file="res://assets/Map/kenney platformer/Models/OBJ format/button-square.obj"
+dest_files=["res://.godot/imported/button-square.obj-9a389fe4822713103d4c285e6bcff465.mesh", "res://.godot/imported/button-square.obj-9a389fe4822713103d4c285e6bcff465.mesh"]
 
 [params]
 

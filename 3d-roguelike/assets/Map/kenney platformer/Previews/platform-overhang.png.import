@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ws0p3ayc80h6"
-path="res://.godot/imported/platform-overhang.png-0abc020973e0ccc7f25c2e2140dd1a7f.ctex"
+path="res://.godot/imported/platform-overhang.png-a8c30bdd04e98e050b47274442bdb950.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/kenney platformer/Previews/platform-overhang.png"
-dest_files=["res://.godot/imported/platform-overhang.png-0abc020973e0ccc7f25c2e2140dd1a7f.ctex"]
+source_file="res://assets/Map/kenney platformer/Previews/platform-overhang.png"
+dest_files=["res://.godot/imported/platform-overhang.png-a8c30bdd04e98e050b47274442bdb950.ctex"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://vd1q3blo7hiq"
-path="res://.godot/imported/flowers.glb-530e7aa9557f46ef6ba4a9fc58647dcb.scn"
+path="res://.godot/imported/flowers.glb-e46e9370e20aef7bdea07ffd22f7c4ee.scn"
 
 [deps]
 
-source_file="res://assets/kenney platformer/Models/GLB format/flowers.glb"
-dest_files=["res://.godot/imported/flowers.glb-530e7aa9557f46ef6ba4a9fc58647dcb.scn"]
+source_file="res://assets/Map/kenney platformer/Models/GLB format/flowers.glb"
+dest_files=["res://.godot/imported/flowers.glb-e46e9370e20aef7bdea07ffd22f7c4ee.scn"]
 
 [params]
 

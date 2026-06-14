@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://y60ygdwkibd2"
-path="res://.godot/imported/Low_Poly_Rock_Boulder.fbx-a1f605810de43525000d60be7745c9b7.scn"
+path="res://.godot/imported/Low_Poly_Rock_Boulder.fbx-f1f6ca96e2845bfab455ae9a14e85583.scn"
 
 [deps]
 
-source_file="res://assets/EEE - Low Poly Rock Pack 001/EEE - Low Poly Rock Pack 001/FBX/Low_Poly_Rock_Boulder.fbx"
-dest_files=["res://.godot/imported/Low_Poly_Rock_Boulder.fbx-a1f605810de43525000d60be7745c9b7.scn"]
+source_file="res://assets/Map/EEE - Low Poly Rock Pack 001/EEE - Low Poly Rock Pack 001/FBX/Low_Poly_Rock_Boulder.fbx"
+dest_files=["res://.godot/imported/Low_Poly_Rock_Boulder.fbx-f1f6ca96e2845bfab455ae9a14e85583.scn"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://d4u0mfcjwos5"
-path="res://.godot/imported/crate-item.glb-cc84e47175a0104ca008e3ad21317e3e.scn"
+path="res://.godot/imported/crate-item.glb-7b95fc8452225afa64c9fd4858775a47.scn"
 
 [deps]
 
-source_file="res://assets/kenney platformer/Models/GLB format/crate-item.glb"
-dest_files=["res://.godot/imported/crate-item.glb-cc84e47175a0104ca008e3ad21317e3e.scn"]
+source_file="res://assets/Map/kenney platformer/Models/GLB format/crate-item.glb"
+dest_files=["res://.godot/imported/crate-item.glb-7b95fc8452225afa64c9fd4858775a47.scn"]
 
 [params]
 

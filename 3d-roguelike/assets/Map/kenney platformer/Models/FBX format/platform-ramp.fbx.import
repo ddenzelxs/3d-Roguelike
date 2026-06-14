@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://vkwt6lsgvtf3"
-path="res://.godot/imported/platform-ramp.fbx-f440e24b3ca346e8b6ed9719dcfce18b.scn"
+path="res://.godot/imported/platform-ramp.fbx-14a25f605591c7603bb54488c044dbc9.scn"
 
 [deps]
 
-source_file="res://assets/kenney platformer/Models/FBX format/platform-ramp.fbx"
-dest_files=["res://.godot/imported/platform-ramp.fbx-f440e24b3ca346e8b6ed9719dcfce18b.scn"]
+source_file="res://assets/Map/kenney platformer/Models/FBX format/platform-ramp.fbx"
+dest_files=["res://.godot/imported/platform-ramp.fbx-14a25f605591c7603bb54488c044dbc9.scn"]
 
 [params]
 

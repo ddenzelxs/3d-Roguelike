@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://f7070xiw61f6"
-path="res://.godot/imported/tree-pine.obj-b2b45526ea2f01b90ef3ad39207417f4.mesh"
+path="res://.godot/imported/tree-pine.obj-26e0a6dead57e54a84c90aed5db4c997.mesh"
 
 [deps]
 
-files=["res://.godot/imported/tree-pine.obj-b2b45526ea2f01b90ef3ad39207417f4.mesh"]
+files=["res://.godot/imported/tree-pine.obj-26e0a6dead57e54a84c90aed5db4c997.mesh"]
 
-source_file="res://assets/kenney platformer/Models/OBJ format/tree-pine.obj"
-dest_files=["res://.godot/imported/tree-pine.obj-b2b45526ea2f01b90ef3ad39207417f4.mesh", "res://.godot/imported/tree-pine.obj-b2b45526ea2f01b90ef3ad39207417f4.mesh"]
+source_file="res://assets/Map/kenney platformer/Models/OBJ format/tree-pine.obj"
+dest_files=["res://.godot/imported/tree-pine.obj-26e0a6dead57e54a84c90aed5db4c997.mesh", "res://.godot/imported/tree-pine.obj-26e0a6dead57e54a84c90aed5db4c997.mesh"]
 
 [params]
 

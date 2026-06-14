@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b304b14vt5bj4"
-path="res://.godot/imported/block-grass-large-tall.glb-5fc57c0636116e0cd9c6514acd734da4.scn"
+path="res://.godot/imported/block-grass-large-tall.glb-843b5310758ee0828989443ed80cb005.scn"
 
 [deps]
 
-source_file="res://assets/kenney platformer/Models/GLB format/block-grass-large-tall.glb"
-dest_files=["res://.godot/imported/block-grass-large-tall.glb-5fc57c0636116e0cd9c6514acd734da4.scn"]
+source_file="res://assets/Map/kenney platformer/Models/GLB format/block-grass-large-tall.glb"
+dest_files=["res://.godot/imported/block-grass-large-tall.glb-843b5310758ee0828989443ed80cb005.scn"]
 
 [params]
 

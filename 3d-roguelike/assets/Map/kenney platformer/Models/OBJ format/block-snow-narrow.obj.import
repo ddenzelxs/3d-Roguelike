@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://daw1ni4h4s3nk"
-path="res://.godot/imported/block-snow-narrow.obj-582c6fbddd2e4a50e62d0487b09ff6f8.mesh"
+path="res://.godot/imported/block-snow-narrow.obj-2bc5ff6cb1f91dab738cecf05ff6fc84.mesh"
 
 [deps]
 
-files=["res://.godot/imported/block-snow-narrow.obj-582c6fbddd2e4a50e62d0487b09ff6f8.mesh"]
+files=["res://.godot/imported/block-snow-narrow.obj-2bc5ff6cb1f91dab738cecf05ff6fc84.mesh"]
 
-source_file="res://assets/kenney platformer/Models/OBJ format/block-snow-narrow.obj"
-dest_files=["res://.godot/imported/block-snow-narrow.obj-582c6fbddd2e4a50e62d0487b09ff6f8.mesh", "res://.godot/imported/block-snow-narrow.obj-582c6fbddd2e4a50e62d0487b09ff6f8.mesh"]
+source_file="res://assets/Map/kenney platformer/Models/OBJ format/block-snow-narrow.obj"
+dest_files=["res://.godot/imported/block-snow-narrow.obj-2bc5ff6cb1f91dab738cecf05ff6fc84.mesh", "res://.godot/imported/block-snow-narrow.obj-2bc5ff6cb1f91dab738cecf05ff6fc84.mesh"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ckk2403tugva5"
-path="res://.godot/imported/hedge.png-f90e8369d39b819512b769add7ce1e2f.ctex"
+path="res://.godot/imported/hedge.png-457f7d7118e1bf0592ecf82242bc4238.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/kenney platformer/Previews/hedge.png"
-dest_files=["res://.godot/imported/hedge.png-f90e8369d39b819512b769add7ce1e2f.ctex"]
+source_file="res://assets/Map/kenney platformer/Previews/hedge.png"
+dest_files=["res://.godot/imported/hedge.png-457f7d7118e1bf0592ecf82242bc4238.ctex"]
 
 [params]
 

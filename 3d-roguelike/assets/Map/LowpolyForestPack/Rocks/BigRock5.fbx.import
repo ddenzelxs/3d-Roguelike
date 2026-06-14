@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dijt1vvt34tq6"
-path="res://.godot/imported/BigRock5.fbx-f68b9568b81cf7e3540b7eaa094328f7.scn"
+path="res://.godot/imported/BigRock5.fbx-646f748600ccd7da717047425bbbd6ae.scn"
 
 [deps]
 
-source_file="res://assets/LowpolyForestPack/Rocks/BigRock5.fbx"
-dest_files=["res://.godot/imported/BigRock5.fbx-f68b9568b81cf7e3540b7eaa094328f7.scn"]
+source_file="res://assets/Map/LowpolyForestPack/Rocks/BigRock5.fbx"
+dest_files=["res://.godot/imported/BigRock5.fbx-646f748600ccd7da717047425bbbd6ae.scn"]
 
 [params]
 

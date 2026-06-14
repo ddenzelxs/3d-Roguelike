@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://1fp5illvhh3k"
-path="res://.godot/imported/OakTreeLeaf.png-42eef6525639c85735f3433a04bc722d.ctex"
+path="res://.godot/imported/OakTreeLeaf.png-0e98e1bbfb9750b907e2066d3560be31.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/LowpolyForestPack/TreesTexture/OakTreeLeaf.png"
-dest_files=["res://.godot/imported/OakTreeLeaf.png-42eef6525639c85735f3433a04bc722d.ctex"]
+source_file="res://assets/Map/LowpolyForestPack/TreesTexture/OakTreeLeaf.png"
+dest_files=["res://.godot/imported/OakTreeLeaf.png-0e98e1bbfb9750b907e2066d3560be31.ctex"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://c54y2hj7lfibs"
-path="res://.godot/imported/AK47.fbx-4ebe977e0f876b0c42f69191700fdd6e.scn"
+path="res://.godot/imported/AK47.fbx-3378117098feb480617164295616491f.scn"
 
 [deps]
 
-source_file="res://assets/LowPolyGunAssets/GunAssets/AK47/AK47.fbx"
-dest_files=["res://.godot/imported/AK47.fbx-4ebe977e0f876b0c42f69191700fdd6e.scn"]
+source_file="res://assets/Character/Weapon/LowPolyGunAssets/GunAssets/AK47/AK47.fbx"
+dest_files=["res://.godot/imported/AK47.fbx-3378117098feb480617164295616491f.scn"]
 
 [params]
 

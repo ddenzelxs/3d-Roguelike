@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://crunhslkyb0y7"
-path="res://.godot/imported/block-grass-corner-low.obj-538e1ed76bc024d387b28cbd2db3b132.mesh"
+path="res://.godot/imported/block-grass-corner-low.obj-ee03fbb13bb797b8be0cdd6a1100a923.mesh"
 
 [deps]
 
-files=["res://.godot/imported/block-grass-corner-low.obj-538e1ed76bc024d387b28cbd2db3b132.mesh"]
+files=["res://.godot/imported/block-grass-corner-low.obj-ee03fbb13bb797b8be0cdd6a1100a923.mesh"]
 
-source_file="res://assets/kenney platformer/Models/OBJ format/block-grass-corner-low.obj"
-dest_files=["res://.godot/imported/block-grass-corner-low.obj-538e1ed76bc024d387b28cbd2db3b132.mesh", "res://.godot/imported/block-grass-corner-low.obj-538e1ed76bc024d387b28cbd2db3b132.mesh"]
+source_file="res://assets/Map/kenney platformer/Models/OBJ format/block-grass-corner-low.obj"
+dest_files=["res://.godot/imported/block-grass-corner-low.obj-ee03fbb13bb797b8be0cdd6a1100a923.mesh", "res://.godot/imported/block-grass-corner-low.obj-ee03fbb13bb797b8be0cdd6a1100a923.mesh"]
 
 [params]
 

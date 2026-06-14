@@ -1,13 +1,13 @@
 [gd_scene format=3 uid="uid://c141qvjeuwou5"]
 
-[ext_resource type="Texture2D" uid="uid://b4hiuqn4voqtp" path="res://assets/kenney_prototype-textures/PNG/Dark/texture_05.png" id="1_fhmga"]
-[ext_resource type="MeshLibrary" uid="uid://bsvsik002sdyi" path="res://TilesLibrary.tres" id="2_g5xic"]
-[ext_resource type="PackedScene" uid="uid://c5kogltx37gdu" path="res://assets/kenney platformer/Models/GLB format/tree.glb" id="3_3dfv2"]
-[ext_resource type="PackedScene" uid="uid://c5ypaccpargak" path="res://assets/kenney platformer/Models/GLB format/plant.glb" id="3_axu7a"]
-[ext_resource type="PackedScene" uid="uid://2y4gdfy5rm2p" path="res://assets/kenney platformer/Models/GLB format/fence-low-straight.glb" id="3_dsoga"]
-[ext_resource type="PackedScene" uid="uid://cbyvjmbrvlvfv" path="res://assets/kenney platformer/Models/GLB format/fence-low-corner.glb" id="3_n6p3p"]
-[ext_resource type="PackedScene" uid="uid://bitgjcy4dodnu" path="res://assets/kenney platformer/Models/GLB format/rocks.glb" id="4_mnrrr"]
-[ext_resource type="PackedScene" uid="uid://vd1q3blo7hiq" path="res://assets/kenney platformer/Models/GLB format/flowers.glb" id="5_dn4w5"]
+[ext_resource type="Texture2D" uid="uid://b4hiuqn4voqtp" path="res://assets/Map/kenney_prototype-textures/PNG/Dark/texture_05.png" id="1_fhmga"]
+[ext_resource type="MeshLibrary" uid="uid://bsvsik002sdyi" path="res://Environment/TilesLibrary.tres" id="2_g5xic"]
+[ext_resource type="PackedScene" uid="uid://c5kogltx37gdu" path="res://assets/Map/kenney platformer/Models/GLB format/tree.glb" id="3_3dfv2"]
+[ext_resource type="PackedScene" uid="uid://c5ypaccpargak" path="res://assets/Map/kenney platformer/Models/GLB format/plant.glb" id="3_axu7a"]
+[ext_resource type="PackedScene" uid="uid://2y4gdfy5rm2p" path="res://assets/Map/kenney platformer/Models/GLB format/fence-low-straight.glb" id="3_dsoga"]
+[ext_resource type="PackedScene" uid="uid://cbyvjmbrvlvfv" path="res://assets/Map/kenney platformer/Models/GLB format/fence-low-corner.glb" id="3_n6p3p"]
+[ext_resource type="PackedScene" uid="uid://bitgjcy4dodnu" path="res://assets/Map/kenney platformer/Models/GLB format/rocks.glb" id="4_mnrrr"]
+[ext_resource type="PackedScene" uid="uid://vd1q3blo7hiq" path="res://assets/Map/kenney platformer/Models/GLB format/flowers.glb" id="5_dn4w5"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_p4knu"]
 albedo_color = Color(2.117753e-06, 0.71717083, 0.70402616, 1)

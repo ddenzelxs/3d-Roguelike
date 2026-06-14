@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cf2rcm52gecnj"
-path="res://.godot/imported/Low_Poly_Bush_002.fbx-e69d643f5c1d7723edb6824c12b03dda.scn"
+path="res://.godot/imported/Low_Poly_Bush_002.fbx-af1347a8d071681c64f1f3e6c97be1fe.scn"
 
 [deps]
 
-source_file="res://assets/EEE - Low_Poly_Foliage_Pack_001/Low_Poly_Foliage_Pack_001/FBX Files/Low_Poly_Bush_002.fbx"
-dest_files=["res://.godot/imported/Low_Poly_Bush_002.fbx-e69d643f5c1d7723edb6824c12b03dda.scn"]
+source_file="res://assets/Map/EEE - Low_Poly_Foliage_Pack_001/Low_Poly_Foliage_Pack_001/FBX Files/Low_Poly_Bush_002.fbx"
+dest_files=["res://.godot/imported/Low_Poly_Bush_002.fbx-af1347a8d071681c64f1f3e6c97be1fe.scn"]
 
 [params]
 

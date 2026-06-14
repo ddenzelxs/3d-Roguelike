@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b43lmm8cxtxq4"
-path="res://.godot/imported/Dagger_01.fbx-7c615b7bea206a14719cbeff90070405.scn"
+path="res://.godot/imported/Dagger_01.fbx-dd3064f763a2ca7b388dbe9ff8037e93.scn"
 
 [deps]
 
-source_file="res://assets/LowPolyRPGWeapons_Lite_FBX/Dagger_01.fbx"
-dest_files=["res://.godot/imported/Dagger_01.fbx-7c615b7bea206a14719cbeff90070405.scn"]
+source_file="res://assets/Character/Weapon/LowPolyRPGWeapons_Lite_FBX/Dagger_01.fbx"
+dest_files=["res://.godot/imported/Dagger_01.fbx-dd3064f763a2ca7b388dbe9ff8037e93.scn"]
 
 [params]
 

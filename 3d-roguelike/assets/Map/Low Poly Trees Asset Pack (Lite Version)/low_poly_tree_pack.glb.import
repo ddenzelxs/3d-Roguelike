@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://02glvexutist"
-path="res://.godot/imported/low_poly_tree_pack.glb-98baf10df65f0b49e8f642c436e2a310.scn"
+path="res://.godot/imported/low_poly_tree_pack.glb-4eccd40c2266481c9da05ca164e2275b.scn"
 
 [deps]
 
-source_file="res://assets/Low Poly Trees Asset Pack (Lite Version)/low_poly_tree_pack.glb"
-dest_files=["res://.godot/imported/low_poly_tree_pack.glb-98baf10df65f0b49e8f642c436e2a310.scn"]
+source_file="res://assets/Map/Low Poly Trees Asset Pack (Lite Version)/low_poly_tree_pack.glb"
+dest_files=["res://.godot/imported/low_poly_tree_pack.glb-4eccd40c2266481c9da05ca164e2275b.scn"]
 
 [params]
 

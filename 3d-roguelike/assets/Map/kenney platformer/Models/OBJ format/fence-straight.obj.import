@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://ukf5lo7omh3"
-path="res://.godot/imported/fence-straight.obj-c04d58e8d6f7fd4023bf2e52e05404c7.mesh"
+path="res://.godot/imported/fence-straight.obj-92f218910cd771b38422a7a83e7e0675.mesh"
 
 [deps]
 
-files=["res://.godot/imported/fence-straight.obj-c04d58e8d6f7fd4023bf2e52e05404c7.mesh"]
+files=["res://.godot/imported/fence-straight.obj-92f218910cd771b38422a7a83e7e0675.mesh"]
 
-source_file="res://assets/kenney platformer/Models/OBJ format/fence-straight.obj"
-dest_files=["res://.godot/imported/fence-straight.obj-c04d58e8d6f7fd4023bf2e52e05404c7.mesh", "res://.godot/imported/fence-straight.obj-c04d58e8d6f7fd4023bf2e52e05404c7.mesh"]
+source_file="res://assets/Map/kenney platformer/Models/OBJ format/fence-straight.obj"
+dest_files=["res://.godot/imported/fence-straight.obj-92f218910cd771b38422a7a83e7e0675.mesh", "res://.godot/imported/fence-straight.obj-92f218910cd771b38422a7a83e7e0675.mesh"]
 
 [params]
 

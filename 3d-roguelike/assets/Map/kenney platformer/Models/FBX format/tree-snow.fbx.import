@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bmirryh02ovjj"
-path="res://.godot/imported/tree-snow.fbx-42c82697c46fd2817595f44d46ae5400.scn"
+path="res://.godot/imported/tree-snow.fbx-e70daf4ad56cbbcd88db9ba36059b5e4.scn"
 
 [deps]
 
-source_file="res://assets/kenney platformer/Models/FBX format/tree-snow.fbx"
-dest_files=["res://.godot/imported/tree-snow.fbx-42c82697c46fd2817595f44d46ae5400.scn"]
+source_file="res://assets/Map/kenney platformer/Models/FBX format/tree-snow.fbx"
+dest_files=["res://.godot/imported/tree-snow.fbx-e70daf4ad56cbbcd88db9ba36059b5e4.scn"]
 
 [params]
 

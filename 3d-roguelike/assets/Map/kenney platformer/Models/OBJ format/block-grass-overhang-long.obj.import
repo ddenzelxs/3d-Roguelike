@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://jrq4ae2w7pcl"
-path="res://.godot/imported/block-grass-overhang-long.obj-16f968cb185954bdb682021f9ed22947.mesh"
+path="res://.godot/imported/block-grass-overhang-long.obj-907d0e16c0cd22bbcd3f119dd3cddb0e.mesh"
 
 [deps]
 
-files=["res://.godot/imported/block-grass-overhang-long.obj-16f968cb185954bdb682021f9ed22947.mesh"]
+files=["res://.godot/imported/block-grass-overhang-long.obj-907d0e16c0cd22bbcd3f119dd3cddb0e.mesh"]
 
-source_file="res://assets/kenney platformer/Models/OBJ format/block-grass-overhang-long.obj"
-dest_files=["res://.godot/imported/block-grass-overhang-long.obj-16f968cb185954bdb682021f9ed22947.mesh", "res://.godot/imported/block-grass-overhang-long.obj-16f968cb185954bdb682021f9ed22947.mesh"]
+source_file="res://assets/Map/kenney platformer/Models/OBJ format/block-grass-overhang-long.obj"
+dest_files=["res://.godot/imported/block-grass-overhang-long.obj-907d0e16c0cd22bbcd3f119dd3cddb0e.mesh", "res://.godot/imported/block-grass-overhang-long.obj-907d0e16c0cd22bbcd3f119dd3cddb0e.mesh"]
 
 [params]
 

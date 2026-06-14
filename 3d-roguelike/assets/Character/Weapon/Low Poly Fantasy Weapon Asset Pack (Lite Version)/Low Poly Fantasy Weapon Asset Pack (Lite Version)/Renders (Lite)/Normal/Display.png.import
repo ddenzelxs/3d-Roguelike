@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b6obppfb3tuln"
-path="res://.godot/imported/Display.png-b31f727bd5769b8c7ea98850e8890c91.ctex"
+path="res://.godot/imported/Display.png-863f29e6db3e546b874e79d11f3d4ef5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Low Poly Fantasy Weapon Asset Pack (Lite Version)/Low Poly Fantasy Weapon Asset Pack (Lite Version)/Renders (Lite)/Normal/Display.png"
-dest_files=["res://.godot/imported/Display.png-b31f727bd5769b8c7ea98850e8890c91.ctex"]
+source_file="res://assets/Character/Weapon/Low Poly Fantasy Weapon Asset Pack (Lite Version)/Low Poly Fantasy Weapon Asset Pack (Lite Version)/Renders (Lite)/Normal/Display.png"
+dest_files=["res://.godot/imported/Display.png-863f29e6db3e546b874e79d11f3d4ef5.ctex"]
 
 [params]
 

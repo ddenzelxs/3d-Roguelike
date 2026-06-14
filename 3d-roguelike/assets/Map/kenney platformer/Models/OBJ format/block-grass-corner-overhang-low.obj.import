@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://b7monmhp0enyv"
-path="res://.godot/imported/block-grass-corner-overhang-low.obj-1a9297438ff20bd07d442fd0df83ed33.mesh"
+path="res://.godot/imported/block-grass-corner-overhang-low.obj-a922fc3e63f5dfc183195db771879a5c.mesh"
 
 [deps]
 
-files=["res://.godot/imported/block-grass-corner-overhang-low.obj-1a9297438ff20bd07d442fd0df83ed33.mesh"]
+files=["res://.godot/imported/block-grass-corner-overhang-low.obj-a922fc3e63f5dfc183195db771879a5c.mesh"]
 
-source_file="res://assets/kenney platformer/Models/OBJ format/block-grass-corner-overhang-low.obj"
-dest_files=["res://.godot/imported/block-grass-corner-overhang-low.obj-1a9297438ff20bd07d442fd0df83ed33.mesh", "res://.godot/imported/block-grass-corner-overhang-low.obj-1a9297438ff20bd07d442fd0df83ed33.mesh"]
+source_file="res://assets/Map/kenney platformer/Models/OBJ format/block-grass-corner-overhang-low.obj"
+dest_files=["res://.godot/imported/block-grass-corner-overhang-low.obj-a922fc3e63f5dfc183195db771879a5c.mesh", "res://.godot/imported/block-grass-corner-overhang-low.obj-a922fc3e63f5dfc183195db771879a5c.mesh"]
 
 [params]
 

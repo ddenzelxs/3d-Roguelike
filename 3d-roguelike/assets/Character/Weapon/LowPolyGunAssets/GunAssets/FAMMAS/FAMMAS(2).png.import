@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://qksnhro5q1j7"
-path="res://.godot/imported/FAMMAS(2).png-69d27494e7c06ec90312d5e55c9e17cc.ctex"
+path="res://.godot/imported/FAMMAS(2).png-0b2715e293f027908c7a7a9e522c1300.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/LowPolyGunAssets/GunAssets/FAMMAS/FAMMAS(2).png"
-dest_files=["res://.godot/imported/FAMMAS(2).png-69d27494e7c06ec90312d5e55c9e17cc.ctex"]
+source_file="res://assets/Character/Weapon/LowPolyGunAssets/GunAssets/FAMMAS/FAMMAS(2).png"
+dest_files=["res://.godot/imported/FAMMAS(2).png-0b2715e293f027908c7a7a9e522c1300.ctex"]
 
 [params]
 

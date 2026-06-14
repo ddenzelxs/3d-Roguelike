@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cao7akwndfa4o"
-path="res://.godot/imported/low_poly_forest_1.glb-ff49da469ae3ed96e7f6aa5e6a9effb6.scn"
+path="res://.godot/imported/low_poly_forest_1.glb-eaa68de24d4a9b5bfb2ee11e278d83e2.scn"
 
 [deps]
 
-source_file="res://assets/LowpolyForestPack/low_poly_forest_1.glb"
-dest_files=["res://.godot/imported/low_poly_forest_1.glb-ff49da469ae3ed96e7f6aa5e6a9effb6.scn"]
+source_file="res://assets/Map/LowpolyForestPack/low_poly_forest_1.glb"
+dest_files=["res://.godot/imported/low_poly_forest_1.glb-eaa68de24d4a9b5bfb2ee11e278d83e2.scn"]
 
 [params]
 

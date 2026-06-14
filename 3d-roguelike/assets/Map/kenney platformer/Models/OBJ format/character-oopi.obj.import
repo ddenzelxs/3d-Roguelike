@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://cs8qjdwif6sp3"
-path="res://.godot/imported/character-oopi.obj-9749c11d35bc1e9a8bb635bf2650fdab.mesh"
+path="res://.godot/imported/character-oopi.obj-26ca561afc8e8889bb16821bacf8b867.mesh"
 
 [deps]
 
-files=["res://.godot/imported/character-oopi.obj-9749c11d35bc1e9a8bb635bf2650fdab.mesh"]
+files=["res://.godot/imported/character-oopi.obj-26ca561afc8e8889bb16821bacf8b867.mesh"]
 
-source_file="res://assets/kenney platformer/Models/OBJ format/character-oopi.obj"
-dest_files=["res://.godot/imported/character-oopi.obj-9749c11d35bc1e9a8bb635bf2650fdab.mesh", "res://.godot/imported/character-oopi.obj-9749c11d35bc1e9a8bb635bf2650fdab.mesh"]
+source_file="res://assets/Map/kenney platformer/Models/OBJ format/character-oopi.obj"
+dest_files=["res://.godot/imported/character-oopi.obj-26ca561afc8e8889bb16821bacf8b867.mesh", "res://.godot/imported/character-oopi.obj-26ca561afc8e8889bb16821bacf8b867.mesh"]
 
 [params]
 

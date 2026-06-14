@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bxqyj7lh5gr4d"
-path="res://.godot/imported/001_Barrel.fbx-5ef052e1e9f4487a83bade57e427c6ff.scn"
+path="res://.godot/imported/001_Barrel.fbx-a882f9ec6b5a92807d6f60b3c1792163.scn"
 
 [deps]
 
-source_file="res://assets/Low Poly Environment Props Asset Pack (Lite Version)/Low Poly Environment Props Asset Pack (Lite Version)/Models/001_Barrel.fbx"
-dest_files=["res://.godot/imported/001_Barrel.fbx-5ef052e1e9f4487a83bade57e427c6ff.scn"]
+source_file="res://assets/Map/Low Poly Environment Props Asset Pack (Lite Version)/Low Poly Environment Props Asset Pack (Lite Version)/Models/001_Barrel.fbx"
+dest_files=["res://.godot/imported/001_Barrel.fbx-a882f9ec6b5a92807d6f60b3c1792163.scn"]
 
 [params]
 

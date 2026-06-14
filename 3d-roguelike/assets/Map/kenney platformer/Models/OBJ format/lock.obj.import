@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://dmqrra2ch4cy4"
-path="res://.godot/imported/lock.obj-be1af76f114cc414a0ea53f4c8a955b0.mesh"
+path="res://.godot/imported/lock.obj-a4790f7f94cd40d9adc17e4fee38a3d9.mesh"
 
 [deps]
 
-files=["res://.godot/imported/lock.obj-be1af76f114cc414a0ea53f4c8a955b0.mesh"]
+files=["res://.godot/imported/lock.obj-a4790f7f94cd40d9adc17e4fee38a3d9.mesh"]
 
-source_file="res://assets/kenney platformer/Models/OBJ format/lock.obj"
-dest_files=["res://.godot/imported/lock.obj-be1af76f114cc414a0ea53f4c8a955b0.mesh", "res://.godot/imported/lock.obj-be1af76f114cc414a0ea53f4c8a955b0.mesh"]
+source_file="res://assets/Map/kenney platformer/Models/OBJ format/lock.obj"
+dest_files=["res://.godot/imported/lock.obj-a4790f7f94cd40d9adc17e4fee38a3d9.mesh", "res://.godot/imported/lock.obj-a4790f7f94cd40d9adc17e4fee38a3d9.mesh"]
 
 [params]
 

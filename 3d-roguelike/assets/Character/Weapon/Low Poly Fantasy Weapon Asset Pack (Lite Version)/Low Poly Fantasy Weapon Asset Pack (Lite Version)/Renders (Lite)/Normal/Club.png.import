@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cllnvttw55nx"
-path="res://.godot/imported/Club.png-bc331cf1da4c197aecdaaf8be3edecf4.ctex"
+path="res://.godot/imported/Club.png-7d242578671f84f67bbfd2c13686251d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Low Poly Fantasy Weapon Asset Pack (Lite Version)/Low Poly Fantasy Weapon Asset Pack (Lite Version)/Renders (Lite)/Normal/Club.png"
-dest_files=["res://.godot/imported/Club.png-bc331cf1da4c197aecdaaf8be3edecf4.ctex"]
+source_file="res://assets/Character/Weapon/Low Poly Fantasy Weapon Asset Pack (Lite Version)/Low Poly Fantasy Weapon Asset Pack (Lite Version)/Renders (Lite)/Normal/Club.png"
+dest_files=["res://.godot/imported/Club.png-7d242578671f84f67bbfd2c13686251d.ctex"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://ctqhu0ch1gns1"
-path="res://.godot/imported/block-snow-overhang-hexagon.fbx-c32b61dd9724914c32b198268122bb80.scn"
+path="res://.godot/imported/block-snow-overhang-hexagon.fbx-ddb9f9c4cc5e6cbd0d8c8a91f02b823a.scn"
 
 [deps]
 
-source_file="res://assets/kenney platformer/Models/FBX format/block-snow-overhang-hexagon.fbx"
-dest_files=["res://.godot/imported/block-snow-overhang-hexagon.fbx-c32b61dd9724914c32b198268122bb80.scn"]
+source_file="res://assets/Map/kenney platformer/Models/FBX format/block-snow-overhang-hexagon.fbx"
+dest_files=["res://.godot/imported/block-snow-overhang-hexagon.fbx-ddb9f9c4cc5e6cbd0d8c8a91f02b823a.scn"]
 
 [params]
 

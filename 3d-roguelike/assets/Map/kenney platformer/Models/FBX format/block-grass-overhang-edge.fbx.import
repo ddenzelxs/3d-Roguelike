@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cqoa10o26rlw0"
-path="res://.godot/imported/block-grass-overhang-edge.fbx-7c1885a54b3ec5e548d97f3881de7c1c.scn"
+path="res://.godot/imported/block-grass-overhang-edge.fbx-a34650b32727902c0b104f40d8879238.scn"
 
 [deps]
 
-source_file="res://assets/kenney platformer/Models/FBX format/block-grass-overhang-edge.fbx"
-dest_files=["res://.godot/imported/block-grass-overhang-edge.fbx-7c1885a54b3ec5e548d97f3881de7c1c.scn"]
+source_file="res://assets/Map/kenney platformer/Models/FBX format/block-grass-overhang-edge.fbx"
+dest_files=["res://.godot/imported/block-grass-overhang-edge.fbx-a34650b32727902c0b104f40d8879238.scn"]
 
 [params]
 

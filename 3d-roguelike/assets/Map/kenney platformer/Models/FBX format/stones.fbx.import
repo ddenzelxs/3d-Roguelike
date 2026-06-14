@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://c0ea5k5n76lqr"
-path="res://.godot/imported/stones.fbx-6ff69890ea2903127abea7a81e74f060.scn"
+path="res://.godot/imported/stones.fbx-6981fadba956695b32948ef22675881e.scn"
 
 [deps]
 
-source_file="res://assets/kenney platformer/Models/FBX format/stones.fbx"
-dest_files=["res://.godot/imported/stones.fbx-6ff69890ea2903127abea7a81e74f060.scn"]
+source_file="res://assets/Map/kenney platformer/Models/FBX format/stones.fbx"
+dest_files=["res://.godot/imported/stones.fbx-6981fadba956695b32948ef22675881e.scn"]
 
 [params]
 

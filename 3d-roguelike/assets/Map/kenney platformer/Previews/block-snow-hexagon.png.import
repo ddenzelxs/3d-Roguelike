@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bnf81whvy0e6d"
-path="res://.godot/imported/block-snow-hexagon.png-7041bbff94c1b40ea4f5413b6adb7264.ctex"
+path="res://.godot/imported/block-snow-hexagon.png-1517656ffe842e3d5e9a837d5fb99aa4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/kenney platformer/Previews/block-snow-hexagon.png"
-dest_files=["res://.godot/imported/block-snow-hexagon.png-7041bbff94c1b40ea4f5413b6adb7264.ctex"]
+source_file="res://assets/Map/kenney platformer/Previews/block-snow-hexagon.png"
+dest_files=["res://.godot/imported/block-snow-hexagon.png-1517656ffe842e3d5e9a837d5fb99aa4.ctex"]
 
 [params]
 

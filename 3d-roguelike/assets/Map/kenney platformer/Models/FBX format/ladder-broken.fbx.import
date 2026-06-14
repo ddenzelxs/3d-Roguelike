@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://btj3pawq3q6m"
-path="res://.godot/imported/ladder-broken.fbx-69fcb9fb50483b5484463ee1f35f2d31.scn"
+path="res://.godot/imported/ladder-broken.fbx-42f24a844b2f18e16b6974d26d7f0c8b.scn"
 
 [deps]
 
-source_file="res://assets/kenney platformer/Models/FBX format/ladder-broken.fbx"
-dest_files=["res://.godot/imported/ladder-broken.fbx-69fcb9fb50483b5484463ee1f35f2d31.scn"]
+source_file="res://assets/Map/kenney platformer/Models/FBX format/ladder-broken.fbx"
+dest_files=["res://.godot/imported/ladder-broken.fbx-42f24a844b2f18e16b6974d26d7f0c8b.scn"]
 
 [params]
 

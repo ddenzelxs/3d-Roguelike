@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://mvqeplkwhfpv"
-path="res://.godot/imported/barrel.obj-cd0879b2f6233c1a2db877a54d64696c.mesh"
+path="res://.godot/imported/barrel.obj-dba0b165bedd5b0245d1a97e11f8e7ad.mesh"
 
 [deps]
 
-files=["res://.godot/imported/barrel.obj-cd0879b2f6233c1a2db877a54d64696c.mesh"]
+files=["res://.godot/imported/barrel.obj-dba0b165bedd5b0245d1a97e11f8e7ad.mesh"]
 
-source_file="res://assets/kenney platformer/Models/OBJ format/barrel.obj"
-dest_files=["res://.godot/imported/barrel.obj-cd0879b2f6233c1a2db877a54d64696c.mesh", "res://.godot/imported/barrel.obj-cd0879b2f6233c1a2db877a54d64696c.mesh"]
+source_file="res://assets/Map/kenney platformer/Models/OBJ format/barrel.obj"
+dest_files=["res://.godot/imported/barrel.obj-dba0b165bedd5b0245d1a97e11f8e7ad.mesh", "res://.godot/imported/barrel.obj-dba0b165bedd5b0245d1a97e11f8e7ad.mesh"]
 
 [params]
 

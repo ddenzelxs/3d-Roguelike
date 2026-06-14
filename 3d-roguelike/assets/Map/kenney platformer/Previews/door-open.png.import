@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ckawvlb4b8rln"
-path="res://.godot/imported/door-open.png-51d9bd71b01df8919d4d12c92f63422b.ctex"
+path="res://.godot/imported/door-open.png-a113828a26f86f9df5dd0f73929828fb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/kenney platformer/Previews/door-open.png"
-dest_files=["res://.godot/imported/door-open.png-51d9bd71b01df8919d4d12c92f63422b.ctex"]
+source_file="res://assets/Map/kenney platformer/Previews/door-open.png"
+dest_files=["res://.godot/imported/door-open.png-a113828a26f86f9df5dd0f73929828fb.ctex"]
 
 [params]
 

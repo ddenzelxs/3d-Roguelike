@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bribty6vnsbyr"
-path="res://.godot/imported/AR15.fbx-920a1f9519b2c95d336b915c208eadf4.scn"
+path="res://.godot/imported/AR15.fbx-57db0fdf907a90371c6ba9c4f1cdefc9.scn"
 
 [deps]
 
-source_file="res://assets/LowPolyGunAssets/GunAssets/AR15/AR15.fbx"
-dest_files=["res://.godot/imported/AR15.fbx-920a1f9519b2c95d336b915c208eadf4.scn"]
+source_file="res://assets/Character/Weapon/LowPolyGunAssets/GunAssets/AR15/AR15.fbx"
+dest_files=["res://.godot/imported/AR15.fbx-57db0fdf907a90371c6ba9c4f1cdefc9.scn"]
 
 [params]
 

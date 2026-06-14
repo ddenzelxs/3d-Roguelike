@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://0ggixmojnjfr"
-path="res://.godot/imported/block-snow-corner-overhang.fbx-fee4b7f07a3b75143994c6d9568c06dd.scn"
+path="res://.godot/imported/block-snow-corner-overhang.fbx-900eabb23134582d822ef736b5831aef.scn"
 
 [deps]
 
-source_file="res://assets/kenney platformer/Models/FBX format/block-snow-corner-overhang.fbx"
-dest_files=["res://.godot/imported/block-snow-corner-overhang.fbx-fee4b7f07a3b75143994c6d9568c06dd.scn"]
+source_file="res://assets/Map/kenney platformer/Models/FBX format/block-snow-corner-overhang.fbx"
+dest_files=["res://.godot/imported/block-snow-corner-overhang.fbx-900eabb23134582d822ef736b5831aef.scn"]
 
 [params]
 

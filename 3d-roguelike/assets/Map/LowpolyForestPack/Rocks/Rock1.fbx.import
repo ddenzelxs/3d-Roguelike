@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://ljyl3cehswmp"
-path="res://.godot/imported/Rock1.fbx-248b1ee4ef70bbb02b21dae21aa35ae6.scn"
+path="res://.godot/imported/Rock1.fbx-d7f825407b7b517917e1790f14a91153.scn"
 
 [deps]
 
-source_file="res://assets/LowpolyForestPack/Rocks/Rock1.fbx"
-dest_files=["res://.godot/imported/Rock1.fbx-248b1ee4ef70bbb02b21dae21aa35ae6.scn"]
+source_file="res://assets/Map/LowpolyForestPack/Rocks/Rock1.fbx"
+dest_files=["res://.godot/imported/Rock1.fbx-d7f825407b7b517917e1790f14a91153.scn"]
 
 [params]
 

@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://cvujkm68cmlnr"
-path="res://.godot/imported/crate-strong.obj-8f220f0c373e74eaac1181b1c27b47fb.mesh"
+path="res://.godot/imported/crate-strong.obj-234aa069eff2a0fd5939fe6461fba017.mesh"
 
 [deps]
 
-files=["res://.godot/imported/crate-strong.obj-8f220f0c373e74eaac1181b1c27b47fb.mesh"]
+files=["res://.godot/imported/crate-strong.obj-234aa069eff2a0fd5939fe6461fba017.mesh"]
 
-source_file="res://assets/kenney platformer/Models/OBJ format/crate-strong.obj"
-dest_files=["res://.godot/imported/crate-strong.obj-8f220f0c373e74eaac1181b1c27b47fb.mesh", "res://.godot/imported/crate-strong.obj-8f220f0c373e74eaac1181b1c27b47fb.mesh"]
+source_file="res://assets/Map/kenney platformer/Models/OBJ format/crate-strong.obj"
+dest_files=["res://.godot/imported/crate-strong.obj-234aa069eff2a0fd5939fe6461fba017.mesh", "res://.godot/imported/crate-strong.obj-234aa069eff2a0fd5939fe6461fba017.mesh"]
 
 [params]
 

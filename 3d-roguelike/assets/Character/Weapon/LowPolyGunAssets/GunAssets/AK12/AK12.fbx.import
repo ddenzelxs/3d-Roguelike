@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://68gib8b8ydp0"
-path="res://.godot/imported/AK12.fbx-678b615fc1e2cf6ceb12552f3f9b3eab.scn"
+path="res://.godot/imported/AK12.fbx-0ce9f8396b1beb5c8ccee3c987169935.scn"
 
 [deps]
 
-source_file="res://assets/LowPolyGunAssets/GunAssets/AK12/AK12.fbx"
-dest_files=["res://.godot/imported/AK12.fbx-678b615fc1e2cf6ceb12552f3f9b3eab.scn"]
+source_file="res://assets/Character/Weapon/LowPolyGunAssets/GunAssets/AK12/AK12.fbx"
+dest_files=["res://.godot/imported/AK12.fbx-0ce9f8396b1beb5c8ccee3c987169935.scn"]
 
 [params]
 

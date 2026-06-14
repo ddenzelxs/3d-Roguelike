@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://ca3hnypbvkpja"
-path="res://.godot/imported/005_Cypress_Tree.fbx-fa340cf71055dcd0b3b15cc0609fb188.scn"
+path="res://.godot/imported/005_Cypress_Tree.fbx-7c5451f579cd8fb3e5dd31e176380342.scn"
 
 [deps]
 
-source_file="res://assets/Low Poly Trees Asset Pack (Lite Version)/Low Poly Trees Asset Pack (Lite Version)/Models (Lite)/005_Cypress_Tree.fbx"
-dest_files=["res://.godot/imported/005_Cypress_Tree.fbx-fa340cf71055dcd0b3b15cc0609fb188.scn"]
+source_file="res://assets/Map/Low Poly Trees Asset Pack (Lite Version)/Low Poly Trees Asset Pack (Lite Version)/Models (Lite)/005_Cypress_Tree.fbx"
+dest_files=["res://.godot/imported/005_Cypress_Tree.fbx-7c5451f579cd8fb3e5dd31e176380342.scn"]
 
 [params]
 

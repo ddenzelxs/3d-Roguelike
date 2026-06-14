@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dgqja5i2dyr74"
-path="res://.godot/imported/DeadSpruce1.fbx-8acb03e1c7ed47a5f85c679246551d1f.scn"
+path="res://.godot/imported/DeadSpruce1.fbx-79403a2ee785b47e7b60d875c19859cd.scn"
 
 [deps]
 
-source_file="res://assets/LowpolyForestPack/Trees/DeadSpruce1.fbx"
-dest_files=["res://.godot/imported/DeadSpruce1.fbx-8acb03e1c7ed47a5f85c679246551d1f.scn"]
+source_file="res://assets/Map/LowpolyForestPack/Trees/DeadSpruce1.fbx"
+dest_files=["res://.godot/imported/DeadSpruce1.fbx-79403a2ee785b47e7b60d875c19859cd.scn"]
 
 [params]
 

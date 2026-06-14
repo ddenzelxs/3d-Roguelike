@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://b2d8j7mwjubad"
-path="res://.godot/imported/block-grass-long.obj-6142af4d697798e7fe2287f8b2af452a.mesh"
+path="res://.godot/imported/block-grass-long.obj-f553a39ecbf4e013e28fe10416e0fccf.mesh"
 
 [deps]
 
-files=["res://.godot/imported/block-grass-long.obj-6142af4d697798e7fe2287f8b2af452a.mesh"]
+files=["res://.godot/imported/block-grass-long.obj-f553a39ecbf4e013e28fe10416e0fccf.mesh"]
 
-source_file="res://assets/kenney platformer/Models/OBJ format/block-grass-long.obj"
-dest_files=["res://.godot/imported/block-grass-long.obj-6142af4d697798e7fe2287f8b2af452a.mesh", "res://.godot/imported/block-grass-long.obj-6142af4d697798e7fe2287f8b2af452a.mesh"]
+source_file="res://assets/Map/kenney platformer/Models/OBJ format/block-grass-long.obj"
+dest_files=["res://.godot/imported/block-grass-long.obj-f553a39ecbf4e013e28fe10416e0fccf.mesh", "res://.godot/imported/block-grass-long.obj-f553a39ecbf4e013e28fe10416e0fccf.mesh"]
 
 [params]
 

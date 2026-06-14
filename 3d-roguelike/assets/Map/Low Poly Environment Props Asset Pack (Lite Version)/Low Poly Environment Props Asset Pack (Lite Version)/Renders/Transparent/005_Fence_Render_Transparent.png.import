@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c1qb5wokdvvmv"
-path="res://.godot/imported/005_Fence_Render_Transparent.png-0fca67cf52188c90bf779a6a832eeb67.ctex"
+path="res://.godot/imported/005_Fence_Render_Transparent.png-44909ed8decbdbe7157e331715ac6a97.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Low Poly Environment Props Asset Pack (Lite Version)/Low Poly Environment Props Asset Pack (Lite Version)/Renders/Transparent/005_Fence_Render_Transparent.png"
-dest_files=["res://.godot/imported/005_Fence_Render_Transparent.png-0fca67cf52188c90bf779a6a832eeb67.ctex"]
+source_file="res://assets/Map/Low Poly Environment Props Asset Pack (Lite Version)/Low Poly Environment Props Asset Pack (Lite Version)/Renders/Transparent/005_Fence_Render_Transparent.png"
+dest_files=["res://.godot/imported/005_Fence_Render_Transparent.png-44909ed8decbdbe7157e331715ac6a97.ctex"]
 
 [params]
 

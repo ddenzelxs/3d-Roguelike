@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cvkf3cuc5wbwt"
-path="res://.godot/imported/DeadOak3.fbx-6de568ac06a1ba971dbd1169ffa18f50.scn"
+path="res://.godot/imported/DeadOak3.fbx-32fa242d51ac8140abdb916557cc8298.scn"
 
 [deps]
 
-source_file="res://assets/LowpolyForestPack/Trees/DeadOak3.fbx"
-dest_files=["res://.godot/imported/DeadOak3.fbx-6de568ac06a1ba971dbd1169ffa18f50.scn"]
+source_file="res://assets/Map/LowpolyForestPack/Trees/DeadOak3.fbx"
+dest_files=["res://.godot/imported/DeadOak3.fbx-32fa242d51ac8140abdb916557cc8298.scn"]
 
 [params]
 

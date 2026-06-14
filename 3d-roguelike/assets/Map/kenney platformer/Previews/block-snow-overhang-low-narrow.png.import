@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bkr3rilynhvek"
-path="res://.godot/imported/block-snow-overhang-low-narrow.png-fbc79bfb37b407cf5ec8e33925cce6d0.ctex"
+path="res://.godot/imported/block-snow-overhang-low-narrow.png-4adedf00b3aa2c26b178fa706b4867fe.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/kenney platformer/Previews/block-snow-overhang-low-narrow.png"
-dest_files=["res://.godot/imported/block-snow-overhang-low-narrow.png-fbc79bfb37b407cf5ec8e33925cce6d0.ctex"]
+source_file="res://assets/Map/kenney platformer/Previews/block-snow-overhang-low-narrow.png"
+dest_files=["res://.godot/imported/block-snow-overhang-low-narrow.png-4adedf00b3aa2c26b178fa706b4867fe.ctex"]
 
 [params]
 

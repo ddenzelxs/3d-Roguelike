@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://dbq1mxg0x3aeu"
-path="res://.godot/imported/poles.obj-cc5379382981cdb52a2235a89d2b5217.mesh"
+path="res://.godot/imported/poles.obj-83dcb52ed70e2a62ac53469afdcfbef8.mesh"
 
 [deps]
 
-files=["res://.godot/imported/poles.obj-cc5379382981cdb52a2235a89d2b5217.mesh"]
+files=["res://.godot/imported/poles.obj-83dcb52ed70e2a62ac53469afdcfbef8.mesh"]
 
-source_file="res://assets/kenney platformer/Models/OBJ format/poles.obj"
-dest_files=["res://.godot/imported/poles.obj-cc5379382981cdb52a2235a89d2b5217.mesh", "res://.godot/imported/poles.obj-cc5379382981cdb52a2235a89d2b5217.mesh"]
+source_file="res://assets/Map/kenney platformer/Models/OBJ format/poles.obj"
+dest_files=["res://.godot/imported/poles.obj-83dcb52ed70e2a62ac53469afdcfbef8.mesh", "res://.godot/imported/poles.obj-83dcb52ed70e2a62ac53469afdcfbef8.mesh"]
 
 [params]
 

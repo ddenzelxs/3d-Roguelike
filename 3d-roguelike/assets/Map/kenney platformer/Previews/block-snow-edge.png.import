@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://coypii6hdnlp6"
-path="res://.godot/imported/block-snow-edge.png-8be3337b415d96827e285cc17b1c381b.ctex"
+path="res://.godot/imported/block-snow-edge.png-c306e90404bc54d3bc952dbfa6d4383a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/kenney platformer/Previews/block-snow-edge.png"
-dest_files=["res://.godot/imported/block-snow-edge.png-8be3337b415d96827e285cc17b1c381b.ctex"]
+source_file="res://assets/Map/kenney platformer/Previews/block-snow-edge.png"
+dest_files=["res://.godot/imported/block-snow-edge.png-c306e90404bc54d3bc952dbfa6d4383a.ctex"]
 
 [params]
 

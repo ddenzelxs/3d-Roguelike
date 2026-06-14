@@ -1,10 +1,10 @@
 [gd_scene format=3 uid="uid://dkfdhihyvhhif"]
 
-[ext_resource type="Texture2D" uid="uid://b4hiuqn4voqtp" path="res://assets/kenney_prototype-textures/PNG/Dark/texture_05.png" id="1_6k4w3"]
-[ext_resource type="MeshLibrary" uid="uid://bsvsik002sdyi" path="res://TilesLibrary.tres" id="2_3dute"]
-[ext_resource type="PackedScene" uid="uid://cn5drgcdh6yah" path="res://assets/kenney platformer/Models/GLB format/tree-pine-snow.glb" id="3_3dute"]
-[ext_resource type="PackedScene" uid="uid://vd1q3blo7hiq" path="res://assets/kenney platformer/Models/GLB format/flowers.glb" id="3_tqmse"]
-[ext_resource type="PackedScene" uid="uid://coij3t18iu8s2" path="res://assets/kenney platformer/Models/GLB format/stones.glb" id="4_tqmse"]
+[ext_resource type="Texture2D" uid="uid://b4hiuqn4voqtp" path="res://assets/Map/kenney_prototype-textures/PNG/Dark/texture_05.png" id="1_6k4w3"]
+[ext_resource type="MeshLibrary" uid="uid://bsvsik002sdyi" path="res://Environment/TilesLibrary.tres" id="2_3dute"]
+[ext_resource type="PackedScene" uid="uid://cn5drgcdh6yah" path="res://assets/Map/kenney platformer/Models/GLB format/tree-pine-snow.glb" id="3_3dute"]
+[ext_resource type="PackedScene" uid="uid://vd1q3blo7hiq" path="res://assets/Map/kenney platformer/Models/GLB format/flowers.glb" id="3_tqmse"]
+[ext_resource type="PackedScene" uid="uid://coij3t18iu8s2" path="res://assets/Map/kenney platformer/Models/GLB format/stones.glb" id="4_tqmse"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ntqea"]
 albedo_color = Color(2.117753e-06, 0.71717083, 0.70402616, 1)

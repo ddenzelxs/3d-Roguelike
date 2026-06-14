@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://btjmr5fn0uq3o"
-path="res://.godot/imported/FAMMAS.fbx-a6403bb02eeb1e23c7d17a03c6461d03.scn"
+path="res://.godot/imported/FAMMAS.fbx-67cd5deb50c74c7982d5f850181a44ab.scn"
 
 [deps]
 
-source_file="res://assets/LowPolyGunAssets/GunAssets/FAMMAS/FAMMAS.fbx"
-dest_files=["res://.godot/imported/FAMMAS.fbx-a6403bb02eeb1e23c7d17a03c6461d03.scn"]
+source_file="res://assets/Character/Weapon/LowPolyGunAssets/GunAssets/FAMMAS/FAMMAS.fbx"
+dest_files=["res://.godot/imported/FAMMAS.fbx-67cd5deb50c74c7982d5f850181a44ab.scn"]
 
 [params]
 

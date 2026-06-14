@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://bo0d3hrx3imvg"
-path="res://.godot/imported/block-snow-large-slope.obj-b3420aaa6b36aff72bf7b23448fbe505.mesh"
+path="res://.godot/imported/block-snow-large-slope.obj-58f7ba920f4c7769bc67762b95d31d99.mesh"
 
 [deps]
 
-files=["res://.godot/imported/block-snow-large-slope.obj-b3420aaa6b36aff72bf7b23448fbe505.mesh"]
+files=["res://.godot/imported/block-snow-large-slope.obj-58f7ba920f4c7769bc67762b95d31d99.mesh"]
 
-source_file="res://assets/kenney platformer/Models/OBJ format/block-snow-large-slope.obj"
-dest_files=["res://.godot/imported/block-snow-large-slope.obj-b3420aaa6b36aff72bf7b23448fbe505.mesh", "res://.godot/imported/block-snow-large-slope.obj-b3420aaa6b36aff72bf7b23448fbe505.mesh"]
+source_file="res://assets/Map/kenney platformer/Models/OBJ format/block-snow-large-slope.obj"
+dest_files=["res://.godot/imported/block-snow-large-slope.obj-58f7ba920f4c7769bc67762b95d31d99.mesh", "res://.godot/imported/block-snow-large-slope.obj-58f7ba920f4c7769bc67762b95d31d99.mesh"]
 
 [params]
 

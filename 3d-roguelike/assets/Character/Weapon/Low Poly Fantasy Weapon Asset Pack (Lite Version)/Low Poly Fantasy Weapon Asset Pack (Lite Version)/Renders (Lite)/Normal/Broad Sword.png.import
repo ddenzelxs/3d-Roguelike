@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cp8ne6gjq5w7c"
-path="res://.godot/imported/Broad Sword.png-53fe30eb3458ce5a16c10d88cdfe9f44.ctex"
+path="res://.godot/imported/Broad Sword.png-16844e8f1f5fe5004cc6c0c5fe4a1102.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Low Poly Fantasy Weapon Asset Pack (Lite Version)/Low Poly Fantasy Weapon Asset Pack (Lite Version)/Renders (Lite)/Normal/Broad Sword.png"
-dest_files=["res://.godot/imported/Broad Sword.png-53fe30eb3458ce5a16c10d88cdfe9f44.ctex"]
+source_file="res://assets/Character/Weapon/Low Poly Fantasy Weapon Asset Pack (Lite Version)/Low Poly Fantasy Weapon Asset Pack (Lite Version)/Renders (Lite)/Normal/Broad Sword.png"
+dest_files=["res://.godot/imported/Broad Sword.png-16844e8f1f5fe5004cc6c0c5fe4a1102.ctex"]
 
 [params]
 

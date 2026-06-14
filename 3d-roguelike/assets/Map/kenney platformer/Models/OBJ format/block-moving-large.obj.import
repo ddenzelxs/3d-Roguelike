@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://c0axb5sj6frcg"
-path="res://.godot/imported/block-moving-large.obj-83c6f1d2833ada0186d1feafcdd4a090.mesh"
+path="res://.godot/imported/block-moving-large.obj-04daed36301c623f879ff4b53914b55a.mesh"
 
 [deps]
 
-files=["res://.godot/imported/block-moving-large.obj-83c6f1d2833ada0186d1feafcdd4a090.mesh"]
+files=["res://.godot/imported/block-moving-large.obj-04daed36301c623f879ff4b53914b55a.mesh"]
 
-source_file="res://assets/kenney platformer/Models/OBJ format/block-moving-large.obj"
-dest_files=["res://.godot/imported/block-moving-large.obj-83c6f1d2833ada0186d1feafcdd4a090.mesh", "res://.godot/imported/block-moving-large.obj-83c6f1d2833ada0186d1feafcdd4a090.mesh"]
+source_file="res://assets/Map/kenney platformer/Models/OBJ format/block-moving-large.obj"
+dest_files=["res://.godot/imported/block-moving-large.obj-04daed36301c623f879ff4b53914b55a.mesh", "res://.godot/imported/block-moving-large.obj-04daed36301c623f879ff4b53914b55a.mesh"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ccsy8n1j4b3iq"
-path="res://.godot/imported/001_Bare_Tree_Render_Normal.png-3efae7f34e1bd3c0d1807cce10474053.ctex"
+path="res://.godot/imported/001_Bare_Tree_Render_Normal.png-c3ec8519ba5fcc0712bef55077e1aac2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Low Poly Trees Asset Pack (Lite Version)/Low Poly Trees Asset Pack (Lite Version)/Renders (Lite)/Normal/001_Bare_Tree_Render_Normal.png"
-dest_files=["res://.godot/imported/001_Bare_Tree_Render_Normal.png-3efae7f34e1bd3c0d1807cce10474053.ctex"]
+source_file="res://assets/Map/Low Poly Trees Asset Pack (Lite Version)/Low Poly Trees Asset Pack (Lite Version)/Renders (Lite)/Normal/001_Bare_Tree_Render_Normal.png"
+dest_files=["res://.godot/imported/001_Bare_Tree_Render_Normal.png-c3ec8519ba5fcc0712bef55077e1aac2.ctex"]
 
 [params]
 

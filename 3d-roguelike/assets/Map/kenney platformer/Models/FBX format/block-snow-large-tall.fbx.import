@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cbnvh6mgugaly"
-path="res://.godot/imported/block-snow-large-tall.fbx-77e0645f5533c8015e3befb4cf80454c.scn"
+path="res://.godot/imported/block-snow-large-tall.fbx-644d3eef71d537e7f0beeec816ad928d.scn"
 
 [deps]
 
-source_file="res://assets/kenney platformer/Models/FBX format/block-snow-large-tall.fbx"
-dest_files=["res://.godot/imported/block-snow-large-tall.fbx-77e0645f5533c8015e3befb4cf80454c.scn"]
+source_file="res://assets/Map/kenney platformer/Models/FBX format/block-snow-large-tall.fbx"
+dest_files=["res://.godot/imported/block-snow-large-tall.fbx-644d3eef71d537e7f0beeec816ad928d.scn"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cp72sxjut24xd"
-path="res://.godot/imported/fence-low-corner.png-eae0e125c5bac909999ef1f4d67f167f.ctex"
+path="res://.godot/imported/fence-low-corner.png-756f3183764976bf8c3f805130f6bd87.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/kenney platformer/Previews/fence-low-corner.png"
-dest_files=["res://.godot/imported/fence-low-corner.png-eae0e125c5bac909999ef1f4d67f167f.ctex"]
+source_file="res://assets/Map/kenney platformer/Previews/fence-low-corner.png"
+dest_files=["res://.godot/imported/fence-low-corner.png-756f3183764976bf8c3f805130f6bd87.ctex"]
 
 [params]
 

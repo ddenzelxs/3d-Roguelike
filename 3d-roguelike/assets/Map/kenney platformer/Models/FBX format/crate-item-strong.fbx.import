@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://ig6s7gd5wsys"
-path="res://.godot/imported/crate-item-strong.fbx-7dc3ca92292bcc863043d936fd47e134.scn"
+path="res://.godot/imported/crate-item-strong.fbx-6c73eb8c929238a573a1a708c15e7c6e.scn"
 
 [deps]
 
-source_file="res://assets/kenney platformer/Models/FBX format/crate-item-strong.fbx"
-dest_files=["res://.godot/imported/crate-item-strong.fbx-7dc3ca92292bcc863043d936fd47e134.scn"]
+source_file="res://assets/Map/kenney platformer/Models/FBX format/crate-item-strong.fbx"
+dest_files=["res://.godot/imported/crate-item-strong.fbx-6c73eb8c929238a573a1a708c15e7c6e.scn"]
 
 [params]
 

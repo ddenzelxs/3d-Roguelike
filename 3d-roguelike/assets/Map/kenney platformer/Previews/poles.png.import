@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://do8lck21t4ugc"
-path="res://.godot/imported/poles.png-65976cf6c0e20189375a790abcdb5853.ctex"
+path="res://.godot/imported/poles.png-0355b52631bc1c4fb1cd2fe9690069a9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/kenney platformer/Previews/poles.png"
-dest_files=["res://.godot/imported/poles.png-65976cf6c0e20189375a790abcdb5853.ctex"]
+source_file="res://assets/Map/kenney platformer/Previews/poles.png"
+dest_files=["res://.godot/imported/poles.png-0355b52631bc1c4fb1cd2fe9690069a9.ctex"]
 
 [params]
 

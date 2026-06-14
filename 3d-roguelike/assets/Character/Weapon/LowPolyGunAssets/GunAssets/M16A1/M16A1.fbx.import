@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b30miqy8m6211"
-path="res://.godot/imported/M16A1.fbx-1132cfc7f6f13a90ea7d4de8d4f963c0.scn"
+path="res://.godot/imported/M16A1.fbx-367db07f0ab7f874c4621168fe289ba1.scn"
 
 [deps]
 
-source_file="res://assets/LowPolyGunAssets/GunAssets/M16A1/M16A1.fbx"
-dest_files=["res://.godot/imported/M16A1.fbx-1132cfc7f6f13a90ea7d4de8d4f963c0.scn"]
+source_file="res://assets/Character/Weapon/LowPolyGunAssets/GunAssets/M16A1/M16A1.fbx"
+dest_files=["res://.godot/imported/M16A1.fbx-367db07f0ab7f874c4621168fe289ba1.scn"]
 
 [params]
 

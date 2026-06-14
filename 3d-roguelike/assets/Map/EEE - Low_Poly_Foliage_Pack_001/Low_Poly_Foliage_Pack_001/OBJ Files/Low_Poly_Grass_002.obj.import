@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://chppuj0rt134x"
-path="res://.godot/imported/Low_Poly_Grass_002.obj-50b2adfe7d7215b047c1a4e740084615.mesh"
+path="res://.godot/imported/Low_Poly_Grass_002.obj-d8f285fdcb4386acb34908ec2e3e6905.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Low_Poly_Grass_002.obj-50b2adfe7d7215b047c1a4e740084615.mesh"]
+files=["res://.godot/imported/Low_Poly_Grass_002.obj-d8f285fdcb4386acb34908ec2e3e6905.mesh"]
 
-source_file="res://assets/EEE - Low_Poly_Foliage_Pack_001/Low_Poly_Foliage_Pack_001/OBJ Files/Low_Poly_Grass_002.obj"
-dest_files=["res://.godot/imported/Low_Poly_Grass_002.obj-50b2adfe7d7215b047c1a4e740084615.mesh", "res://.godot/imported/Low_Poly_Grass_002.obj-50b2adfe7d7215b047c1a4e740084615.mesh"]
+source_file="res://assets/Map/EEE - Low_Poly_Foliage_Pack_001/Low_Poly_Foliage_Pack_001/OBJ Files/Low_Poly_Grass_002.obj"
+dest_files=["res://.godot/imported/Low_Poly_Grass_002.obj-d8f285fdcb4386acb34908ec2e3e6905.mesh", "res://.godot/imported/Low_Poly_Grass_002.obj-d8f285fdcb4386acb34908ec2e3e6905.mesh"]
 
 [params]
 

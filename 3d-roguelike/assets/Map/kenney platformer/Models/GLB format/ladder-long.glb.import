@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://e28reonouikj"
-path="res://.godot/imported/ladder-long.glb-d5d583c41055b59ba5d764e490221451.scn"
+path="res://.godot/imported/ladder-long.glb-456c6a13e9b5024d14f64f0d13031438.scn"
 
 [deps]
 
-source_file="res://assets/kenney platformer/Models/GLB format/ladder-long.glb"
-dest_files=["res://.godot/imported/ladder-long.glb-d5d583c41055b59ba5d764e490221451.scn"]
+source_file="res://assets/Map/kenney platformer/Models/GLB format/ladder-long.glb"
+dest_files=["res://.godot/imported/ladder-long.glb-456c6a13e9b5024d14f64f0d13031438.scn"]
 
 [params]
 

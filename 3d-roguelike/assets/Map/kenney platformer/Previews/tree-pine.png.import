@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dgoy6e75nw81d"
-path="res://.godot/imported/tree-pine.png-9d2bfffa8b7929c82289a4ff621598ba.ctex"
+path="res://.godot/imported/tree-pine.png-4b35b21d93e459989de4b94ab9f158ae.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/kenney platformer/Previews/tree-pine.png"
-dest_files=["res://.godot/imported/tree-pine.png-9d2bfffa8b7929c82289a4ff621598ba.ctex"]
+source_file="res://assets/Map/kenney platformer/Previews/tree-pine.png"
+dest_files=["res://.godot/imported/tree-pine.png-4b35b21d93e459989de4b94ab9f158ae.ctex"]
 
 [params]
 

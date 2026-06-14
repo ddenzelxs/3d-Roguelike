@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://g2h8m5krp5pc"
-path="res://.godot/imported/platform-ramp.obj-1e6f8b0ef49fbe188ae23a123f42d525.mesh"
+path="res://.godot/imported/platform-ramp.obj-6c7a8ee6e95925b18153e21ed483d822.mesh"
 
 [deps]
 
-files=["res://.godot/imported/platform-ramp.obj-1e6f8b0ef49fbe188ae23a123f42d525.mesh"]
+files=["res://.godot/imported/platform-ramp.obj-6c7a8ee6e95925b18153e21ed483d822.mesh"]
 
-source_file="res://assets/kenney platformer/Models/OBJ format/platform-ramp.obj"
-dest_files=["res://.godot/imported/platform-ramp.obj-1e6f8b0ef49fbe188ae23a123f42d525.mesh", "res://.godot/imported/platform-ramp.obj-1e6f8b0ef49fbe188ae23a123f42d525.mesh"]
+source_file="res://assets/Map/kenney platformer/Models/OBJ format/platform-ramp.obj"
+dest_files=["res://.godot/imported/platform-ramp.obj-6c7a8ee6e95925b18153e21ed483d822.mesh", "res://.godot/imported/platform-ramp.obj-6c7a8ee6e95925b18153e21ed483d822.mesh"]
 
 [params]
 

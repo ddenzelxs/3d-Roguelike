@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bx72r5pmcedah"
-path="res://.godot/imported/character-oopi.png-1604d8fa9a4a66281b37d8d1224d8a64.ctex"
+path="res://.godot/imported/character-oopi.png-432746cafc412a77b951c1eb78a066b4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/kenney platformer/Previews/character-oopi.png"
-dest_files=["res://.godot/imported/character-oopi.png-1604d8fa9a4a66281b37d8d1224d8a64.ctex"]
+source_file="res://assets/Map/kenney platformer/Previews/character-oopi.png"
+dest_files=["res://.godot/imported/character-oopi.png-432746cafc412a77b951c1eb78a066b4.ctex"]
 
 [params]
 

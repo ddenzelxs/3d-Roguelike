@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://c0cp6o30fyh1m"
-path="res://.godot/imported/Hammer_01.fbx-dce669d20dfba1552ed59b501f48006e.scn"
+path="res://.godot/imported/Hammer_01.fbx-6e4aa505340b8f7de5345871ae67c6b5.scn"
 
 [deps]
 
-source_file="res://assets/LowPolyRPGWeapons_Lite_FBX/Hammer_01.fbx"
-dest_files=["res://.godot/imported/Hammer_01.fbx-dce669d20dfba1552ed59b501f48006e.scn"]
+source_file="res://assets/Character/Weapon/LowPolyRPGWeapons_Lite_FBX/Hammer_01.fbx"
+dest_files=["res://.godot/imported/Hammer_01.fbx-6e4aa505340b8f7de5345871ae67c6b5.scn"]
 
 [params]
 

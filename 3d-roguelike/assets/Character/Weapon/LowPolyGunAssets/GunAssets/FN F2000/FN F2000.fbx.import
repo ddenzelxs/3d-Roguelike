@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b7spcvy7i4sll"
-path="res://.godot/imported/FN F2000.fbx-c2d695bf52302744500d555f7414b121.scn"
+path="res://.godot/imported/FN F2000.fbx-b424e0bf78df12e82bd5d6e7d70242c3.scn"
 
 [deps]
 
-source_file="res://assets/LowPolyGunAssets/GunAssets/FN F2000/FN F2000.fbx"
-dest_files=["res://.godot/imported/FN F2000.fbx-c2d695bf52302744500d555f7414b121.scn"]
+source_file="res://assets/Character/Weapon/LowPolyGunAssets/GunAssets/FN F2000/FN F2000.fbx"
+dest_files=["res://.godot/imported/FN F2000.fbx-b424e0bf78df12e82bd5d6e7d70242c3.scn"]
 
 [params]
 

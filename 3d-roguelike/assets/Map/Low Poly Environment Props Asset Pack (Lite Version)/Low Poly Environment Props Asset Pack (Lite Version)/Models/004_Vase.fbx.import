@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b5c10bioscmim"
-path="res://.godot/imported/004_Vase.fbx-953522eaa4a814e6223790323c4c3edd.scn"
+path="res://.godot/imported/004_Vase.fbx-494b8f8d16d232b9efa05246614e7c29.scn"
 
 [deps]
 
-source_file="res://assets/Low Poly Environment Props Asset Pack (Lite Version)/Low Poly Environment Props Asset Pack (Lite Version)/Models/004_Vase.fbx"
-dest_files=["res://.godot/imported/004_Vase.fbx-953522eaa4a814e6223790323c4c3edd.scn"]
+source_file="res://assets/Map/Low Poly Environment Props Asset Pack (Lite Version)/Low Poly Environment Props Asset Pack (Lite Version)/Models/004_Vase.fbx"
+dest_files=["res://.godot/imported/004_Vase.fbx-494b8f8d16d232b9efa05246614e7c29.scn"]
 
 [params]
 

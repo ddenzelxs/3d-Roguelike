@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dd8rjlq2bknrk"
-path="res://.godot/imported/fence-corner.glb-e303812d531ce21451395f9e00325e12.scn"
+path="res://.godot/imported/fence-corner.glb-2ccbf533bab89c1f235c46a88708dfe1.scn"
 
 [deps]
 
-source_file="res://assets/kenney platformer/Models/GLB format/fence-corner.glb"
-dest_files=["res://.godot/imported/fence-corner.glb-e303812d531ce21451395f9e00325e12.scn"]
+source_file="res://assets/Map/kenney platformer/Models/GLB format/fence-corner.glb"
+dest_files=["res://.godot/imported/fence-corner.glb-2ccbf533bab89c1f235c46a88708dfe1.scn"]
 
 [params]
 

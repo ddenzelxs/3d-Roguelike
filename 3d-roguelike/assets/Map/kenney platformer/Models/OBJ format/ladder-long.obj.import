@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://bbmm662bc0gaa"
-path="res://.godot/imported/ladder-long.obj-94c7e29f92fe5d25865e14a16bd1cdca.mesh"
+path="res://.godot/imported/ladder-long.obj-74cb08f1a5b91a9524cca3f6dea20b25.mesh"
 
 [deps]
 
-files=["res://.godot/imported/ladder-long.obj-94c7e29f92fe5d25865e14a16bd1cdca.mesh"]
+files=["res://.godot/imported/ladder-long.obj-74cb08f1a5b91a9524cca3f6dea20b25.mesh"]
 
-source_file="res://assets/kenney platformer/Models/OBJ format/ladder-long.obj"
-dest_files=["res://.godot/imported/ladder-long.obj-94c7e29f92fe5d25865e14a16bd1cdca.mesh", "res://.godot/imported/ladder-long.obj-94c7e29f92fe5d25865e14a16bd1cdca.mesh"]
+source_file="res://assets/Map/kenney platformer/Models/OBJ format/ladder-long.obj"
+dest_files=["res://.godot/imported/ladder-long.obj-74cb08f1a5b91a9524cca3f6dea20b25.mesh", "res://.godot/imported/ladder-long.obj-74cb08f1a5b91a9524cca3f6dea20b25.mesh"]
 
 [params]
 

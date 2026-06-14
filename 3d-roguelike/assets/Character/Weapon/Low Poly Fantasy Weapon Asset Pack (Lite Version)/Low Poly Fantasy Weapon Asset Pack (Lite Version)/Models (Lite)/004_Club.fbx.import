@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://i8kxjqh3ptbx"
-path="res://.godot/imported/004_Club.fbx-d7a95cdd09ddf70e37d2a60107d050d8.scn"
+path="res://.godot/imported/004_Club.fbx-4097df1174b77bb44ecbf470f4ee2dff.scn"
 
 [deps]
 
-source_file="res://assets/Low Poly Fantasy Weapon Asset Pack (Lite Version)/Low Poly Fantasy Weapon Asset Pack (Lite Version)/Models (Lite)/004_Club.fbx"
-dest_files=["res://.godot/imported/004_Club.fbx-d7a95cdd09ddf70e37d2a60107d050d8.scn"]
+source_file="res://assets/Character/Weapon/Low Poly Fantasy Weapon Asset Pack (Lite Version)/Low Poly Fantasy Weapon Asset Pack (Lite Version)/Models (Lite)/004_Club.fbx"
+dest_files=["res://.godot/imported/004_Club.fbx-4097df1174b77bb44ecbf470f4ee2dff.scn"]
 
 [params]
 

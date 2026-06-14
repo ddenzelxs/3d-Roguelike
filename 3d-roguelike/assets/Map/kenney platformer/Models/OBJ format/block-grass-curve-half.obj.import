@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://cei6cm2ibmi5j"
-path="res://.godot/imported/block-grass-curve-half.obj-d30e2a61fa3ac2d25badae201b082547.mesh"
+path="res://.godot/imported/block-grass-curve-half.obj-868f758052a26ffe60caa76acb2a96f8.mesh"
 
 [deps]
 
-files=["res://.godot/imported/block-grass-curve-half.obj-d30e2a61fa3ac2d25badae201b082547.mesh"]
+files=["res://.godot/imported/block-grass-curve-half.obj-868f758052a26ffe60caa76acb2a96f8.mesh"]
 
-source_file="res://assets/kenney platformer/Models/OBJ format/block-grass-curve-half.obj"
-dest_files=["res://.godot/imported/block-grass-curve-half.obj-d30e2a61fa3ac2d25badae201b082547.mesh", "res://.godot/imported/block-grass-curve-half.obj-d30e2a61fa3ac2d25badae201b082547.mesh"]
+source_file="res://assets/Map/kenney platformer/Models/OBJ format/block-grass-curve-half.obj"
+dest_files=["res://.godot/imported/block-grass-curve-half.obj-868f758052a26ffe60caa76acb2a96f8.mesh", "res://.godot/imported/block-grass-curve-half.obj-868f758052a26ffe60caa76acb2a96f8.mesh"]
 
 [params]
 

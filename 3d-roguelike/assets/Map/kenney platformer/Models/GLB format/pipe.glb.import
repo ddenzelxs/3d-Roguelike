@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://gompuy34mjyp"
-path="res://.godot/imported/pipe.glb-6d71b8534e116216c2db4cba0b4d8dd2.scn"
+path="res://.godot/imported/pipe.glb-51b162813e73e81d7898263bdfea7020.scn"
 
 [deps]
 
-source_file="res://assets/kenney platformer/Models/GLB format/pipe.glb"
-dest_files=["res://.godot/imported/pipe.glb-6d71b8534e116216c2db4cba0b4d8dd2.scn"]
+source_file="res://assets/Map/kenney platformer/Models/GLB format/pipe.glb"
+dest_files=["res://.godot/imported/pipe.glb-51b162813e73e81d7898263bdfea7020.scn"]
 
 [params]
 

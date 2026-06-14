@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://upj5ywxw61mr"
-path="res://.godot/imported/003_Axe.fbx-462114d24bc06c558ee33ad87f18f48c.scn"
+path="res://.godot/imported/003_Axe.fbx-3833524547a823fdedb0279990acbd6c.scn"
 
 [deps]
 
-source_file="res://assets/Low Poly Fantasy Weapon Asset Pack (Lite Version)/Low Poly Fantasy Weapon Asset Pack (Lite Version)/Models (Lite)/003_Axe.fbx"
-dest_files=["res://.godot/imported/003_Axe.fbx-462114d24bc06c558ee33ad87f18f48c.scn"]
+source_file="res://assets/Character/Weapon/Low Poly Fantasy Weapon Asset Pack (Lite Version)/Low Poly Fantasy Weapon Asset Pack (Lite Version)/Models (Lite)/003_Axe.fbx"
+dest_files=["res://.godot/imported/003_Axe.fbx-3833524547a823fdedb0279990acbd6c.scn"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://uxa1x1sqvww8"
-path="res://.godot/imported/Bow.png-9fef874388868d15949f491d23989860.ctex"
+path="res://.godot/imported/Bow.png-20db3ec15d56ec388bc39ab9170d16b5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Low Poly Fantasy Weapon Asset Pack (Lite Version)/Low Poly Fantasy Weapon Asset Pack (Lite Version)/Renders (Lite)/Transparent/Bow.png"
-dest_files=["res://.godot/imported/Bow.png-9fef874388868d15949f491d23989860.ctex"]
+source_file="res://assets/Character/Weapon/Low Poly Fantasy Weapon Asset Pack (Lite Version)/Low Poly Fantasy Weapon Asset Pack (Lite Version)/Renders (Lite)/Transparent/Bow.png"
+dest_files=["res://.godot/imported/Bow.png-20db3ec15d56ec388bc39ab9170d16b5.ctex"]
 
 [params]
 

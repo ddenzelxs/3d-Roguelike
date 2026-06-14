@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cmsf4qo0yw1i"
-path="res://.godot/imported/SpruceTree2.fbx-8ac88b083cfe02221b79f71b56dafc50.scn"
+path="res://.godot/imported/SpruceTree2.fbx-9ddd863b81e24af397eddfb39bf9d052.scn"
 
 [deps]
 
-source_file="res://assets/LowpolyForestPack/Trees/SpruceTree2.fbx"
-dest_files=["res://.godot/imported/SpruceTree2.fbx-8ac88b083cfe02221b79f71b56dafc50.scn"]
+source_file="res://assets/Map/LowpolyForestPack/Trees/SpruceTree2.fbx"
+dest_files=["res://.godot/imported/SpruceTree2.fbx-9ddd863b81e24af397eddfb39bf9d052.scn"]
 
 [params]
 

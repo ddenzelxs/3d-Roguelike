@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://btm50isdb0lyk"
-path="res://.godot/imported/character-ooli.fbx-fa817e5151d6872b5dbce118806e08da.scn"
+path="res://.godot/imported/character-ooli.fbx-bdc1ad89c8fe72a41534ed102ba3b828.scn"
 
 [deps]
 
-source_file="res://assets/kenney platformer/Models/FBX format/character-ooli.fbx"
-dest_files=["res://.godot/imported/character-ooli.fbx-fa817e5151d6872b5dbce118806e08da.scn"]
+source_file="res://assets/Map/kenney platformer/Models/FBX format/character-ooli.fbx"
+dest_files=["res://.godot/imported/character-ooli.fbx-bdc1ad89c8fe72a41534ed102ba3b828.scn"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dchk1oji4qnca"
-path="res://.godot/imported/fence-broken.glb-075da350e193804ea663bd447233844b.scn"
+path="res://.godot/imported/fence-broken.glb-024c4c9b3e58bf006af2be295fe9107a.scn"
 
 [deps]
 
-source_file="res://assets/kenney platformer/Models/GLB format/fence-broken.glb"
-dest_files=["res://.godot/imported/fence-broken.glb-075da350e193804ea663bd447233844b.scn"]
+source_file="res://assets/Map/kenney platformer/Models/GLB format/fence-broken.glb"
+dest_files=["res://.godot/imported/fence-broken.glb-024c4c9b3e58bf006af2be295fe9107a.scn"]
 
 [params]
 

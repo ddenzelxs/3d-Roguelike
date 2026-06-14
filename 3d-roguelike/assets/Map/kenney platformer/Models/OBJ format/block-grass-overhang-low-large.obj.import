@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://4eppnjmj4aeb"
-path="res://.godot/imported/block-grass-overhang-low-large.obj-1025e294d5ee769b3bd531ea53ff52dd.mesh"
+path="res://.godot/imported/block-grass-overhang-low-large.obj-caeb50841601289d0727d621349a8815.mesh"
 
 [deps]
 
-files=["res://.godot/imported/block-grass-overhang-low-large.obj-1025e294d5ee769b3bd531ea53ff52dd.mesh"]
+files=["res://.godot/imported/block-grass-overhang-low-large.obj-caeb50841601289d0727d621349a8815.mesh"]
 
-source_file="res://assets/kenney platformer/Models/OBJ format/block-grass-overhang-low-large.obj"
-dest_files=["res://.godot/imported/block-grass-overhang-low-large.obj-1025e294d5ee769b3bd531ea53ff52dd.mesh", "res://.godot/imported/block-grass-overhang-low-large.obj-1025e294d5ee769b3bd531ea53ff52dd.mesh"]
+source_file="res://assets/Map/kenney platformer/Models/OBJ format/block-grass-overhang-low-large.obj"
+dest_files=["res://.godot/imported/block-grass-overhang-low-large.obj-caeb50841601289d0727d621349a8815.mesh", "res://.godot/imported/block-grass-overhang-low-large.obj-caeb50841601289d0727d621349a8815.mesh"]
 
 [params]
 

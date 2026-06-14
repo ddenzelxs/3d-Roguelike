@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cbd01qhrcl01j"
-path="res://.godot/imported/block-grass-corner.png-047510178210f89535e3c539b6c9e843.ctex"
+path="res://.godot/imported/block-grass-corner.png-75f2f9091cf6ea775308c2eb5d544b8d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/kenney platformer/Previews/block-grass-corner.png"
-dest_files=["res://.godot/imported/block-grass-corner.png-047510178210f89535e3c539b6c9e843.ctex"]
+source_file="res://assets/Map/kenney platformer/Previews/block-grass-corner.png"
+dest_files=["res://.godot/imported/block-grass-corner.png-75f2f9091cf6ea775308c2eb5d544b8d.ctex"]
 
 [params]
 

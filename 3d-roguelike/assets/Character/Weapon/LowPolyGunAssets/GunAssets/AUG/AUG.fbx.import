@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dfue4r48lo4tv"
-path="res://.godot/imported/AUG.fbx-bb239cab94b3edaf7e980a30e6f7a8d2.scn"
+path="res://.godot/imported/AUG.fbx-b2541c45e6131b3ec0ac87fd5cd604ac.scn"
 
 [deps]
 
-source_file="res://assets/LowPolyGunAssets/GunAssets/AUG/AUG.fbx"
-dest_files=["res://.godot/imported/AUG.fbx-bb239cab94b3edaf7e980a30e6f7a8d2.scn"]
+source_file="res://assets/Character/Weapon/LowPolyGunAssets/GunAssets/AUG/AUG.fbx"
+dest_files=["res://.godot/imported/AUG.fbx-b2541c45e6131b3ec0ac87fd5cd604ac.scn"]
 
 [params]
 

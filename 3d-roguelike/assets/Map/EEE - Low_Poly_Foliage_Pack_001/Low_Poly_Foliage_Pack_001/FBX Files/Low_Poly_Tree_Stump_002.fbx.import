@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cib1rbo2hm7pc"
-path="res://.godot/imported/Low_Poly_Tree_Stump_002.fbx-6fec829ea96772df1870d6cd90104265.scn"
+path="res://.godot/imported/Low_Poly_Tree_Stump_002.fbx-29df52f0b436def3c6e072b73160337f.scn"
 
 [deps]
 
-source_file="res://assets/EEE - Low_Poly_Foliage_Pack_001/Low_Poly_Foliage_Pack_001/FBX Files/Low_Poly_Tree_Stump_002.fbx"
-dest_files=["res://.godot/imported/Low_Poly_Tree_Stump_002.fbx-6fec829ea96772df1870d6cd90104265.scn"]
+source_file="res://assets/Map/EEE - Low_Poly_Foliage_Pack_001/Low_Poly_Foliage_Pack_001/FBX Files/Low_Poly_Tree_Stump_002.fbx"
+dest_files=["res://.godot/imported/Low_Poly_Tree_Stump_002.fbx-29df52f0b436def3c6e072b73160337f.scn"]
 
 [params]
 

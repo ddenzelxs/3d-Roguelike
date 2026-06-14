@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://c8ka80n0sy8eg"
-path="res://.godot/imported/chest.fbx-410a283f8cabae3e37c867f5fbe337b6.scn"
+path="res://.godot/imported/chest.fbx-bdec0d661c4d2a5fdc2cb648c8917e7f.scn"
 
 [deps]
 
-source_file="res://assets/kenney platformer/Models/FBX format/chest.fbx"
-dest_files=["res://.godot/imported/chest.fbx-410a283f8cabae3e37c867f5fbe337b6.scn"]
+source_file="res://assets/Map/kenney platformer/Models/FBX format/chest.fbx"
+dest_files=["res://.godot/imported/chest.fbx-bdec0d661c4d2a5fdc2cb648c8917e7f.scn"]
 
 [params]
 

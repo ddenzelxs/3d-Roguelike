@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d3ndqccnwbr3k"
-path="res://.godot/imported/Shield.png-54515217969b0bba93d8b918af772139.ctex"
+path="res://.godot/imported/Shield.png-05d6e7f80714d4d510d08c2c64dc6871.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Low Poly Fantasy Weapon Asset Pack (Lite Version)/Low Poly Fantasy Weapon Asset Pack (Lite Version)/Renders (Lite)/Normal/Shield.png"
-dest_files=["res://.godot/imported/Shield.png-54515217969b0bba93d8b918af772139.ctex"]
+source_file="res://assets/Character/Weapon/Low Poly Fantasy Weapon Asset Pack (Lite Version)/Low Poly Fantasy Weapon Asset Pack (Lite Version)/Renders (Lite)/Normal/Shield.png"
+dest_files=["res://.godot/imported/Shield.png-05d6e7f80714d4d510d08c2c64dc6871.ctex"]
 
 [params]
 

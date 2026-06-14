@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cpbguo7ok6oeo"
-path="res://.godot/imported/pipe.png-5c23456e4bb09959141c4ec2bfd1ac1f.ctex"
+path="res://.godot/imported/pipe.png-b40eb4a087e3fa17ae42d56e393d8ec1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/kenney platformer/Previews/pipe.png"
-dest_files=["res://.godot/imported/pipe.png-5c23456e4bb09959141c4ec2bfd1ac1f.ctex"]
+source_file="res://assets/Map/kenney platformer/Previews/pipe.png"
+dest_files=["res://.godot/imported/pipe.png-b40eb4a087e3fa17ae42d56e393d8ec1.ctex"]
 
 [params]
 

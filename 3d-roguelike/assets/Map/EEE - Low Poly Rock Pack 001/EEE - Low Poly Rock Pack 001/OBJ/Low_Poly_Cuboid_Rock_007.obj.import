@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://qr7jl2e6l2kb"
-path="res://.godot/imported/Low_Poly_Cuboid_Rock_007.obj-b8c2d005e1a491161fd062dec5a360ca.mesh"
+path="res://.godot/imported/Low_Poly_Cuboid_Rock_007.obj-11dc3c805b620ebaa2c5d6d3aeaa4bd2.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Low_Poly_Cuboid_Rock_007.obj-b8c2d005e1a491161fd062dec5a360ca.mesh"]
+files=["res://.godot/imported/Low_Poly_Cuboid_Rock_007.obj-11dc3c805b620ebaa2c5d6d3aeaa4bd2.mesh"]
 
-source_file="res://assets/EEE - Low Poly Rock Pack 001/EEE - Low Poly Rock Pack 001/OBJ/Low_Poly_Cuboid_Rock_007.obj"
-dest_files=["res://.godot/imported/Low_Poly_Cuboid_Rock_007.obj-b8c2d005e1a491161fd062dec5a360ca.mesh", "res://.godot/imported/Low_Poly_Cuboid_Rock_007.obj-b8c2d005e1a491161fd062dec5a360ca.mesh"]
+source_file="res://assets/Map/EEE - Low Poly Rock Pack 001/EEE - Low Poly Rock Pack 001/OBJ/Low_Poly_Cuboid_Rock_007.obj"
+dest_files=["res://.godot/imported/Low_Poly_Cuboid_Rock_007.obj-11dc3c805b620ebaa2c5d6d3aeaa4bd2.mesh", "res://.godot/imported/Low_Poly_Cuboid_Rock_007.obj-11dc3c805b620ebaa2c5d6d3aeaa4bd2.mesh"]
 
 [params]
 

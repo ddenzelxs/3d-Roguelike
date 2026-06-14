@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cotr8bvqk32gm"
-path="res://.godot/imported/stones.png-d350c6f17f4a56eafd00cea7d0e25d44.ctex"
+path="res://.godot/imported/stones.png-0b4f977e76ec8e46555b9e4cc6f72fb4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/kenney platformer/Previews/stones.png"
-dest_files=["res://.godot/imported/stones.png-d350c6f17f4a56eafd00cea7d0e25d44.ctex"]
+source_file="res://assets/Map/kenney platformer/Previews/stones.png"
+dest_files=["res://.godot/imported/stones.png-0b4f977e76ec8e46555b9e4cc6f72fb4.ctex"]
 
 [params]
 

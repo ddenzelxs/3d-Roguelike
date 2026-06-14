@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://c5mpoemcuqdld"
-path="res://.godot/imported/Low_Poly_Tree_Stump_002.obj-a176a176f5bcf236dea46d6b9691b8ff.mesh"
+path="res://.godot/imported/Low_Poly_Tree_Stump_002.obj-8aadc4399f67ef30e9cee9d33ced2dcb.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Low_Poly_Tree_Stump_002.obj-a176a176f5bcf236dea46d6b9691b8ff.mesh"]
+files=["res://.godot/imported/Low_Poly_Tree_Stump_002.obj-8aadc4399f67ef30e9cee9d33ced2dcb.mesh"]
 
-source_file="res://assets/EEE - Low_Poly_Foliage_Pack_001/Low_Poly_Foliage_Pack_001/OBJ Files/Low_Poly_Tree_Stump_002.obj"
-dest_files=["res://.godot/imported/Low_Poly_Tree_Stump_002.obj-a176a176f5bcf236dea46d6b9691b8ff.mesh", "res://.godot/imported/Low_Poly_Tree_Stump_002.obj-a176a176f5bcf236dea46d6b9691b8ff.mesh"]
+source_file="res://assets/Map/EEE - Low_Poly_Foliage_Pack_001/Low_Poly_Foliage_Pack_001/OBJ Files/Low_Poly_Tree_Stump_002.obj"
+dest_files=["res://.godot/imported/Low_Poly_Tree_Stump_002.obj-8aadc4399f67ef30e9cee9d33ced2dcb.mesh", "res://.godot/imported/Low_Poly_Tree_Stump_002.obj-8aadc4399f67ef30e9cee9d33ced2dcb.mesh"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cqargn60ibi5e"
-path="res://.godot/imported/Shield_01.fbx-19e782cc8d27d1f44e99d374bdcabc27.scn"
+path="res://.godot/imported/Shield_01.fbx-11bfc4595214e8f108455f1779056830.scn"
 
 [deps]
 
-source_file="res://assets/LowPolyRPGWeapons_Lite_FBX/Shield_01.fbx"
-dest_files=["res://.godot/imported/Shield_01.fbx-19e782cc8d27d1f44e99d374bdcabc27.scn"]
+source_file="res://assets/Character/Weapon/LowPolyRPGWeapons_Lite_FBX/Shield_01.fbx"
+dest_files=["res://.godot/imported/Shield_01.fbx-11bfc4595214e8f108455f1779056830.scn"]
 
 [params]
 

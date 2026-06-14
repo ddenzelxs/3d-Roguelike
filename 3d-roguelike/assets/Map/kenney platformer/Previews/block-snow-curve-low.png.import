@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bpdm2ctt000kb"
-path="res://.godot/imported/block-snow-curve-low.png-18451db3bba319fec3c2c1c7dd892069.ctex"
+path="res://.godot/imported/block-snow-curve-low.png-06303cbc0b3de1f14799e5d740cf555c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/kenney platformer/Previews/block-snow-curve-low.png"
-dest_files=["res://.godot/imported/block-snow-curve-low.png-18451db3bba319fec3c2c1c7dd892069.ctex"]
+source_file="res://assets/Map/kenney platformer/Previews/block-snow-curve-low.png"
+dest_files=["res://.godot/imported/block-snow-curve-low.png-06303cbc0b3de1f14799e5d740cf555c.ctex"]
 
 [params]
 

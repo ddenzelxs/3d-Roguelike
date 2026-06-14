@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b6u13p1ihkok7"
-path="res://.godot/imported/fence-corner-curved.png-6a880d496d0dedd83edd0be4b4047d46.ctex"
+path="res://.godot/imported/fence-corner-curved.png-58bc25449acb0ff81b73458a31e9c6d7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/kenney platformer/Previews/fence-corner-curved.png"
-dest_files=["res://.godot/imported/fence-corner-curved.png-6a880d496d0dedd83edd0be4b4047d46.ctex"]
+source_file="res://assets/Map/kenney platformer/Previews/fence-corner-curved.png"
+dest_files=["res://.godot/imported/fence-corner-curved.png-58bc25449acb0ff81b73458a31e9c6d7.ctex"]
 
 [params]
 

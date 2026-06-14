@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://bef57pmqieq0n"
-path="res://.godot/imported/conveyor-belt.obj-692a47051c5cf045d644c1e1ea2699de.mesh"
+path="res://.godot/imported/conveyor-belt.obj-e4be6a5773dd62f64390d3bcceb7477e.mesh"
 
 [deps]
 
-files=["res://.godot/imported/conveyor-belt.obj-692a47051c5cf045d644c1e1ea2699de.mesh"]
+files=["res://.godot/imported/conveyor-belt.obj-e4be6a5773dd62f64390d3bcceb7477e.mesh"]
 
-source_file="res://assets/kenney platformer/Models/OBJ format/conveyor-belt.obj"
-dest_files=["res://.godot/imported/conveyor-belt.obj-692a47051c5cf045d644c1e1ea2699de.mesh", "res://.godot/imported/conveyor-belt.obj-692a47051c5cf045d644c1e1ea2699de.mesh"]
+source_file="res://assets/Map/kenney platformer/Models/OBJ format/conveyor-belt.obj"
+dest_files=["res://.godot/imported/conveyor-belt.obj-e4be6a5773dd62f64390d3bcceb7477e.mesh", "res://.godot/imported/conveyor-belt.obj-e4be6a5773dd62f64390d3bcceb7477e.mesh"]
 
 [params]
 

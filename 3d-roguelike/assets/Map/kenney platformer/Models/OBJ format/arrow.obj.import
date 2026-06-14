@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://dn5xe4xadn5tl"
-path="res://.godot/imported/arrow.obj-622a36b6d2c7deb8374b731807a6b44f.mesh"
+path="res://.godot/imported/arrow.obj-e98fc38288e4eac31918131b199619e7.mesh"
 
 [deps]
 
-files=["res://.godot/imported/arrow.obj-622a36b6d2c7deb8374b731807a6b44f.mesh"]
+files=["res://.godot/imported/arrow.obj-e98fc38288e4eac31918131b199619e7.mesh"]
 
-source_file="res://assets/kenney platformer/Models/OBJ format/arrow.obj"
-dest_files=["res://.godot/imported/arrow.obj-622a36b6d2c7deb8374b731807a6b44f.mesh", "res://.godot/imported/arrow.obj-622a36b6d2c7deb8374b731807a6b44f.mesh"]
+source_file="res://assets/Map/kenney platformer/Models/OBJ format/arrow.obj"
+dest_files=["res://.godot/imported/arrow.obj-e98fc38288e4eac31918131b199619e7.mesh", "res://.godot/imported/arrow.obj-e98fc38288e4eac31918131b199619e7.mesh"]
 
 [params]
 

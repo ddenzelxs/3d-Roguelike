@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cmjg0pd4uilw0"
-path="res://.godot/imported/OakTree3.fbx-cb0f4631a63499ae3d7ba253ac65e32d.scn"
+path="res://.godot/imported/OakTree3.fbx-83fbb5f63f259b13e3e460bdf41d3e5d.scn"
 
 [deps]
 
-source_file="res://assets/LowpolyForestPack/Trees/OakTree3.fbx"
-dest_files=["res://.godot/imported/OakTree3.fbx-cb0f4631a63499ae3d7ba253ac65e32d.scn"]
+source_file="res://assets/Map/LowpolyForestPack/Trees/OakTree3.fbx"
+dest_files=["res://.godot/imported/OakTree3.fbx-83fbb5f63f259b13e3e460bdf41d3e5d.scn"]
 
 [params]
 

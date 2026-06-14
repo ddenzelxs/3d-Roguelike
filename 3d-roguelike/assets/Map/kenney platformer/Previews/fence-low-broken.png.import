@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://beyno1oiaqrfb"
-path="res://.godot/imported/fence-low-broken.png-78f57f64fd4cf0747e35a09991eaf746.ctex"
+path="res://.godot/imported/fence-low-broken.png-a8aac9bef9f45c9bb6a057b49776d036.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/kenney platformer/Previews/fence-low-broken.png"
-dest_files=["res://.godot/imported/fence-low-broken.png-78f57f64fd4cf0747e35a09991eaf746.ctex"]
+source_file="res://assets/Map/kenney platformer/Previews/fence-low-broken.png"
+dest_files=["res://.godot/imported/fence-low-broken.png-a8aac9bef9f45c9bb6a057b49776d036.ctex"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bninflv72erhq"
-path="res://.godot/imported/Arrow_01.fbx-09df570434ee98cd25f5845e5fd7e9b3.scn"
+path="res://.godot/imported/Arrow_01.fbx-2526b99ffa22be2c8f34173e4bfa5d8e.scn"
 
 [deps]
 
-source_file="res://assets/LowPolyRPGWeapons_Lite_FBX/Arrow_01.fbx"
-dest_files=["res://.godot/imported/Arrow_01.fbx-09df570434ee98cd25f5845e5fd7e9b3.scn"]
+source_file="res://assets/Character/Weapon/LowPolyRPGWeapons_Lite_FBX/Arrow_01.fbx"
+dest_files=["res://.godot/imported/Arrow_01.fbx-2526b99ffa22be2c8f34173e4bfa5d8e.scn"]
 
 [params]
 

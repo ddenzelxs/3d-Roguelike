@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bj8334ux8wdme"
-path="res://.godot/imported/004_Maple_Tree_Render_Transparent.png-a2f9fb3c10f711e922c2cddd998d36d2.ctex"
+path="res://.godot/imported/004_Maple_Tree_Render_Transparent.png-0b06fc8b4b282c0376fc4ad82c559211.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Low Poly Trees Asset Pack (Lite Version)/Low Poly Trees Asset Pack (Lite Version)/Renders (Lite)/Transparent/004_Maple_Tree_Render_Transparent.png"
-dest_files=["res://.godot/imported/004_Maple_Tree_Render_Transparent.png-a2f9fb3c10f711e922c2cddd998d36d2.ctex"]
+source_file="res://assets/Map/Low Poly Trees Asset Pack (Lite Version)/Low Poly Trees Asset Pack (Lite Version)/Renders (Lite)/Transparent/004_Maple_Tree_Render_Transparent.png"
+dest_files=["res://.godot/imported/004_Maple_Tree_Render_Transparent.png-0b06fc8b4b282c0376fc4ad82c559211.ctex"]
 
 [params]
 

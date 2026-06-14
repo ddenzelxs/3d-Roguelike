@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://csajv4qm13api"
-path="res://.godot/imported/bomb.png-2d79b61fb796f67ed27ac4364f2f5272.ctex"
+path="res://.godot/imported/bomb.png-7d8b03e4434ac5511b002b8d935c9d03.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/kenney platformer/Previews/bomb.png"
-dest_files=["res://.godot/imported/bomb.png-2d79b61fb796f67ed27ac4364f2f5272.ctex"]
+source_file="res://assets/Map/kenney platformer/Previews/bomb.png"
+dest_files=["res://.godot/imported/bomb.png-7d8b03e4434ac5511b002b8d935c9d03.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c7v6p87sxlq5h"
-path="res://.godot/imported/ladder.png-4a9ce1fe44c63e08a4b00936c8ee8ceb.ctex"
+path="res://.godot/imported/ladder.png-2df245903d02eb180e6c67d49fc83513.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/kenney platformer/Previews/ladder.png"
-dest_files=["res://.godot/imported/ladder.png-4a9ce1fe44c63e08a4b00936c8ee8ceb.ctex"]
+source_file="res://assets/Map/kenney platformer/Previews/ladder.png"
+dest_files=["res://.godot/imported/ladder.png-2df245903d02eb180e6c67d49fc83513.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://1y7kfpn6sb64"
-path="res://.godot/imported/block-moving.png-070368a4485ef5aed2b91bb8bf78f431.ctex"
+path="res://.godot/imported/block-moving.png-21928203c5c94adb7b8151f009d24405.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/kenney platformer/Previews/block-moving.png"
-dest_files=["res://.godot/imported/block-moving.png-070368a4485ef5aed2b91bb8bf78f431.ctex"]
+source_file="res://assets/Map/kenney platformer/Previews/block-moving.png"
+dest_files=["res://.godot/imported/block-moving.png-21928203c5c94adb7b8151f009d24405.ctex"]
 
 [params]
 

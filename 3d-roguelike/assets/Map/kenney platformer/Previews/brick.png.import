@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cvd5rr0ovb7ow"
-path="res://.godot/imported/brick.png-1237a92d511d89802186ea1e3354eda4.ctex"
+path="res://.godot/imported/brick.png-b7a4c6c7dfd7da901ccfe8c6bd99f686.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/kenney platformer/Previews/brick.png"
-dest_files=["res://.godot/imported/brick.png-1237a92d511d89802186ea1e3354eda4.ctex"]
+source_file="res://assets/Map/kenney platformer/Previews/brick.png"
+dest_files=["res://.godot/imported/brick.png-b7a4c6c7dfd7da901ccfe8c6bd99f686.ctex"]
 
 [params]
 

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bgc0sjqts2nk3"
-path="res://.godot/imported/tree-pine-snow-small.glb-ef84716c16d014345daeb20d9b0abbf8.scn"
+path="res://.godot/imported/tree-pine-snow-small.glb-d12778cf9b167e4b21433a23bd09eca5.scn"
 
 [deps]
 
-source_file="res://assets/kenney platformer/Models/GLB format/tree-pine-snow-small.glb"
-dest_files=["res://.godot/imported/tree-pine-snow-small.glb-ef84716c16d014345daeb20d9b0abbf8.scn"]
+source_file="res://assets/Map/kenney platformer/Models/GLB format/tree-pine-snow-small.glb"
+dest_files=["res://.godot/imported/tree-pine-snow-small.glb-d12778cf9b167e4b21433a23bd09eca5.scn"]
 
 [params]
 

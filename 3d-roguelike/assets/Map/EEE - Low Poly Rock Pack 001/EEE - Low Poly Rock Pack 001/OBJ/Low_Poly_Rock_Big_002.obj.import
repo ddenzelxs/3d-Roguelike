@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://gdoe302oeia6"
-path="res://.godot/imported/Low_Poly_Rock_Big_002.obj-04c770823888154e3858f325822582c0.mesh"
+path="res://.godot/imported/Low_Poly_Rock_Big_002.obj-e04794d06e8afb769dc0cf79487f6103.mesh"
 
 [deps]
 
-files=["res://.godot/imported/Low_Poly_Rock_Big_002.obj-04c770823888154e3858f325822582c0.mesh"]
+files=["res://.godot/imported/Low_Poly_Rock_Big_002.obj-e04794d06e8afb769dc0cf79487f6103.mesh"]
 
-source_file="res://assets/EEE - Low Poly Rock Pack 001/EEE - Low Poly Rock Pack 001/OBJ/Low_Poly_Rock_Big_002.obj"
-dest_files=["res://.godot/imported/Low_Poly_Rock_Big_002.obj-04c770823888154e3858f325822582c0.mesh", "res://.godot/imported/Low_Poly_Rock_Big_002.obj-04c770823888154e3858f325822582c0.mesh"]
+source_file="res://assets/Map/EEE - Low Poly Rock Pack 001/EEE - Low Poly Rock Pack 001/OBJ/Low_Poly_Rock_Big_002.obj"
+dest_files=["res://.godot/imported/Low_Poly_Rock_Big_002.obj-e04794d06e8afb769dc0cf79487f6103.mesh", "res://.godot/imported/Low_Poly_Rock_Big_002.obj-e04794d06e8afb769dc0cf79487f6103.mesh"]
 
 [params]
 

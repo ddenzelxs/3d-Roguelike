@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://4jq3408slj8d"
-path="res://.godot/imported/spike-block-wide.glb-8f0377d2aca98a418fa190b7fedc07fb.scn"
+path="res://.godot/imported/spike-block-wide.glb-8d6d1e5cfef0d20a7e15c53285575e16.scn"
 
 [deps]
 
-source_file="res://assets/kenney platformer/Models/GLB format/spike-block-wide.glb"
-dest_files=["res://.godot/imported/spike-block-wide.glb-8f0377d2aca98a418fa190b7fedc07fb.scn"]
+source_file="res://assets/Map/kenney platformer/Models/GLB format/spike-block-wide.glb"
+dest_files=["res://.godot/imported/spike-block-wide.glb-8d6d1e5cfef0d20a7e15c53285575e16.scn"]
 
 [params]
 

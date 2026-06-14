@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://dpbtsl153cojc"
-path="res://.godot/imported/fence-low-corner-curved.obj-ba488a9d0a8806220b4cf00e75c5d25b.mesh"
+path="res://.godot/imported/fence-low-corner-curved.obj-5e8b6a9ed8d22c92f2da718e689f2856.mesh"
 
 [deps]
 
-files=["res://.godot/imported/fence-low-corner-curved.obj-ba488a9d0a8806220b4cf00e75c5d25b.mesh"]
+files=["res://.godot/imported/fence-low-corner-curved.obj-5e8b6a9ed8d22c92f2da718e689f2856.mesh"]
 
-source_file="res://assets/kenney platformer/Models/OBJ format/fence-low-corner-curved.obj"
-dest_files=["res://.godot/imported/fence-low-corner-curved.obj-ba488a9d0a8806220b4cf00e75c5d25b.mesh", "res://.godot/imported/fence-low-corner-curved.obj-ba488a9d0a8806220b4cf00e75c5d25b.mesh"]
+source_file="res://assets/Map/kenney platformer/Models/OBJ format/fence-low-corner-curved.obj"
+dest_files=["res://.godot/imported/fence-low-corner-curved.obj-5e8b6a9ed8d22c92f2da718e689f2856.mesh", "res://.godot/imported/fence-low-corner-curved.obj-5e8b6a9ed8d22c92f2da718e689f2856.mesh"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c4q6cid3q3ais"
-path="res://.godot/imported/FN-SCAR(1).png-5db881aeedc9e3e687f08b5885ac85b3.ctex"
+path="res://.godot/imported/FN-SCAR(1).png-1ef3c5cf5956147d6a38855c7b697bbe.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/LowPolyGunAssets/GunAssets/FN SCAR/FN-SCAR(1).png"
-dest_files=["res://.godot/imported/FN-SCAR(1).png-5db881aeedc9e3e687f08b5885ac85b3.ctex"]
+source_file="res://assets/Character/Weapon/LowPolyGunAssets/GunAssets/FN SCAR/FN-SCAR(1).png"
+dest_files=["res://.godot/imported/FN-SCAR(1).png-1ef3c5cf5956147d6a38855c7b697bbe.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cx1upweg6tg7v"
-path="res://.godot/imported/AUG(2).png-2d83031960071ce81e680afd4ad9d622.ctex"
+path="res://.godot/imported/AUG(2).png-b56a3017f15f97fae536c5b784e05958.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/LowPolyGunAssets/GunAssets/AUG/AUG(2).png"
-dest_files=["res://.godot/imported/AUG(2).png-2d83031960071ce81e680afd4ad9d622.ctex"]
+source_file="res://assets/Character/Weapon/LowPolyGunAssets/GunAssets/AUG/AUG(2).png"
+dest_files=["res://.godot/imported/AUG(2).png-b56a3017f15f97fae536c5b784e05958.ctex"]
 
 [params]
 

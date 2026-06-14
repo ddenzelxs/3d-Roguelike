@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://ci0od0j3fpw68"
-path="res://.godot/imported/block-snow-edge.fbx-5da5ed2cda65901207b0027185bec5b3.scn"
+path="res://.godot/imported/block-snow-edge.fbx-73317ed87eb959b7a3a192b573c61bcb.scn"
 
 [deps]
 
-source_file="res://assets/kenney platformer/Models/FBX format/block-snow-edge.fbx"
-dest_files=["res://.godot/imported/block-snow-edge.fbx-5da5ed2cda65901207b0027185bec5b3.scn"]
+source_file="res://assets/Map/kenney platformer/Models/FBX format/block-snow-edge.fbx"
+dest_files=["res://.godot/imported/block-snow-edge.fbx-73317ed87eb959b7a3a192b573c61bcb.scn"]
 
 [params]
 

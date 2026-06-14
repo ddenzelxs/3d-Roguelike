@@ -4,14 +4,14 @@ importer="wavefront_obj"
 importer_version=1
 type="Mesh"
 uid="uid://dyb2q3711awul"
-path="res://.godot/imported/block-snow-overhang-low.obj-6b6872d2bac323a4e91f95109f325cea.mesh"
+path="res://.godot/imported/block-snow-overhang-low.obj-ac97fcaf6f0ada0059fd0fb82ad7aaa3.mesh"
 
 [deps]
 
-files=["res://.godot/imported/block-snow-overhang-low.obj-6b6872d2bac323a4e91f95109f325cea.mesh"]
+files=["res://.godot/imported/block-snow-overhang-low.obj-ac97fcaf6f0ada0059fd0fb82ad7aaa3.mesh"]
 
-source_file="res://assets/kenney platformer/Models/OBJ format/block-snow-overhang-low.obj"
-dest_files=["res://.godot/imported/block-snow-overhang-low.obj-6b6872d2bac323a4e91f95109f325cea.mesh", "res://.godot/imported/block-snow-overhang-low.obj-6b6872d2bac323a4e91f95109f325cea.mesh"]
+source_file="res://assets/Map/kenney platformer/Models/OBJ format/block-snow-overhang-low.obj"
+dest_files=["res://.godot/imported/block-snow-overhang-low.obj-ac97fcaf6f0ada0059fd0fb82ad7aaa3.mesh", "res://.godot/imported/block-snow-overhang-low.obj-ac97fcaf6f0ada0059fd0fb82ad7aaa3.mesh"]
 
 [params]
 

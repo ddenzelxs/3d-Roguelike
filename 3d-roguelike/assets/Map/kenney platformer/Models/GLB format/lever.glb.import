@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://v4shpbu6lktk"
-path="res://.godot/imported/lever.glb-389fcbaed5c6b385837dc59deee488d5.scn"
+path="res://.godot/imported/lever.glb-723761c3d96b7db5300a0d68535f0d2a.scn"
 
 [deps]
 
-source_file="res://assets/kenney platformer/Models/GLB format/lever.glb"
-dest_files=["res://.godot/imported/lever.glb-389fcbaed5c6b385837dc59deee488d5.scn"]
+source_file="res://assets/Map/kenney platformer/Models/GLB format/lever.glb"
+dest_files=["res://.godot/imported/lever.glb-723761c3d96b7db5300a0d68535f0d2a.scn"]
 
 [params]
 

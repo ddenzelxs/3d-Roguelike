@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b074b4w0w82oh"
-path="res://.godot/imported/block-snow-narrow.glb-904131e120a9946261b5ec98e5e6a0b1.scn"
+path="res://.godot/imported/block-snow-narrow.glb-2dd0bb179838a8a3be45ca58245ff17f.scn"
 
 [deps]
 
-source_file="res://assets/kenney platformer/Models/GLB format/block-snow-narrow.glb"
-dest_files=["res://.godot/imported/block-snow-narrow.glb-904131e120a9946261b5ec98e5e6a0b1.scn"]
+source_file="res://assets/Map/kenney platformer/Models/GLB format/block-snow-narrow.glb"
+dest_files=["res://.godot/imported/block-snow-narrow.glb-2dd0bb179838a8a3be45ca58245ff17f.scn"]
 
 [params]
 
