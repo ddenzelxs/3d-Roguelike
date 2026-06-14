@@ -5,7 +5,6 @@ var enuma_code = "enkidu"
 var jett_code = "jett" 
 var current_input = ""
 
-
 func _input(event):
 	if event is InputEventKey and event.pressed and not event.echo:
 		var char_typed = char(event.unicode).to_lower()

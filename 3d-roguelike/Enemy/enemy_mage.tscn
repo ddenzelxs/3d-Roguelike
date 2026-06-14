@@ -19,7 +19,7 @@ stencil_flags = 2
 [sub_resource type="CapsuleMesh" id="CapsuleMesh_4gyqm"]
 material = SubResource("StandardMaterial3D_4gyqm")
 
-[node name="Enemy" type="CharacterBody3D" unique_id=1691554510 groups=["enemy"]]
+[node name="Enemy2" type="CharacterBody3D" unique_id=1691554510 groups=["enemy"]]
 script = ExtResource("1_ts2gx")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1177620901]
