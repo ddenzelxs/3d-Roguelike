@@ -1,7 +1,7 @@
 extends Area3D
 
 var damage = 1000 # Absolute obliteration
-var active_time = 3.0
+var active_time = 5.0
 
 func _ready():
 	# Start flat and expand outward for impact
@@ -19,14 +19,12 @@ func _ready():
 	# Fade out and destroy
 	get_tree().create_timer(active_time).timeout.connect(fade_out)
 
-func _on_body_entered(body):
-	_deal_damage(body)
-		
-
-func _deal_damage(body):
-	#for body in get_overlapping_bodies():
-	if body.is_in_group("enemy") and body.has_method("take_damage"):
-		body.take_damage(damage)
+func _deal_damage():
+	# This grabs a list of EVERYTHING inside the laser beam right now
+	for body in get_overlapping_bodies():
+		# Check if the thing in the beam is an enemy
+		if body.is_in_group("enemy") and body.has_method("take_damage"):
+			body.take_damage(damage)
 
 func fade_out():
 	var tween = create_tween()

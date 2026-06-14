@@ -204,7 +204,7 @@ func upgrade_attack_speed(value: float) -> void:
 	
 func fire_enuma_elish():
 	# 1. Crazy screen shake! (3 full seconds, extremely violent intensity)
-	get_tree().call_group("camera", "shake", 3.0, 0.8)
+	get_tree().call_group("camera", "shake", 5.0, 0.8)
 	
 	# 2. Ear-shattering audio
 	AudioManager.play(AudioManager.enuma)

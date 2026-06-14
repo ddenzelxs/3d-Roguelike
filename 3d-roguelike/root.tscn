@@ -16,6 +16,7 @@
 [ext_resource type="Script" uid="uid://2tvv4tdoxsxi" path="res://UI/upgrade_menu.gd" id="13_eji0w"]
 [ext_resource type="PackedScene" uid="uid://dknbtlwb11lmt" path="res://death_screen.tscn" id="14_qwhpj"]
 [ext_resource type="PackedScene" uid="uid://d0r1bknww8uyi" path="res://video_cutscene.tscn" id="16_sq7yr"]
+[ext_resource type="PackedScene" uid="uid://nido25fo1t4q" path="res://UI/ShopMenu.tscn" id="17_r3r3k"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_pyidc"]
 sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
@@ -118,5 +119,7 @@ script = ExtResource("13_eji0w")
 [node name="DeathScreen" parent="." unique_id=542231194 instance=ExtResource("14_qwhpj")]
 
 [node name="VideoCutscene" parent="." unique_id=100224234 instance=ExtResource("16_sq7yr")]
+
+[node name="ShopMenu" parent="." unique_id=1026863121 instance=ExtResource("17_r3r3k")]
 
 [connection signal="wave_changed" from="GameManager/WaveManager" to="GameManager/UI" method="_update_wave"]
