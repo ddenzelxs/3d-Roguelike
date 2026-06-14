@@ -47,7 +47,7 @@ func generate_layout(width: int, height: int):
 			if is_border:
 				row.append(99)
 			else:
-				var random_chunk_id = randi_range(0, chunks.size() - 1)
+				var random_chunk_id = randi_range(1, chunks.size() - 1)
 				row.append(random_chunk_id)
 		layout.append(row)
 
@@ -65,3 +65,15 @@ func get_random_spawn_position() -> Vector3:
 		5,
 		random_grid_pos.y * chunk_size.z
 	)
+
+func generate_test(width: int, height: int):
+	layout.clear()
+	for z in range(height):
+		var row = []
+		for x in range(width):
+			var is_border = (x == 0 or x == width - 1 or z == 0 or z == height - 1)
+			if is_border:
+				row.append(99)
+			else:
+				row.append(0)
+		layout.append(row)

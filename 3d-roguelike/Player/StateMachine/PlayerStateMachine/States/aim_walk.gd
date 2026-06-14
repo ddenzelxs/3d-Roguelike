@@ -4,6 +4,7 @@ signal aim_entered
 signal aim_exited
 
 func _enter() -> void:
+	
 	aim_entered.emit()
 	#print(name)
 	# Add Aim Animation Here
@@ -31,5 +32,3 @@ func _update(delta: float) -> void:
 	if not is_on_floor():
 		aim_exited.emit()
 		finished.emit("Fall")
-	
-	input_directon_changed.emit(input_dir)

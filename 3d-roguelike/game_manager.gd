@@ -8,6 +8,7 @@ var gold := 0
 
 func _ready():
 	map_generator.generate_layout(10, 10)
+	#map_generator.generate_test(10, 10)
 	map_generator.generate_map()
 	player.global_position = map_generator.get_random_spawn_position()
 
