@@ -23,6 +23,7 @@
 [ext_resource type="Script" uid="uid://ia7nljswfdw0" path="res://Player/gold.gd" id="20_7emwf"]
 [ext_resource type="Script" uid="uid://rdg31uuut3wh" path="res://Player/exp.gd" id="22_hshwv"]
 [ext_resource type="PackedScene" uid="uid://cdpv15vmohy0l" path="res://assets/vandal/vandal_prime_model.glb" id="23_gpjlu"]
+[ext_resource type="AudioStream" uid="uid://i47joq77ivmm" path="res://assets/sounds/walk.mp3" id="24_8mwp6"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_4flbx"]
 radius = 0.9511719
@@ -142,6 +143,9 @@ script = ExtResource("3_hqtel")
 
 [node name="Xp" type="Node" parent="Component" unique_id=1293548709]
 script = ExtResource("22_hshwv")
+
+[node name="FootstepAudio" type="AudioStreamPlayer3D" parent="." unique_id=1457966415]
+stream = ExtResource("24_8mwp6")
 
 [connection signal="mouse_rotated" from="CameraSystem" to="Rogue" method="_on_camera_system_mouse_rotated"]
 [connection signal="sprint_ended" from="StateMachine/Sprint" to="CameraSystem" method="_on_sprint_ended"]

@@ -6,6 +6,7 @@ extends CharacterBody3D
 @onready var gold = $"Component/Gold"
 @onready var xp = $"Component/Xp"
 
+var footstep_timer: float = 0.0
 var can_attack: bool = true
 var spawn: bool = true
 var threshold_level: int = 100
@@ -70,6 +71,25 @@ func _physics_process(delta):
 # AI Generate (23272020) id = AIG_0012372020
 
 	move_and_slide()
+	
+	# --- FOOTSTEP LOGIC ---
+	if is_on_floor() and velocity.length() > 1.0:
+		footstep_timer -= delta
+		
+		if footstep_timer <= 0:
+			# Automatically find the audio node no matter where it is or how it's capitalized
+			var foot_audio = find_child("FootstepAudio", true, true) 
+			
+			if foot_audio: # Extra safety check to prevent crashes!
+				foot_audio.pitch_scale = randf_range(0.8, 1.2)
+				foot_audio.play()
+			
+			if is_fps_mode:
+				footstep_timer = 0.25 
+			else:
+				footstep_timer = 0.35 
+	else:
+		footstep_timer = 0.0
 	
 	# Normal 3rd Person Shooting
 	if not is_fps_mode:
