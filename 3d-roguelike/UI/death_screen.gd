@@ -1,15 +1,19 @@
 extends CanvasLayer
 
-@onready var wave_label = $Panel/VBoxContainer/WaveLabel
-@onready var level_label = $Panel/VBoxContainer/LevelLabel
-@onready var gold_label = $Panel/VBoxContainer/GoldLabel
-@onready var kills_label = $Panel/VBoxContainer/KillsLabel
-@onready var restart_button = $Panel/VBoxContainer/RestartButton
+@onready var wave_label = $VBoxContainer2/Panel/VBoxContainer/WaveLabel
+@onready var level_label = $VBoxContainer2/Panel/VBoxContainer/LevelLabel
+@onready var gold_label = $VBoxContainer2/Panel/VBoxContainer/GoldLabel
+@onready var kills_label = $VBoxContainer2/Panel/VBoxContainer/KillsLabel
+
+@onready var restart_button = $VBoxContainer2/HBoxContainer/RestartButton
+@onready var menu_button = $VBoxContainer2/HBoxContainer/MainMenuButton 
 
 func _ready():
 	hide()
-	process_mode = Node.PROCESS_MODE_ALWAYS
+	process_mode = Node.PROCESS_MODE_ALWAYS # Anti-beku dari temanmu
+	
 	restart_button.pressed.connect(_on_restart_pressed)
+	menu_button.pressed.connect(_on_main_menu_button_pressed)
 
 func show_death_screen(wave: int, level: int, gold: int, kills: int):
 	wave_label.text = "Wave Reached: " + str(wave)
@@ -23,4 +27,8 @@ func show_death_screen(wave: int, level: int, gold: int, kills: int):
 
 func _on_restart_pressed():
 	get_tree().paused = false
-	get_tree().reload_current_scene()
+	get_tree().call_deferred("reload_current_scene")
+
+func _on_main_menu_button_pressed():
+	get_tree().paused = false
+	get_tree().call_deferred("change_scene_to_file", "res://UI/MainMenu.tscn")

@@ -1,49 +1,133 @@
 [gd_scene format=3 uid="uid://dknbtlwb11lmt"]
 
 [ext_resource type="Script" uid="uid://ctltruj7sqjmc" path="res://UI/death_screen.gd" id="1_if853"]
+[ext_resource type="Texture2D" uid="uid://0npl12bwuru" path="res://assets/UI/kenney_ui-pack-rpg-expansion/PNG/panel_brown.png" id="2_mh08j"]
+[ext_resource type="Texture2D" uid="uid://dg5kbphlr6vdq" path="res://assets/UI/kenney_ui-pack-rpg-expansion/PNG/buttonSquare_beige.png" id="3_mh08j"]
+[ext_resource type="Texture2D" uid="uid://convria8hn57d" path="res://assets/UI/kenney_ui-pack-rpg-expansion/PNG/buttonSquare_beige_pressed.png" id="4_6djrf"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_4y4hu"]
+texture = ExtResource("3_mh08j")
+texture_margin_left = 10.0
+texture_margin_top = 10.0
+texture_margin_right = 10.0
+texture_margin_bottom = 10.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ij05b"]
+texture = ExtResource("4_6djrf")
+texture_margin_left = 10.0
+texture_margin_top = 10.0
+texture_margin_right = 10.0
+texture_margin_bottom = 10.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_lvp1q"]
+texture = ExtResource("3_mh08j")
+texture_margin_left = 10.0
+texture_margin_top = 10.0
+texture_margin_right = 10.0
+texture_margin_bottom = 10.0
+modulate_color = Color(0.735357, 0.735357, 0.735357, 1)
 
 [node name="DeathScreen" type="CanvasLayer" unique_id=542231194]
 process_mode = 3
 script = ExtResource("1_if853")
 
-[node name="Panel" type="Panel" parent="." unique_id=1286274605]
-offset_right = 1150.0
-offset_bottom = 654.0
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1178403507]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.101960786, 0.101960786, 0.101960786, 1)
 
-[node name="VBoxContainer" type="VBoxContainer" parent="Panel" unique_id=1317863124]
-layout_mode = 0
-offset_right = 1150.0
-offset_bottom = 651.0
+[node name="VBoxContainer2" type="VBoxContainer" parent="." unique_id=974086070]
+offset_left = 326.0
+offset_top = 149.0
+offset_right = 366.0
+offset_bottom = 189.0
+theme_override_constants/separation = 10
 
-[node name="Label" type="Label" parent="Panel/VBoxContainer" unique_id=505107132]
+[node name="Panel" type="NinePatchRect" parent="VBoxContainer2" unique_id=961304989]
+custom_minimum_size = Vector2(500, 300)
 layout_mode = 2
-text = "
+texture = ExtResource("2_mh08j")
+patch_margin_left = 10
+patch_margin_top = 10
+patch_margin_right = 10
+patch_margin_bottom = 10
 
+[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer2/Panel" unique_id=1317863124]
+custom_minimum_size = Vector2(450, 300)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -225.0
+offset_top = -150.0
+offset_right = 225.0
+offset_bottom = 150.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 15
+alignment = 1
 
-
-
-
-
-
-
-
-
-
-YOU DIED!"
+[node name="Label" type="Label" parent="VBoxContainer2/Panel/VBoxContainer" unique_id=888163779]
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_font_sizes/font_size = 32
+text = "YOU DIED!"
 horizontal_alignment = 1
-vertical_alignment = 1
 
-[node name="WaveLabel" type="Label" parent="Panel/VBoxContainer" unique_id=1458692337]
+[node name="WaveLabel" type="Label" parent="VBoxContainer2/Panel/VBoxContainer" unique_id=1458692337]
 layout_mode = 2
+size_flags_horizontal = 4
+horizontal_alignment = 1
 
-[node name="LevelLabel" type="Label" parent="Panel/VBoxContainer" unique_id=1977157511]
+[node name="LevelLabel" type="Label" parent="VBoxContainer2/Panel/VBoxContainer" unique_id=1977157511]
 layout_mode = 2
+size_flags_horizontal = 4
+horizontal_alignment = 1
 
-[node name="GoldLabel" type="Label" parent="Panel/VBoxContainer" unique_id=44984301]
+[node name="GoldLabel" type="Label" parent="VBoxContainer2/Panel/VBoxContainer" unique_id=44984301]
 layout_mode = 2
+size_flags_horizontal = 4
+horizontal_alignment = 1
 
-[node name="KillsLabel" type="Label" parent="Panel/VBoxContainer" unique_id=190794156]
+[node name="KillsLabel" type="Label" parent="VBoxContainer2/Panel/VBoxContainer" unique_id=190794156]
 layout_mode = 2
+size_flags_horizontal = 4
+horizontal_alignment = 1
 
-[node name="RestartButton" type="Button" parent="Panel/VBoxContainer" unique_id=2108507204]
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer2" unique_id=1848022010]
 layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_constants/separation = 10
+
+[node name="RestartButton" type="Button" parent="VBoxContainer2/HBoxContainer" unique_id=99360065]
+custom_minimum_size = Vector2(200, 50)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_colors/font_color = Color(0.5921569, 0.44313726, 0.2901961, 1)
+theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxTexture_4y4hu")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_ij05b")
+theme_override_styles/hover = SubResource("StyleBoxTexture_lvp1q")
+text = "Restart"
+
+[node name="MainMenuButton" type="Button" parent="VBoxContainer2/HBoxContainer" unique_id=1544484458]
+custom_minimum_size = Vector2(200, 50)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_colors/font_color = Color(0.5921569, 0.44313726, 0.2901961, 1)
+theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxTexture_4y4hu")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_ij05b")
+theme_override_styles/hover = SubResource("StyleBoxTexture_lvp1q")
+text = "Main Menu"
+
+[connection signal="pressed" from="VBoxContainer2/HBoxContainer/RestartButton" to="." method="_on_restart_pressed"]
+[connection signal="pressed" from="VBoxContainer2/HBoxContainer/MainMenuButton" to="." method="_on_main_menu_button_pressed"]

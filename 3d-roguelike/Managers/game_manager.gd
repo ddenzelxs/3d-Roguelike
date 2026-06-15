@@ -5,15 +5,37 @@ extends Node
 var gold := 0
 
 @onready var map_generator = $MapGenerator
+@onready var tombol_resume = $UI/ResumeButton
 
 func _ready():
 	map_generator.generate_layout(10, 10)
 	#map_generator.generate_test(10, 10)
 	map_generator.generate_map()
 	player.global_position = map_generator.get_random_spawn_position()
-
+	tombol_resume.hide()
+	
 func _process(delta: float) -> void:
 	spawn_points.global_position = player.global_position
+
+func _input(event: InputEvent) -> void:
+	if event.is_action_pressed("ui_cancel"): 
+		if not get_tree().paused:
+			buka_menu_pause()
+		else:
+			tutup_menu_pause()
+
+func buka_menu_pause():
+	get_tree().paused = true          
+	tombol_resume.show()              
+	Input.set_mouse_mode(Input.MOUSE_MODE_VISIBLE) 
+
+func tutup_menu_pause():
+	get_tree().paused = false         
+	tombol_resume.hide()              
+	# Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
+
+func _on_resume_button_pressed() -> void:
+	tutup_menu_pause()
 	
 var is_raining_meteors = false
 @onready var meteor_scene = preload("res://Weapons/meteor.tscn")

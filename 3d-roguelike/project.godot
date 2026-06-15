@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="3d-Roguelike"
-run/main_scene="uid://dxv4nf0c3dyqn"
+run/main_scene="uid://b5l1765h0ijqc"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
 
@@ -23,6 +23,10 @@ CheatManager="*uid://jvgx2ejvtvqj"
 [filesystem]
 
 import/blender/enabled=false
+
+[gui]
+
+theme/custom_font="uid://defs112fmoa2a"
 
 [input]
 

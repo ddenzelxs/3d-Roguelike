@@ -2,10 +2,11 @@
 extends CanvasLayer
 
 @onready var wave_manager = $"../WaveManager"
-@onready var health_label = $HealthLabel
-@onready var wave_label = $WaveLabel
-@onready var gold_label = $GoldLabel
+@onready var health_label = $StatusBoard/VBoxContainer/HealthLabel
+@onready var wave_label = $StatusBoard/VBoxContainer/WaveLabel
+@onready var gold_label = $StatusBoard/VBoxContainer/GoldLabel
 @onready var xp_bar = $XpBar
+@onready var xp_text = $XpBar/XpText
 
 @onready var player = get_tree().current_scene.get_node("Player")
 
@@ -22,8 +23,11 @@ func _ready():
 	_update_gold(gold_component.gold)
 
 	_update_wave(wave_manager.current_wave)
+	
 	xp_bar.max_value = player.threshold_level
-
+	
+	_update_xp(xp_component.xp)
+	
 func _update_health(value):
 	health_label.text = "Health: " + str(value)
 	
@@ -36,3 +40,7 @@ func _update_gold(value):
 func _update_xp(value):
 	xp_bar.max_value = player.threshold_level
 	xp_bar.value = value
+	
+	var percentage = round((float(value) / float(player.threshold_level)) * 100)
+	xp_text.text = str(percentage) + "%"
+	# xp_text.text = str(value) + " / " + str(player.threshold_level)

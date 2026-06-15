@@ -48,7 +48,10 @@ func spawn_enemy():
 	enemy.tree_exited.connect(_on_enemy_died)
 
 func _on_enemy_died():
+	if not is_inside_tree(): return
 	await get_tree().process_frame
+	if not is_inside_tree(): return
+	
 	if enemy_container.get_child_count() == 0:
 		current_wave += 1
 		print("Starting wave ", current_wave)

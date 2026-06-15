@@ -13,10 +13,15 @@
 [ext_resource type="PackedScene" uid="uid://ewm7fmcu17dq" path="res://Enemy/enemy_mage.tscn" id="9_sq7yr"]
 [ext_resource type="PackedScene" uid="uid://d1lngexs74sj1" path="res://Enemy/enemy_rogue.tscn" id="10_r3r3k"]
 [ext_resource type="PackedScene" uid="uid://tegykmvsgk0y" path="res://UI/UpgradeMenu.tscn" id="12_qw60f"]
+[ext_resource type="Texture2D" uid="uid://b7dd6hsyord5h" path="res://assets/UI/kenney_ui-pack-rpg-expansion/PNG/buttonLong_brown.png" id="13_50g4q"]
 [ext_resource type="Script" uid="uid://2tvv4tdoxsxi" path="res://UI/upgrade_menu.gd" id="13_eji0w"]
+[ext_resource type="Texture2D" uid="uid://lrctfb65sa2h" path="res://assets/UI/kenney_ui-pack-rpg-expansion/PNG/barBack_horizontalMid.png" id="13_po8fv"]
+[ext_resource type="Texture2D" uid="uid://ivif2awyiugc" path="res://assets/UI/kenney_ui-pack-rpg-expansion/PNG/buttonLong_brown_pressed.png" id="14_3dlgs"]
+[ext_resource type="Texture2D" uid="uid://cgmih7afgwkt8" path="res://assets/UI/kenney_ui-pack-rpg-expansion/PNG/barBlue_horizontalBlue.png" id="14_po8fv"]
 [ext_resource type="PackedScene" uid="uid://dknbtlwb11lmt" path="res://UI/death_screen.tscn" id="14_qwhpj"]
 [ext_resource type="PackedScene" uid="uid://d0r1bknww8uyi" path="res://Cutscenes/video_cutscene.tscn" id="16_sq7yr"]
 [ext_resource type="PackedScene" uid="uid://nido25fo1t4q" path="res://UI/ShopMenu.tscn" id="17_r3r3k"]
+[ext_resource type="Texture2D" uid="uid://chuvpphxth4h7" path="res://assets/UI/kenney_ui-pack-rpg-expansion/PNG/panel_beige.png" id="17_ynlg5"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_pyidc"]
 sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
@@ -30,6 +35,28 @@ background_mode = 2
 sky = SubResource("Sky_vvh5c")
 tonemap_mode = 2
 glow_enabled = true
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_vte5o"]
+texture = ExtResource("13_50g4q")
+texture_margin_left = 10.0
+texture_margin_top = 10.0
+texture_margin_right = 10.0
+texture_margin_bottom = 10.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_po8fv"]
+texture = ExtResource("14_3dlgs")
+texture_margin_left = 10.0
+texture_margin_top = 10.0
+texture_margin_right = 10.0
+texture_margin_bottom = 10.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ub8w1"]
+texture = ExtResource("13_50g4q")
+texture_margin_left = 10.0
+texture_margin_top = 10.0
+texture_margin_right = 10.0
+texture_margin_bottom = 10.0
+modulate_color = Color(1.353256, 1.353256, 1.353256, 1)
 
 [node name="root" type="Node3D" unique_id=1205778946]
 
@@ -75,29 +102,6 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.635729, 3.1492114, 0)
 [node name="UI" type="CanvasLayer" parent="GameManager" unique_id=1521612861]
 script = ExtResource("5_l8v81")
 
-[node name="HealthLabel" type="Label" parent="GameManager/UI" unique_id=1235381663]
-offset_left = -1.0
-offset_top = 29.0
-offset_right = 91.0
-offset_bottom = 52.0
-text = "Health : 100"
-
-[node name="WaveLabel" type="Label" parent="GameManager/UI" unique_id=767854724]
-offset_left = -1.0
-offset_top = 49.0
-offset_right = 64.0
-offset_bottom = 72.0
-text = "Wave : 1"
-
-[node name="GoldLabel" type="Label" parent="GameManager/UI" unique_id=792876284]
-offset_left = -1.0
-offset_top = 68.0
-offset_right = 57.0
-offset_bottom = 117.0
-text = "Gold : 0
-"
-metadata/_edit_use_anchors_ = true
-
 [node name="Crosshair" type="Control" parent="GameManager/UI" unique_id=2026061401]
 layout_mode = 3
 anchors_preset = 8
@@ -109,9 +113,88 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("8_crosshair")
 
-[node name="XpBar" type="ProgressBar" parent="GameManager/UI" unique_id=522939480]
-offset_right = 1154.0
+[node name="XpBar" type="TextureProgressBar" parent="GameManager/UI" unique_id=248636192]
+custom_minimum_size = Vector2(600, 20)
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -577.0
+offset_right = 577.0
 offset_bottom = 27.0
+grow_horizontal = 2
+nine_patch_stretch = true
+stretch_margin_left = 4
+stretch_margin_top = 4
+stretch_margin_right = 4
+stretch_margin_bottom = 4
+texture_under = ExtResource("13_po8fv")
+texture_progress = ExtResource("14_po8fv")
+
+[node name="XpText" type="Label" parent="GameManager/UI/XpBar" unique_id=264288030]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="StatusBoard" type="NinePatchRect" parent="GameManager/UI" unique_id=251572289]
+custom_minimum_size = Vector2(200, 120)
+offset_left = 20.0
+offset_top = 50.0
+offset_right = 220.0
+offset_bottom = 170.0
+texture = ExtResource("17_ynlg5")
+patch_margin_left = 10
+patch_margin_top = 10
+patch_margin_right = 10
+patch_margin_bottom = 10
+
+[node name="VBoxContainer" type="VBoxContainer" parent="GameManager/UI/StatusBoard" unique_id=251002737]
+layout_mode = 0
+offset_left = 12.0
+offset_top = 12.0
+offset_right = 126.0
+offset_bottom = 89.0
+theme_override_constants/separation = 5
+
+[node name="HealthLabel" type="Label" parent="GameManager/UI/StatusBoard/VBoxContainer" unique_id=1235381663]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.2340608, 0.11667574, 6.016344e-08, 1)
+text = "Health : 100"
+
+[node name="WaveLabel" type="Label" parent="GameManager/UI/StatusBoard/VBoxContainer" unique_id=767854724]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.2340608, 0.11667574, 6.016344e-08, 1)
+text = "Wave : 1"
+
+[node name="GoldLabel" type="Label" parent="GameManager/UI/StatusBoard/VBoxContainer" unique_id=792876284]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.2340608, 0.11667574, 6.016344e-08, 1)
+text = "Gold : 0
+"
+metadata/_edit_use_anchors_ = true
+
+[node name="ResumeButton" type="Button" parent="GameManager/UI" unique_id=265966922]
+process_mode = 2
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -52.5
+offset_top = -20.0
+offset_right = 52.5
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxTexture_vte5o")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_po8fv")
+theme_override_styles/hover = SubResource("StyleBoxTexture_ub8w1")
+text = "Resume"
 
 [node name="UpgradeMenu" parent="." unique_id=898463156 instance=ExtResource("12_qw60f")]
 script = ExtResource("13_eji0w")
@@ -123,3 +206,4 @@ script = ExtResource("13_eji0w")
 [node name="ShopMenu" parent="." unique_id=1026863121 instance=ExtResource("17_r3r3k")]
 
 [connection signal="wave_changed" from="GameManager/WaveManager" to="GameManager/UI" method="_update_wave"]
+[connection signal="pressed" from="GameManager/UI/ResumeButton" to="GameManager" method="_on_resume_button_pressed"]

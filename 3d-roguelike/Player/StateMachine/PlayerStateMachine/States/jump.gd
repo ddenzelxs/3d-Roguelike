@@ -1,7 +1,7 @@
 extends Motion
 
 func _enter() -> void:
-	print(name)
+	#print(name)
 	jump()
 	$"../../AnimationPlayer".play("Rig_Medium_MovementBasic/Jump_Full_Long")
 	
