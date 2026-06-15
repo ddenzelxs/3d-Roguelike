@@ -31,5 +31,5 @@ func open_chest():
 	$InteractArea.monitoring = false 
 	
 	animation.play("Take 001")
-	await animation.animation_finished
+	#await animation.animation_finished
 	shop_menu.open_shop(self)

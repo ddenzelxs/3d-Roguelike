@@ -1,16 +1,26 @@
 extends CanvasLayer
 
-@onready var container = $Panel/VBoxContainer
-@onready var title_label = $Panel/VBoxContainer/Label
+@onready var container = $NinePatchRect/VBoxContainer
+@onready var title_label = $NinePatchRect/VBoxContainer/Label
 
 var player
 var current_upgrades: Array[Dictionary] = []
 
+@export var transisi_scene: PackedScene
 func _ready():
 	hide()
 	player = get_tree().current_scene.get_node("Player")
 
 func show_menu():
+	get_tree().paused = true
+	
+	if transisi_scene != null:
+		var efek = transisi_scene.instantiate()
+		add_child(efek) 
+	
+		await get_tree().create_timer(1).timeout
+		
+		efek.queue_free()
 	# Clear old buttons (keep the title label)
 	for child in container.get_children():
 		if child != title_label:

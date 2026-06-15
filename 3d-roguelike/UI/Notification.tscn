@@ -1,11 +1,10 @@
-[gd_scene format=3 uid="uid://tegykmvsgk0y"]
+[gd_scene format=3 uid="uid://c8r7pddmx07dl"]
 
-[ext_resource type="Texture2D" uid="uid://inok1uw6sy0q" path="res://assets/UI/kenney_ui-pack-rpg-expansion/PNG/buttonSquare_brown.png" id="1_crg62"]
-[ext_resource type="Texture2D" uid="uid://dg5kbphlr6vdq" path="res://assets/UI/kenney_ui-pack-rpg-expansion/PNG/buttonSquare_beige.png" id="2_jxt1s"]
-[ext_resource type="Texture2D" uid="uid://convria8hn57d" path="res://assets/UI/kenney_ui-pack-rpg-expansion/PNG/buttonSquare_beige_pressed.png" id="3_4hro8"]
+[ext_resource type="Texture2D" uid="uid://dg5kbphlr6vdq" path="res://assets/UI/kenney_ui-pack-rpg-expansion/PNG/buttonSquare_beige.png" id="2_5pdn4"]
+[ext_resource type="Texture2D" uid="uid://convria8hn57d" path="res://assets/UI/kenney_ui-pack-rpg-expansion/PNG/buttonSquare_beige_pressed.png" id="3_0rijw"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_x53lm"]
-texture = ExtResource("2_jxt1s")
+texture = ExtResource("2_5pdn4")
 texture_margin_left = 10.0
 texture_margin_top = 10.0
 texture_margin_right = 10.0
@@ -13,14 +12,14 @@ texture_margin_bottom = 10.0
 modulate_color = Color(0.86643213, 0.86643213, 0.86643213, 1)
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_bjf8s"]
-texture = ExtResource("2_jxt1s")
+texture = ExtResource("2_5pdn4")
 texture_margin_left = 10.0
 texture_margin_top = 10.0
 texture_margin_right = 10.0
 texture_margin_bottom = 10.0
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_fcmv3"]
-texture = ExtResource("3_4hro8")
+texture = ExtResource("3_0rijw")
 texture_margin_left = 10.0
 texture_margin_top = 10.0
 texture_margin_right = 10.0
@@ -43,19 +42,18 @@ grow_vertical = 2
 color = Color(0.17254902, 0.17254902, 0.17254902, 0.1764706)
 
 [node name="NinePatchRect" type="NinePatchRect" parent="." unique_id=1257320495]
-custom_minimum_size = Vector2(600, 375)
+custom_minimum_size = Vector2(600, 450)
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -300.0
-offset_top = -200.0
-offset_right = 300.0
-offset_bottom = 175.0
+offset_left = -225.0
+offset_top = -150.0
+offset_right = 225.0
+offset_bottom = 150.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("1_crg62")
 patch_margin_left = 10
 patch_margin_top = 10
 patch_margin_right = 10
@@ -79,8 +77,8 @@ theme_override_constants/separation = 10
 
 [node name="Label" type="Label" parent="NinePatchRect/VBoxContainer" unique_id=1401995104]
 layout_mode = 2
-theme_override_font_sizes/font_size = 24
-text = "Choose an upgrade"
+theme_override_font_sizes/font_size = 48
+text = "LEVEL UP!!!"
 horizontal_alignment = 1
 
 [node name="Label2" type="Label" parent="NinePatchRect/VBoxContainer" unique_id=1424994806]

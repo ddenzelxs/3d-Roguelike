@@ -1,23 +1,86 @@
 [gd_scene format=3 uid="uid://nido25fo1t4q"]
 
 [ext_resource type="Script" uid="uid://bfwnv1gpld1my" path="res://UI/shop_menu.gd" id="1_tkspf"]
+[ext_resource type="Texture2D" uid="uid://inok1uw6sy0q" path="res://assets/UI/kenney_ui-pack-rpg-expansion/PNG/buttonSquare_brown.png" id="2_00viv"]
+[ext_resource type="Texture2D" uid="uid://dg5kbphlr6vdq" path="res://assets/UI/kenney_ui-pack-rpg-expansion/PNG/buttonSquare_beige.png" id="3_iqf05"]
+[ext_resource type="Texture2D" uid="uid://convria8hn57d" path="res://assets/UI/kenney_ui-pack-rpg-expansion/PNG/buttonSquare_beige_pressed.png" id="4_ekopr"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_x53lm"]
+texture = ExtResource("3_iqf05")
+texture_margin_left = 10.0
+texture_margin_top = 10.0
+texture_margin_right = 10.0
+texture_margin_bottom = 10.0
+modulate_color = Color(0.86643213, 0.86643213, 0.86643213, 1)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_bjf8s"]
+texture = ExtResource("3_iqf05")
+texture_margin_left = 10.0
+texture_margin_top = 10.0
+texture_margin_right = 10.0
+texture_margin_bottom = 10.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_fcmv3"]
+texture = ExtResource("4_ekopr")
+texture_margin_left = 10.0
+texture_margin_top = 10.0
+texture_margin_right = 10.0
+texture_margin_bottom = 10.0
+
+[sub_resource type="Theme" id="Theme_k5dts"]
+Button/styles/hover = SubResource("StyleBoxTexture_x53lm")
+Button/styles/normal = SubResource("StyleBoxTexture_bjf8s")
+Button/styles/pressed = SubResource("StyleBoxTexture_fcmv3")
 
 [node name="ShopMenu" type="CanvasLayer" unique_id=898463156]
 process_mode = 2
 script = ExtResource("1_tkspf")
 
-[node name="Panel" type="Panel" parent="." unique_id=724063044]
-offset_right = 1148.0
-offset_bottom = 646.0
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1873784416]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.17254902, 0.17254902, 0.17254902, 0.1764706)
 
-[node name="VBoxContainer" type="VBoxContainer" parent="Panel" unique_id=1552685176]
-layout_mode = 0
-offset_left = 273.0
-offset_top = 203.0
-offset_right = 938.0
-offset_bottom = 517.0
+[node name="NinePatchRect" type="NinePatchRect" parent="." unique_id=898284656]
+custom_minimum_size = Vector2(600, 400)
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -225.0
+offset_top = -150.0
+offset_right = 225.0
+offset_bottom = 150.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_00viv")
+patch_margin_left = 10
+patch_margin_top = 10
+patch_margin_right = 10
+patch_margin_bottom = 10
 
-[node name="Label" type="Label" parent="Panel/VBoxContainer" unique_id=282481345]
+[node name="VBoxContainer" type="VBoxContainer" parent="NinePatchRect" unique_id=1552685176]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -106.0
+offset_top = -8.0
+offset_right = 106.0
+offset_bottom = 8.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = SubResource("Theme_k5dts")
+theme_override_constants/separation = 10
+
+[node name="Label" type="Label" parent="NinePatchRect/VBoxContainer" unique_id=282481345]
 layout_mode = 2
+theme_override_font_sizes/font_size = 24
 text = "Welcome to the Shop!"
 horizontal_alignment = 1

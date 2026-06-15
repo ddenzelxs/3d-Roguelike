@@ -49,7 +49,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.14819336, 0)
 shape = SubResource("CapsuleShape3D_4gyqm")
 
 [node name="JumpRay" type="RayCast3D" parent="." unique_id=72536307]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.85, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.39316007, 0)
 target_position = Vector3(0, 0.5, -2)
 
 [node name="Skeleton_Mage" parent="." unique_id=608641978 instance=ExtResource("4_38xvv")]

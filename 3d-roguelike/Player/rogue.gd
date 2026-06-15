@@ -12,17 +12,19 @@ func _ready() -> void:
 	pass # Replace with function body.
 
 func _on_camera_system_mouse_rotated(_rotation: Vector2) -> void:
-	current_mouse_rotation = _rotation
+	#current_mouse_rotation = _rotation
+	#
+	#transform.basis = Basis()
+	#rotate_object_local(Vector3(0,1,0), current_mouse_rotation.x)
+	pass
 	
-	transform.basis = Basis()
-	rotate_object_local(Vector3(0,1,0), current_mouse_rotation.x)
-
 func on_input_direction_changed(_input_direction: Vector2) -> void:
 	input_dir = input_dir.lerp(_input_direction, turn_rate)
 	rotate_rig(input_dir, current_mouse_rotation.x)
 
 func rotate_rig(angle: Vector2, _offset: float = 0) -> void:
-	var new_angle: float = atan2(angle.x, angle.y) - _offset
-	
-	rig.basis = Basis()
-	rig.rotate_object_local(Vector3(0,1,0), new_angle)
+	#var new_angle: float = atan2(angle.x, angle.y) - _offset
+	#
+	#rig.basis = Basis()
+	#rig.rotate_object_local(Vector3(0,1,0), new_angle)
+	pass

@@ -22,6 +22,7 @@
 [ext_resource type="PackedScene" uid="uid://d0r1bknww8uyi" path="res://Cutscenes/video_cutscene.tscn" id="16_sq7yr"]
 [ext_resource type="PackedScene" uid="uid://nido25fo1t4q" path="res://UI/ShopMenu.tscn" id="17_r3r3k"]
 [ext_resource type="Texture2D" uid="uid://chuvpphxth4h7" path="res://assets/UI/kenney_ui-pack-rpg-expansion/PNG/panel_beige.png" id="17_ynlg5"]
+[ext_resource type="PackedScene" uid="uid://c8r7pddmx07dl" path="res://UI/Notification.tscn" id="20_ub8w1"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_pyidc"]
 sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
@@ -198,6 +199,7 @@ text = "Resume"
 
 [node name="UpgradeMenu" parent="." unique_id=898463156 instance=ExtResource("12_qw60f")]
 script = ExtResource("13_eji0w")
+transisi_scene = ExtResource("20_ub8w1")
 
 [node name="DeathScreen" parent="." unique_id=542231194 instance=ExtResource("14_qwhpj")]
 

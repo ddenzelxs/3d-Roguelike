@@ -30,6 +30,7 @@ func spawn_enemy():
 	enemy.set_damage(damage * current_wave)
 	enemy.set_gold(gold * current_wave)
 	enemy.set_xp(xp * current_wave)
+	enemy.scale = Vector3(1.5,1.5,1.5)
 	
 	enemy_container.add_child(enemy)
 	var points = []

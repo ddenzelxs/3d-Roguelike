@@ -127,6 +127,7 @@ script = ExtResource("15_o28un")
 script = ExtResource("17_n471f")
 
 [node name="Rogue" parent="." unique_id=1364746951 instance=ExtResource("14_pisgm")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1731973680]
 root_node = NodePath("../Rogue")

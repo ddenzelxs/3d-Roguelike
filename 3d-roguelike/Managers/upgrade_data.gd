@@ -154,10 +154,10 @@ static func get_random_upgrades(count: int = 3) -> Array[Dictionary]:
 static func get_rarity_color(rarity: Rarity) -> Color:
 	match rarity:
 		Rarity.COMMON:
-			return Color("b0b0b0")  # gray
+			return Color("f4e5d6ff")  # gray
 		Rarity.RARE:
-			return Color("4a9eff")  # blue
+			return Color("d8672cff")  # blue
 		Rarity.EPIC:
-			return Color("a855f7")  # purple
+			return Color("bc6ca6ff")  # purple
 		_:
 			return Color.WHITE

@@ -174,6 +174,7 @@ func attack():
 	can_attack = true
 
 func shoot():
+	#level_up()
 	AudioManager.play(AudioManager.shoot_sound)
 	var bullet = bullet_scene.instantiate()
 	get_tree().current_scene.add_child(bullet)
